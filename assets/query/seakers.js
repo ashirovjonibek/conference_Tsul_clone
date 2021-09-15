@@ -524,6 +524,12 @@ let dataStatic=[
         "ru": "Гостиница Hyatt, Ташкент",
         "en": "Hyatt Regency, Tashkent"
     }, 
+    {
+        "id": "3",
+        "uz":"Hyatt mehmonhonasi, Toshkent",
+        "ru": "Гостиница Hyatt, Ташкент",
+        "en": "Hyatt Regency, Tashkent"
+    }, 
 ];
 
 function speakerList(lang) {
