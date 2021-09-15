@@ -13,7 +13,8 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="./assets/bootstrap-5.0.2-dist/css/bootstrap.css">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -44,19 +45,21 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="index.html" id="'homeNav">Home</a></li>
+          <li class="menu-active"><a href="index.html" id="homeNav">Home</a></li>
           <li><a href="#about" id="aboutNav">About</a></li>
           <li><a href="#speakers" id="speakerNav">Speakers</a></li>
           <li><a href="#schedule" id="scheduleNav">Schedule</a></li>
           <li><a href="#venue" id="venueNav">Venue</a></li>
           <li><a href="#gallery" id="galleryNav">Gallery</a></li>
           <!-- <li><a href="#supporters">Sponsors</a></li> -->
-          <li><a href="#footer">Contact</a></li>       
-          <li><select onchange="changeLang(this.value)" id="selectLanguage">
-            <option value="uz">O'zbek</option>
-            <option value="ru">Ruscha</option>
-            <option value="en">English</option>
+          <li><a href="#footer" id="contactNav">Contact</a></li> 
+
+          <li><select class="rounded bg-transparent border-0 text-white"  aria-label="Default select example" onchange="changeLang(this.value)" id="selectLanguage">
+            <option class=" rounded bg-danger" value="uz">O'zbek</option>
+            <option class=" rounded bg-danger" value="ru">Russian</option>
+            <option class=" rounded bg-danger" value="en">English</option>
           </select></li>
+
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -65,10 +68,10 @@
   <!-- ======= Intro Section ======= -->
   <section id="intro">
     <div class="intro-container" data-aos="zoom-in" data-aos-delay="100">
-      <h1 class="mb-4 pb-0">tsul<br><span>is 30 years</span> old</h1>
-      <p class="mb-4 pb-0">16-17 September, Hyatt Regency, Tashkent</p>
+      <h1 class="mb-4 pb-0" id="holidayBigtext">Tashkent State University of Law<br>is 30 years old</h1>
+      <p class="mb-4 pb-0" id="holidayDate">16-17 September, Hyatt Regency, Tashkent</p>
       <a href="https://www.youtube.com/watch?v=pQNcN8_M3XE" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
-      <a href="#about" class="about-btn scrollto">About The Event</a>
+      <a href="#about" class="about-btn scrollto" id="aboutTheEvent">About The Event</a>
     </div>
   </section><!-- End Intro Section -->
 
@@ -79,17 +82,15 @@
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-6">
-            <h2>About The Event</h2>
-            <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.</p>
+            <h2 id="aboutTheEvent2">About The Event</h2>
+            <p id="eventInfo"></p>
           </div>
           <div class="col-lg-3">
-            <h3>Where</h3>
-            <p> Hyatt Regency, 1 A Navoi Avenue, Tashkent 100017</p>
+            <h3 id="where">Where</h3>
+            <p id="1"> Hyatt Regency, Tashkent 100017</p>
           </div>
           <div class="col-lg-3">
-            <h3>When</h3>
+            <h3 id="2">When</h3>
             <p>Monday to Wednesday<br>16-17 September</p>
           </div>
         </div>
@@ -698,7 +699,8 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+  <script src="./assets/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>

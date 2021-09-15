@@ -8,6 +8,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+::selection {
+  background-color: #f82249;
+  color: white;
+}
+
 body {
   background: #fff;
   color: #2f3138;
@@ -268,6 +273,17 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Nav Meu Styling */
 .nav-menu a {
+  padding: 8px;
+  text-decoration: none;
+  display: inline-block;
+  color: rgba(202, 206, 221, 0.8);
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  outline: none;
+}
+
+.nav-menu select {
   padding: 8px;
   text-decoration: none;
   display: inline-block;
