@@ -31,7 +31,7 @@
   ======================================================== -->
 </head>
 
-<body>
+<body >
 
   <!-- ======= Header ======= -->
   <header id="header">
@@ -713,16 +713,18 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="./assets/query/seakers.js"></script>
+  <script src="assets/query/static.js"></script>
   <script>
     if (!localStorage.getItem("language")){
       localStorage.setItem("language","en");
       $("#selectLanguage").val("en");
       speakerList("en")
+      staticWords("en")
     }else {
       $("#selectLanguage").val(localStorage.getItem("language"));
-      speakerList(localStorage.getItem("language"))
+      speakerList(localStorage.getItem("language"));
+      staticWords(localStorage.getItem("language"))
     }
-
     function changeLang(lang) {
       localStorage.setItem("language",lang);
       window.location.reload();
