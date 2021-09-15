@@ -312,9 +312,9 @@ let data = [
         id: 3,
         img: "assets/img/speakers/3.jpg",
         name: {
-            uz: "Prof. Dr. Marc Bungenberg, LL.M",
-            ru: "Prof. Dr. Marc Bungenberg, LL.M",
-            en: "Prof. Dr. Marc Bungenberg, LL.M"
+            uz: "Marc Bungenberg",
+            ru: "Marc Bungenberg",
+            en: "Marc Bungenberg"
         },
         degree: {
             uz: "Nutq so'zlovchi",
@@ -382,40 +382,45 @@ let data = [
             ru: "<div class=\"details\">\n" +
                 "              <h2>PROFILE</h2>             \n" +
                 "              <div style=\"text-align: justify;\">\n" +
-                "                <h3>Current Professional Activities (selection)</h3>\n" +
+                "                <h3>Текущая профессиональная деятельность (выбор)</h3>\n" +
                 "\n" +
                 "\n" +
-                "                <p>Since April 2015:\tDirector of the Europa-Institut, Saarland University\n" +
+                "                <p>Саарский университет\n" +
+                "Заведующей кафедрой публичного права, международного публичного права и европейского права\n" +
                 "                  <br>\n" +
-                "                  Professor of Public International Law and European Law\n" +
+                "Europa-Institut, Почтовой индекс:  15 11 50\n" +
+                "D-66041 Саарбрюккен, Германия\n" +
+
+                "                  \n" +
                 "                </p>\n" +
                 "\n" +
                 "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland </p>\n" +
+                "                <p>С апреля 2015 года:  Директор Europa-Institut Саарландского университета.</p>\n" +
                 "\n" +
                 "\n" +
-                "                <p>Since May 2015\tEditor of the European Yearbook of International Economic Law (EYIEL)</p>\n" +
+                "                <p>С сентября 2011 г. - Постоянный приглашенный профессор Лозаннского университета, Швейцария.</p>\n" +
                 "\n" +
                 "\n" +
-                "                <p>Since May 2011\tMember of the Advisory Board of the International Investment Law Centre, Cologne</p>\n" +
+                "                <p>С мая 2015 года - Редактор Европейского ежегодника международного экономического права (EYIEL)</p>\n" +
+                "                <p>С мая 2011 г. - Член Консультативного совета Международного центра инвестиционного права, Кельн</p>\n" +
                 "\n" +
-                "<h3>Former and other Professional Activities</h3>\n" +
-                "                <p>2020\tSenior Fellow University of Melbourne Law School</p>\n" +
+                "<h3>Другие профессиональные деятельности</h3>\n" +
+                "                <p>2020.г -  старший научный сотрудник юридической школы Мельбурнского университета</p>\n" +
                 "\n" +
-                "                <p>June 2015 - 2018\tSenior Fellow at the Centre for International Governance Innovation (CIGI), Ontario, Canada</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>May 2013 - June 2015\tVisiting Lecturer (for International Raw Materials Law) at Lucerne University, Switzerland</p>\n" +
-                "\n" +
-                "                <p>Since April 2011\tAdjunct Professor in the LL.M. Program for International Economic Law, Lausanne</p>\n" +
-                "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland</p>\n" +
+                "                <p>С Июня 2015 - 2018 Старший научный сотрудник Центра инноваций в международном управлении (CIGI), Онтарио, Канада</p>\n" +
                 "\n" +
                 "\n" +
-                "                <p>March 2011\tVisiting Lecturer at the University of Sydney (European Economic Law)</p>\n" +
+                "                <p>С мая 2013 г. - июнь 2015 г. Приглашенный лектор (международное право на сырье) Люцернского университета, Швейцария</p>\n" +
+                "\n" +
+                "                <p>С апреля 2011 года адъюнкт-профессор LL.M. Программа международного экономического права, Лозанна</p>\n" +
+                "\n" +
+                "                <p>С сентября 2011 г. -  Постоянный приглашенный профессор Лозаннского университета, Швейцария</p>\n" +
                 "\n" +
                 "\n" +
-                "                <p>September 2010\tTutor of a course in English language on “International Investment Protection Law” for staff members of the Ministry of Justice in Tiflis, Georgia (organized by GTZ - German Association for Technical Cooperation - and the German Ministry for Developmental Aid)</p>\n" +
+                "                <p>С Марта  2011 г.-  Приглашенный лектор Сиднейского университета (Европейское экономическое право). </p>\n" +
+                "\n" +
+                "\n" +
+                "                <p>Сентябрь 2010 г. - Куратор курса английского языка по «Международному праву по защите инвестиций» для сотрудников Министерства юстиции в Тифлисе, Грузия (организован GTZ - Немецкой ассоциацией технического сотрудничества - и Министерством помощи в развитии Германии).</p>\n" +
                 "\n" +
                 "\n" +
                 "              </div>\n" +
@@ -480,7 +485,7 @@ let data = [
         img: "assets/img/speakers/4.jpg",
         name: {
             uz: "Damian Cyman",
-            ru: "Damian Cyman",
+            ru: "Дамиан Кайман",
             en: "Damian Cyman"
         },
         degree: {
@@ -490,91 +495,72 @@ let data = [
         },
         detail: {
             uz: "<div class=\"details\">\n" +
-                "              <h2>Education</h2>             \n" +
+                "              <p><b>Tug'ulgan yili: </b> 16.09.1978 yil Polshaning Kartuzi shahrida tug'ilgan<br> "+
+                "<b>Aloqa manzili</b> \n" +
+                "POLSHA\n" +
+                "80-241 Gdansk\n" +
+                "Grunvaldzka 60/4<br> "+
+                "<b>Mobil</b>: +48 728 894 775\n<br>" +
+                "<b>Elektron pochta</b>: Damian.cyman@gmail.com\n</p>  \n" +
+                "              <h2>Ta'lim</h2>             \n" +
                 "              <div style=\"text-align: justify;\">\n" +
-                "              <p>2002,\n" +
-                "              Grade achieved: Uniwersity of Gdansk\n" +
-                "              Master of science\n" +
-                "              </p>  \n" +
                 "\n" +
-                "              <p>2005,\n" +
-                "                Grade achieved: Appeal Court in Gdansk\n" +
-                "                Judicial exam\n" +
-                "                </p>  \n" +
+                "              <p>2002 yil Gdansk universiteti<br><b>Ilmiy darajasi: </b>fan doktori</p>  \n" +
                 "\n" +
-                "              <p>2007,\n" +
-                "                Grade achieved: The District Chamber of Legal Advisers\n" +
-                "                Legal advisor\n" +
-                "                </p>  \n" +
+                "              <p>2005 yil Gdanskdagi apellyatsiya sudi\n</p>  \n" +
                 "\n" +
-                "              <p>2008,\n" +
-                "                Grade achieved: Fine Art Academy in Gdansk\n" +
-                "                Licentiate in fine arts\n" +
-                "                </p>  \n" +
+                "              <p>2007 yil tuman yuridik maslahatchilar palatasi, yuridik maslahatchi\n</p>  \n" +
                 "\n" +
-                "              <p>2011,\n" +
-                "                Grade achieved: Uniwersity of Gdansk\n" +
-                "                Doctor of science\n" +
-                "                </p>  \n" +
+                "              <p>2008 yil Gdanskdagi tasviriy san'at akademiyasi<br><b>Olingan daraja: </b>Tasviriy san'at bo'yicha litsenziya</p>  \n" +
                 "\n" +
-                "              <h2>Work Experience </h2>  \n" +
+                "              <p>2011 yil Gdansk universiteti, fan doktori\n</p>  \n" +
                 "\n" +
-                "              <p>[2003 - present] assistant, lecturer. Uniwersity of Gdansk  </p>  \n" +
+                "              <h2>Ish tajribasi</h2>  \n" +
                 "\n" +
-                "              <p>[2002 - 2005] judges trainee. Appeal Court In Gdansk </p>  \n" +
+                "              <p>2003 yildan hozirgi kungacha– assistent, o'qituvchi Gdansk universiteti</p>  \n" +
                 "\n" +
-                "              <p>[2008 - present] legal advisor. Law firm</p>  \n" +
+                "              <p>2002 – 2005 sudya, Gdanskdagi apellyatsiya sudi</p>  \n" +
                 "\n" +
-                "              <h2>Languages</h2>\n" +
-                "              <p>Polish- mother language, English- fluently</p>  \n" +
+                "              <p>2008 yildan hozirgacha–Yuridik firmada yuridik maslahatchi</p>  \n" +
                 "\n" +
-                "<h2>Science Interests </h2>\n" +
-                "<p>Financial law, payment services, electronic money, banking law. PhD dissertation on “Electronic payment instruments and security of the financial market.</p>\n" +
+                "              <h2>Tillar</h2>\n" +
+                "              <p>Polsha- ona tili<br>Inglizcha- ravon\n</p>  \n" +
+                "\n" +
+                "<h2>Ilmiy qiziqishlar</h2>\n" +
+                "<p>Moliyaviy huquq, to'lov xizmatlari, elektron pul, bank huquqi. Doktorlik dissertatsiyasi mavzusi: “Elektron to'lov vositalari va moliyaviy bozor xavfsizligi”</p>\n" +
                 "              </div>\n" +
                 "             \n" +
                 "             \n" +
                 "            </div>",
             ru: "<div class=\"details\">\n" +
-                "              <h2>Education</h2>             \n" +
+                "              <p><b>Год рождения: </b> 16.09.1978 <br><b>Место Рождения: </b> Картузы, Польша   <br> "+
+                "<b>Контакт адрес:</b> Poland 80-241 Gdansk Grunwaldzka 60/4<br> "+
+                "<b>Телефон</b>: +48 728 894 775\n<br>" +
+                "<b>Почта</b>: Damian.cyman@gmail.com\n</p>  \n" +
+                "              <h2>Образование:</h2>             \n" +
                 "              <div style=\"text-align: justify;\">\n" +
-                "              <p>2002,\n" +
-                "              Grade achieved: Uniwersity of Gdansk\n" +
-                "              Master of science\n" +
-                "              </p>  \n" +
                 "\n" +
-                "              <p>2005,\n" +
-                "                Grade achieved: Appeal Court in Gdansk\n" +
-                "                Judicial exam\n" +
-                "                </p>  \n" +
+                "              <p>2002.г  - Гданьский университет<br><b>Направление: </b>Магистр наук </p>  \n" +
                 "\n" +
-                "              <p>2007,\n" +
-                "                Grade achieved: The District Chamber of Legal Advisers\n" +
-                "                Legal advisor\n" +
-                "                </p>  \n" +
+                "              <p>2005.г - Апелляционный суд в Гданьске<br><b>Степень: </b>судебный экзамен\n</p>  \n" +
                 "\n" +
-                "              <p>2008,\n" +
-                "                Grade achieved: Fine Art Academy in Gdansk\n" +
-                "                Licentiate in fine arts\n" +
-                "                </p>  \n" +
+                "              <p>2007.г - Окружная палата юридических консультантов\n" +
+                "<br><b>Степень:</b> Юридический консультант\n</p>  \n" +
                 "\n" +
-                "              <p>2011,\n" +
-                "                Grade achieved: Uniwersity of Gdansk\n" +
-                "                Doctor of science\n" +
-                "                </p>  \n" +
+                "              <p>2008.г - Академия изящных искусств в Гданьске<br><b>Степень: </b>Лиценциат в области изобразительного искусства</p>  \n" +
                 "\n" +
-                "              <h2>Work Experience </h2>  \n" +
+                "              <p>2011.г - Гданьский университет\n" +
+                "<br><b>Степень: </b>Доктор наук</p>  \n" +
+                "              <h2>Профессиональная деятельность:</h2>  \n" +
                 "\n" +
-                "              <p>[2003 - present] assistant, lecturer. Uniwersity of Gdansk  </p>  \n" +
+                "              <p>2003.г - ассистент, лектор  в Гданьском университете\n</p>  \n" +
                 "\n" +
-                "              <p>[2002 - 2005] judges trainee. Appeal Court In Gdansk </p>  \n" +
+                "              <p>2002-2005 гг. - судья-стажер в Апелляционном суде в Гданьске </p>  \n" +
                 "\n" +
-                "              <p>[2008 - present] legal advisor. Law firm</p>  \n" +
+                "              <p>2008 г. - юридический консультант в Юридической фирме</p>  \n" +
                 "\n" +
-                "              <h2>Languages</h2>\n" +
-                "              <p>Polish- mother language, English- fluently</p>  \n" +
-                "\n" +
-                "<h2>Science Interests </h2>\n" +
-                "<p>Financial law, payment services, electronic money, banking law. PhD dissertation on “Electronic payment instruments and security of the financial market.</p>\n" +
+                "<h2>Интересующие сферы:</h2>\n" +
+                "<p>финансовое право, платежные услуги, электронные деньги, банковское право, кандидатская диссертация на тему: «Электронные платежные инструменты и безопасность финансового рынка» ”</p>\n" +
                 "              </div>\n" +
                 "             \n" +
                 "             \n" +
@@ -631,7 +617,7 @@ let data = [
         img: "assets/img/speakers/5.jpg",
         name: {
             uz: "Thomas Cheng",
-            ru: "Thomas Cheng",
+            ru: "Томас Ченг",
             en: "Thomas Cheng"
         },
         degree: {
@@ -643,26 +629,17 @@ let data = [
             uz: "<div class=\"details\">\n" +
                 "              <h2>THE DEPARTMENT OF LAW</h2>             \n" +
                 "              <div style=\"text-align: justify;\">\n" +
-                "                <p>&nbsp;&nbsp;&nbsp;&nbsp;Doctor of Philosophy, University of Oxford</p>\n" +
+                "                <p>&nbsp;&nbsp;&nbsp;&nbsp;Oxford universiteti Fan doktori</p>\n" +
                 "\n" +
-                "                <b class=\"text-dark\">Member, New York State Bar</b>\n" +
+                "                <b class=\"text-dark\">Nyu York shtati advokatlar uyushmasi a’zosi (New York State Bar)</b>\n" +
                 "\n" +
-                "                <h3>Biography</h3>\n" +
+                "                <h3>Biografiya</h3>\n" +
                 "\n" +
-                "                <p>Thomas Cheng is an associate professor at the University of Hong Kong. He has written extensively on competition law in developing countries\n" +
-                "                   and on the competition law of a number of Asian jurisdictions, including Hong Kong, China, and Japan. His research has appeared in respected\n" +
-                "                    specialist U.S. journals, including Chicago Journal of International Law, Berkeley Business Law Journal, Virginia Law & Business Review, and\n" +
-                "                     University of Pennsylvania Journal of Business Law, and in leading competition law journals such as Journal of Antitrust Enforcement and World\n" +
-                "                      Competition. In 2020, he published Competition Law in Developing Countries, the first comprehensive monograph\n" +
-                "                   on the topic, with Oxford University Press. He will publish The Patent-Competition Interface in Developing Countries, again the first\n" +
-                "                    comprehensive monograph on the topic, with Oxford University Press in 2021.</p>\n" +
+                "                <p>Thomas Cheng Hong Kong universiteti dotsenti hisoblanadi. U asosan raqobat huquqi sohasida ilmiy izlanishlarni olib boradi hamda Hong Kong, Xitoy, Yaponiya kabi Osiyo davlatlarida raqobat huquqini tadqiq qilgan. Uning ilmiy ishlari Chicago Journal of International law, Berkeley Business Law Journal, Virginia Law & Business Review, Journal of Antitrust Enforcement and World Competition kabi dunyoning mashhur jurnallarida chop etilgan. Uning 2020-yildagi “Rivojlanayotgan davlatlarda raqobat huquqi” (Competition Law in Developing Countries) monografiyasi Oxford University Pressda nashr etilgan. Bundan tashqari, \n" +
+                "2021-yilda “Rivojlanayotgan mamlakatlarda patent-raqobat huquqining o`zaro aloqasi” (The Patent-Competition Interface in Developing Countries) monografiyasi ham Oxford University Pressda nashr etilgan</p>\n" +
                 "\n" +
-                "                <p>His research has been recognized internationally. He has been twice awarded the Jerry S. Cohen Memorial Fund Writing Award in the vertical\n" +
-                "                   restraints and antitrust and IP categories. Apart from awards, his stature as a scholar has been recognized through appointments to the\n" +
-                "                    executive and advisory boards of a number of leading international competition law organizations such as the American Antitrust Institute\n" +
-                "                     and the Academic Society for Competition Law (“ASCOLA”). He has made critical contributions to the development of competition law in Hong\n" +
-                "                      Kong. He advised the government extensively during the drafting of the city’s first competition law. He was a member of the inaugural\n" +
-                "                       Competition Commission and played a pivotal role in staff recruitment and setting up the Commission.</p>\n" +
+                "                <p>Uning ilmiy ishlari dunyo hamjamiyati tomonidan tan olingan. U raqobat va intellektual mulk yo`nalishida ikki marotaba Jerry S. Cohen Memorial Fund Writing Award mukofoti bilan taqdirlangan. U American Antitrust Institute and the Academic Society for Competition Law (“ASCOLA”) kabi bir qancha xalqaro raqobat huquqi tashkilotlarining ijro va maslahat organlarining a’zosi hisoblanadi. Uning ilmiy ishlari Hong Kong raqobat huquqini rivojlantirishda asos bo`lib xizmat qilgan</p>\n" +
+                "                <p>U Ishbilarmonlik maslahat qo'mitasining, Amerika monopoliyaga qarshi instituti Ma'muriy kengashi, Iste’molchilarning monopoliyaga qarshi kurashish jamiyati boshqaruv kengashi, Monopoliyaga qarshi mukofotlarni akademik boshqaruv qo`mitasi, Monopoliyaga qarshi kurash jurnal kengashi va Xitoy Antimnopoliya huquqi jurnali kengashining a’zosi hisoblanadi</p>\n" +
                 "                \n" +
                 "                <p class=\"text-center\"><b>Book editorships</b></p>\n" +
                 "\n" +
@@ -679,36 +656,16 @@ let data = [
             ru: "<div class=\"details\">\n" +
                 "              <h2>THE DEPARTMENT OF LAW</h2>             \n" +
                 "              <div style=\"text-align: justify;\">\n" +
-                "                <p>&nbsp;&nbsp;&nbsp;&nbsp;Doctor of Philosophy, University of Oxford</p>\n" +
+                "                <p>&nbsp;&nbsp;&nbsp;&nbsp;Доктор философии, Оксфордский университет</p>\n" +
                 "\n" +
-                "                <b class=\"text-dark\">Member, New York State Bar</b>\n" +
+                "                <b class=\"text-dark\">Член коллегии адвокатов штата Нью-Йорк</b>\n" +
                 "\n" +
-                "                <h3>Biography</h3>\n" +
+                "                <h3>Биография</h3>\n" +
                 "\n" +
-                "                <p>Thomas Cheng is an associate professor at the University of Hong Kong. He has written extensively on competition law in developing countries\n" +
-                "                   and on the competition law of a number of Asian jurisdictions, including Hong Kong, China, and Japan. His research has appeared in respected\n" +
-                "                    specialist U.S. journals, including Chicago Journal of International Law, Berkeley Business Law Journal, Virginia Law & Business Review, and\n" +
-                "                     University of Pennsylvania Journal of Business Law, and in leading competition law journals such as Journal of Antitrust Enforcement and World\n" +
-                "                      Competition. In 2020, he published Competition Law in Developing Countries, the first comprehensive monograph\n" +
-                "                   on the topic, with Oxford University Press. He will publish The Patent-Competition Interface in Developing Countries, again the first\n" +
-                "                    comprehensive monograph on the topic, with Oxford University Press in 2021.</p>\n" +
+                "                <p>Томас Ченг - доцент Гонконгского университета. В основном он проводит исследования в области законодательства о конкуренции и изучал законы о конкуренции в азиатских странах, таких как Гонконг, Китай, Япония. Его исследования были опубликованы во всемирно известных журналах, таких как Chicago Journal of International Law, Berkeley Business Law Journal, Virginia Law & Business Review, Journal of Antitrust Enforcement and World Competition. Его монография 2020 г. «Закон о конкуренции в развивающихся странах» была опубликована в Oxford University Press. Кроме того, в 2021 году в Oxford University Press была опубликована монография «Патентно-конкурентное взаимодействие в развивающихся странах». </p>\n" +
                 "\n" +
-                "                <p>His research has been recognized internationally. He has been twice awarded the Jerry S. Cohen Memorial Fund Writing Award in the vertical\n" +
-                "                   restraints and antitrust and IP categories. Apart from awards, his stature as a scholar has been recognized through appointments to the\n" +
-                "                    executive and advisory boards of a number of leading international competition law organizations such as the American Antitrust Institute\n" +
-                "                     and the Academic Society for Competition Law (“ASCOLA”). He has made critical contributions to the development of competition law in Hong\n" +
-                "                      Kong. He advised the government extensively during the drafting of the city’s first competition law. He was a member of the inaugural\n" +
-                "                       Competition Commission and played a pivotal role in staff recruitment and setting up the Commission.</p>\n" +
-                "                \n" +
-                "                <p class=\"text-center\"><b>Book editorships</b></p>\n" +
-                "\n" +
-                "                <p>Member, Business Facilitation Advisory Committee</p>\n" +
-                "                <p>Member, Advisory Board, American Antitrust Institute</p>\n" +
-                "                <p>Member, Executive Board, Academic Society for Competition Law</p>\n" +
-                "                <p>Member, International Advisory Board, Institute for Consumer Antitrust Studies</p>\n" +
-                "                <p>Member, Academic Steering Committee, Concurrences Antitrust Writing Awards</p>\n" +
-                "                <p>Member, Advisory Board, Journal of Antitrust Enforcement</p>\n" +
-                "                <p>Member, Advisory Board, China Antitrust Law Journal</p>            \n" +
+                "                <p>Его научная работа признана мировым сообществом. Он дважды был награжден писательской премией фонда памяти Джерри С. Коэна в области конкуренции и интеллектуальной собственности. Он является членом исполнительных и консультативных органов нескольких международных организаций по антимонопольному праву, включая Американский антимонопольный институт и Академическое общество антимонопольного права (ASCOLA). Его исследования послужили основой для разработки законодательства Гонконга о конкуренции. </p>" +
+                "                <p>Он является членом Делового консультативного комитета, Совета директоров Американского антимонопольного института, Совета директоров Антимонопольного общества потребителей, Академического комитета по управлению антимонопольными премиями, Совета антимонопольных журналов и Совета по антимонопольному законодательству Китая </p>\n" +
                 "                </div>      \n" +
                 "             \n" +
                 "            </div>",
@@ -754,9 +711,9 @@ let data = [
         id: 6,
         img: "assets/img/speakers/6.jpg",
         name: {
-            uz: "Edward Juchniewicz (Edvardas Juchnevicius)",
-            ru: "Edward Juchniewicz (Edvardas Juchnevicius)",
-            en: "Edward Juchniewicz (Edvardas Juchnevicius)"
+            uz: "Edvard Yuxnevich",
+            ru: "Эдвард Юхневич",
+            en: "Edward Juchniewicz"
         },
         degree: {
             uz: "Nutq so'zlovchi",
@@ -765,64 +722,73 @@ let data = [
         },
         detail: {
             uz: "<div class=\"details\">\n" +
-                "              <h2>Scientific interests:</h2>\n" +
+                "     <h2>Shaxsiy identifikator:</h2> <p>" +
+                "Doktor Eduard Yuhnevich, prof.<br>\n" +
+                "1977 yil 16 yanvarda Salchininkayda tug'ilgan</p>        " +
+                "<h2>Ilmiy qiziqishlar:</h2>\n" +
                 "              <div style=\"text-align: justify;\">\n" +
-                "                <p>International tax law, Tax avoidance and tax evasion, artificial intelligence and tax law, taxation\n" +
-                "                  of robots, e-commerce taxation, LegalTech and FinTech.</p>\n" +
+                "                <p>Xalqaro soliq qonunchiligi, Soliq to'lashdan bo'yin tovlash, sun'iy intellekt va soliq qonunchiligi, robotlarga soliq solish, elektron tijorat soliqlari, LegalTech va FinTech</p>\n" +
                 "\n" +
-                "                <p><b>Employment Position</b></p>\n" +
-                "                <p>• Professor at Gdansk University\n" +
+                "                <p><b>Ish joyi</b></p>\n" +
+                "                <p>• Gdansk universiteti professori\n" +
                 "                </p>\n" +
                 "\n" +
                 "                <p>\n" +
-                "                  • Dean's Representative on international cooperation with universities from Central and Eastern\n" +
-                "                  Europe\n" +
+                "                  • Markaziy va Sharqiy Evropa universitetlari bilan xalqaro hamkorlik bo'yicha vakil\n" +
                 "                </p>\n" +
                 "\n" +
-                "                <p><b>Education and Academic Qualifications</b></p>\n" +
+                "                <p><b>Ta'lim va ilmiy malaka</b></p>\n" +
                 "\n" +
                 "                <p>\n" +
-                "                  • 1998: Master studies in Law, diploma work on Legal of Bank Loans, Gdansk University, Faculty of\n" +
-                "                  Law and Administration\n" +
+                "                  • 1998 yil: huquqshunoslik bo'yicha magistratura, Gdansk universiteti, bank kreditlari huquqi bo'yicha diplom ishi, huquq va boshqaruv fakulteti\n" +
                 "\n" +
                 "                </p>\n" +
                 "                <p>\n" +
-                "                  • 2003: Doctoral studies in Financial Law, doctoral thesis on Legal Structure of Treasure Securities,\n" +
-                "                  Gdansk university, Faculty of Law and Administration\n" +
+                "                  • 2003 yil: Moliyaviy huquq bo'yicha doktorlik, Gdansk universiteti, Huquq va boshqaruv fakulteti, qimmatli qog'ozlarning huquqiy tuzilishi bo'yicha doktorlik dissertatsiyasi\n" +
                 "\n" +
                 "                </p>\n" +
-                "                <p>• 2018: Habilitation dissertation, Gdansk university, Faculty of Law and Administration</p>\n" +
+                "                <p>• 2018 yil: Xabilitatsiya dissertatsiyasi, Gdansk universiteti, Huquq va boshqaruv fakulteti</p>\n" +
                 "              </div>\n" +
                 "\n" +
                 "            </div>",
             ru: "<div class=\"details\">\n" +
-                "              <h2>Scientific interests:</h2>\n" +
+                "     <h2>Идентификация личности:</h2> <p>" +
+                "Доктор Эдвард Юхневич, проф<br>\n" +
+                "родился 16 января 1977 года в Шальчининкае, женат.</p>        " +
+                "              <h2>Академические интересы:</h2>\n" +
                 "              <div style=\"text-align: justify;\">\n" +
-                "                <p>International tax law, Tax avoidance and tax evasion, artificial intelligence and tax law, taxation\n" +
-                "                  of robots, e-commerce taxation, LegalTech and FinTech.</p>\n" +
+                "                <p>Международное налоговое право, Избежание налогов и уклонение от налогов, искусственный интеллект и налоговое право, налогообложение роботов, налогообложение электронной коммерции, LegalTech и FinTech</p>\n" +
                 "\n" +
-                "                <p><b>Employment Position</b></p>\n" +
-                "                <p>• Professor at Gdansk University\n" +
+                "                <p><b>Место работы</b></p>\n" +
+                "                <p>• Кафедра финансового права, Факультет права и администрации, Гданьский университет Bayńskiego 6\n" +
                 "                </p>\n" +
                 "\n" +
                 "                <p>\n" +
-                "                  • Dean's Representative on international cooperation with universities from Central and Eastern\n" +
-                "                  Europe\n" +
+                "                  • 80-309 Гданьск \n" +
+                "                </p>\n" +
+                "\n" +"                <p>\n" +
+                "                  <b>Контактный телефон: </b> +48502990449 \n" +
+                "                </p>\n" +
+                "\n" +"                <p>\n" +
+                "                  <b>e-mail: </b> +48502990449 \n" +
                 "                </p>\n" +
                 "\n" +
-                "                <p><b>Education and Academic Qualifications</b></p>\n" +
+                "                <p><b>Электронный сайт: </b><br><a href='http://prawo.arch.ug.edu.pl/pracownik/edvardjuchnevic.html'>http://prawo.arch.ug.edu.pl/pracownik/edvardjuchnevic.html</a><br><a href='http://prawo.ug.edu.pl/pracownik/1222/edvardas_juchnevicius'>http://prawo.ug.edu.pl/pracownik/1222/edvardas_juchnevicius</a></p>\n" +
                 "\n" +
                 "                <p>\n" +
-                "                  • 1998: Master studies in Law, diploma work on Legal of Bank Loans, Gdansk University, Faculty of\n" +
-                "                  Law and Administration\n" +
+                "                  <b>Должность</b>\n" +
                 "\n" +
                 "                </p>\n" +
                 "                <p>\n" +
-                "                  • 2003: Doctoral studies in Financial Law, doctoral thesis on Legal Structure of Treasure Securities,\n" +
-                "                  Gdansk university, Faculty of Law and Administration\n" +
+                "                  • Профессор Гданьского университета" +
                 "\n" +
                 "                </p>\n" +
-                "                <p>• 2018: Habilitation dissertation, Gdansk university, Faculty of Law and Administration</p>\n" +
+                "                <p>• Представитель декана по международному сотрудничеству с университетами Центральной и Восточной Европы</p>\n" +
+                "                <p><b>Образование и академическая квалификация</b>" +
+                "                <p>⦁\t1998: Магистр права, дипломная работа по юридическим вопросам банковских кредитов, Гданьский университет, факультет права и администрации</p>\n" +
+                "                <p>⦁\t2003: Докторантура по финансовому праву, докторская диссертация по правовой структуре казначейских ценных бумаг, Гданьский университет, факультет права и администрации</p>\n" +
+                "                <p>⦁\t2018: докторская диссертация, Гданьский университет, факультет права и администрации\n</p>\n" +
+                "                <p>• ⦁\t1998: Магистр права, дипломная работа по юридическим вопросам банковских кредитов, Гданьский университет, факультет права и администрации</p>\n" +
                 "              </div>\n" +
                 "\n" +
                 "            </div>",
@@ -931,44 +897,19 @@ let data = [
                 "             \n" +
                 "            </div>",
             ru: "<div class=\"details\">\n" +
-                "              <h2>PROFILE</h2>             \n" +
+                "              <h2>Членство в профессиональных союзах</h2>             \n" +
                 "              <div style=\"text-align: justify;\">\n" +
-                "                <h3>Current Professional Activities (selection)</h3>\n" +
                 "\n" +
                 "\n" +
-                "                <p>Since April 2015:\tDirector of the Europa-Institut, Saarland University\n" +
-                "                  <br>\n" +
-                "                  Professor of Public International Law and European Law\n" +
-                "                </p>\n" +
+                "                <p>⦁\tЧлен Союза судей административных судов, Берлин\n <br>" +
+                "⦁\tЧлен Немецко-Украинского союза юристов</p>\n" +
+                "<h3>Профессиональная деятельность:</h3>\n" +
+                "                <p>В настоящее время: Глава Представительства GIZ в Узбекистане, Казахстане и Туркменистане / Директор Программы GIZ «Содействие правовой государственности в странах Центральной Азии»\n</p>\n" +
+                "\n" +
+                "                <p>С 2015 г. - Глава Представительства GIZ в РК</p>\n" +
                 "\n" +
                 "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since May 2015\tEditor of the European Yearbook of International Economic Law (EYIEL)</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since May 2011\tMember of the Advisory Board of the International Investment Law Centre, Cologne</p>\n" +
-                "\n" +
-                "<h3>Former and other Professional Activities</h3>\n" +
-                "                <p>2020\tSenior Fellow University of Melbourne Law School</p>\n" +
-                "\n" +
-                "                <p>June 2015 - 2018\tSenior Fellow at the Centre for International Governance Innovation (CIGI), Ontario, Canada</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>May 2013 - June 2015\tVisiting Lecturer (for International Raw Materials Law) at Lucerne University, Switzerland</p>\n" +
-                "\n" +
-                "                <p>Since April 2011\tAdjunct Professor in the LL.M. Program for International Economic Law, Lausanne</p>\n" +
-                "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>March 2011\tVisiting Lecturer at the University of Sydney (European Economic Law)</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>September 2010\tTutor of a course in English language on “International Investment Protection Law” for staff members of the Ministry of Justice in Tiflis, Georgia (organized by GTZ - German Association for Technical Cooperation - and the German Ministry for Developmental Aid)</p>\n" +
-                "\n" +
-                "\n" +
+                "                <p>С 2012 по настоящее время - директор Программы «Содействие правовой государственности в странах ЦА»\n</p>\n" +
                 "              </div>\n" +
                 "              <div class=\"social\" style=\"text-align: center;\">\n" +
                 "                <a href=\"\"><i class=\"fa fa-twitter\"></i></a>\n" +
@@ -1027,12 +968,12 @@ let data = [
         }
     },
     {
-        id: 3,
-        img: "assets/img/speakers/3.jpg",
+        id: 8,
+        img: "assets/img/speakers/8.jpg",
         name: {
-            uz: "Prof. Dr. Marc Bungenberg, LL.M",
-            ru: "Prof. Dr. Marc Bungenberg, LL.M",
-            en: "Prof. Dr. Marc Bungenberg, LL.M"
+            uz: "Ismailov Bakhodir",
+            ru: "Ismailov Bakhodir",
+            en: "Ismailov Bakhodir"
         },
         degree: {
             uz: "Nutq so'zlovchi",
@@ -1041,165 +982,458 @@ let data = [
         },
         detail: {
             uz: "<div class=\"details\">\n" +
-                "              <h2>PROFIL</h2>             \n" +
+                "              <h2>Ma'lumotnoma</h2>\n" +
                 "              <div style=\"text-align: justify;\">\n" +
-                "                <h3>Hozirgi kasbiy faoliyati (tanlov)</h3>\n" +
+                "                <p>2018  йил 10 декабрдан Ўзбекистон Республикаси Бош прокуратураси Академияси Коррупцияга қарши курашиш илмий-таълим маркази бошлиғи</p>\n" +
+                "\n" +
+                "                <b>Туғилган йили:</b>\n" +
+                "                <p>31.10.1965й</p>\n" +
+                "                <b>Туғилган жойи:</b>\n" +
+                "                <p>Бухоро вилояти\n" +
+                "Когон шаҳри\n</p>\n" +
+                "                <b>Маълумоти бўйича мутахассислиги:</b>\n" +
+                "                <p>хуқуқшунос</p>\n" +
+                "                <b>Мартаба даражаси:</b>\n" +
+                "                <p>Адлия маслахатчиси</p>\n" +
+                "\n" +
+                "                <H2>МЕҲНАТ ФАОЛИЯТИ:</H2>\n" +
+                "\n" +
+                "                <p>\n" +
+                "                  1983-1984 й.\n" +
                 "\n" +
                 "\n" +
-                "                <p>2015 yil apreldan:\tSaarland universiteti, Yevropa instituti direktori\n" +
-                "                  <br>\n" +
-                "                  Xalqaro ommaviy huquq va Yevropa huquqi professori\n" +
+                "\t“Ўртаосиёнефтегазқурилиш” трестининг авточилангари\n" +
+                "\n" +
                 "                </p>\n" +
                 "\n" +
-                "\n" +
-                "                <p>2011 yil sentyabrdan\tShveytsariyaning Lozanna universitetining doimiy tashrif        buyuruvchi professori </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2015 yil may oyidan boshlab\tYevropa xalqaro iqtisodiy huquq yilnomasi (EYIEL) muharriri</p>\n" +
+                "                <p>1984-1986 й.\n" +
                 "\n" +
                 "\n" +
-                "                <p>2011 yil may oyidan buyon\tKyoln xalqaro investitsiya huquqi markazi maslahat kengashi a'zosi</p>\n" +
+                "\tАрмия сафида ҳарбий хизматда\n" +
+                "\n</p>\n" +
                 "\n" +
-                "<h3>Oldingi va boshqa professional faoliyat</h3>\n" +
-                "                <p>2020\tMelburn universitetining huquqshunoslik fakultetining katta ilmiy xodimi\n</p>\n" +
-                "\n" +
-                "                <p>Iyun 2015 - 2018\tXalqaro boshqaruv innovatsiyalari markazining katta ilmiy xodimi (CIGI), Ontario, Kanada</p>\n" +
+                "                <p>1986-1991 й.\n" +
                 "\n" +
                 "\n" +
-                "                <p>May 2013 - Iyun 2015\tShveytsariyaning Lucerne universitetida tashrif buyurgan o'qituvchi (Xalqaro xom ashyo huquqi bo'yicha)</p>\n" +
+                "\tТошкент Давлат университетининг талабаси\n" +
+                "\n</p>\n" +
                 "\n" +
-                "                <p>2011 yil apreldan\tLL.M.da  professor. Xalqaro iqtisodiy huquq dasturi,  Lozanna\n</p>\n" +
-                "\n" +
-                "                <p>2011 yil sentyabrdan\tShveytsariyaning Lozanna universitetining doimiy tashrif buyuruvchi professori\n</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2011 yil mart\tSidney universitetida tashrif buyurgan o'qituvchi (Evropa iqtisodiy huquqi)\n</p>\n" +
+                "                <p>1991-1994 й.\n" +
                 "\n" +
                 "\n" +
-                "                <p>2010 yil sentyabr\tAdliya vazirligi xodimlari uchun Gruziyaning Tiflis shahrida \"Xalqaro investitsiyalarni himoya qilish huquqi\" bo'yicha ingliz tili kursining o'qituvchisi (GTZ - Germaniya Texnik Hamkorlik Assotsiatsiyasi va Germaniyaning Rivojlanish Vazirligi tomonidan tashkil etilgan).\n</p>\n" +
-                "                <p> 2010 yil aprel - 2015 yil mart Germaniya Siegen universitetida Yevropa huquqi, xalqaro ommaviy     huquq va xalqaro iqtisodiy huquq professori\n</p>\n" +
-                "                <p>Aprel. 2009 yil-2010 yil mart, Fridrix-Aleksandr universiteti Erlangen-Nyurnberg jamoat huquqi va xalqaro ommaviy huquq professori, Germaniya\n</p>\n" +
-                "                <p>Myunxen Lyudvig-Maksimilian universiteti Yevropa va xalqaro huquq professori <br/>\n" +
-                "                                              Siyosat akademiyasi o'qituvchisi (Hochschule für Politik), Myunxen, Germaniya\n\n</p>\n" +
-                "                <p>2008 yil oktabr- 2009 yil mart\tMyunxen Myunxen Lyudvig-Maksimilian universiteti jamoat huquqi, Yevropa huquqi va xalqaro ommaviy huquq professori\n</p>\n" +
-                "                <p>2008 yil aprel - 2008 yil sentyabr. \tDrezden TU konstitutsiyaviy, iqtisodiy va ekologik huquq professori \n</p>\n" +
-                "                <p>2006 yil oktabr - 2008 yil mart,\tMyunxen Lyudvig -Maksimilians universiteti jamoat huquqi professori\n</p>\n" +
-                "                <p>2005 yil oktyabr-2006 yil iyun\tThüringer Verwaltungs akademiyasi o'qituvchisi (Tyuringen savdo va sanoat va Evropa huquqi bo'yicha Germaniya ma'muriy huquqi akademiyasi), Erfurt, Germaniya\n</p>\n" +
-                "                <p>2006 yildan buyon\tmamlakat Germaniya, Evropa va xalqaro xaridlar huquqining rivojlanishi to'g'risida hisobot beradi\n</p>\n" +
-                "                <p>1998 yil avgust - sentyabr. 2006 Jan-Monnet kafedrasida jamoat huquqi, Yevropa huquqi, xalqaro ommaviy huquq va xalqaro iqtisodiy huquq kafedrasida o'qituvchi va katta ilmiy yordamchi (professor doktor Karl M. Meessen 1998-2004, professor doktor Kristian Uolter 2004/05, professor) Doktor Kristof Ohler, LLM 2005/06), Fridrix Shiller universiteti Yena, Germaniya, huquq fakulteti\n</p>\n" +
+                "\tЎзбекистон Республикаси Фанлар академияси Фалсафа ва ҳуқуқ институтининг аспиранти\n" +
+                "\n</p>\n" +
+                "\n" +
+                "                <p>1994-1996 й.\n" +
                 "\n" +
                 "\n" +
+                "Ўзбекистон Республикаси Президенти ҳузуридаги Стратегик ва минтақалараро тадқиқотлар институтининг катта илмий ходими\n" +
+                "\n</p>\n" +
+                "\n" +
+                "                <p>1996-1998 й.\n" +
+                "\n" +
+                "\n" +
+                "Тошкент Давлат юридик институтининг катта ўқитувчиси\n" +
+                "\n</p>\n" +
+                "                \n" +
+                "                <p>1998-2000 й.\n" +
+                "\n" +
+                "\n" +
+                "Инсон ҳуқуқлари бўйича Ўзбекистон Республикаси миллий марказининг бўлим бошлиғи\n" +
+                "\n</p>\n" +
+                "\n" +
+                "                <p>2000-2002 й.\n" +
+                "\n" +
+                "\n" +
+                "Жаҳон иқтисодиёти ва дипломатия университетининг докторанти\n" +
+                "\n</p>\n" +
+                "\n" +
+                "                <p>2002-2007 й.\n" +
+                "\n" +
+                "\n" +
+                "Юристлар малакасини ошириш марказининг Халқаро ҳуқуқ ва инсон ҳуқуқлари кафедрасининг фан номзоди, доценти в.б. кафедра мудири\n" +
+                "\n</p>\n" +
+                "\n" +
+                "                <p>2007–2009 й.\n" +
+                "\n" +
+                "\n" +
+                "Ўзбекистон Республикаси Президенти ҳузуридаги Амалдаги қонун ҳужжатлари мониторинги институти халқаро ҳуқуқий тадқиқотлар гуруҳининг раҳбари\n" +
+                "\n</p>\n" +
+                "\n" +
+                "                <p>2009-2010 й.\n" +
+                "\n" +
+                "\n" +
+                "Ўзбекистон Республикаси Ташқи ишлар вазирлиги Шартнома-ҳуқуқ бошқармаси Халқаро шартномалар бўлими бошлиғи\n" +
+                "\n</p>\n" +
+                "\n" +
+                "                <p>2010 –2012й.\n" +
+                "\n" +
+                "\n" +
+                "Юристлар малакасини ошириш маркази Халқаро ҳуқуқ ва инсон ҳуқуқлари кафедрасининг фан доктори, профессори \n" +
+                "\n</p>\n" +
+                "\n" +
+                "                <p>2012-2013 й.\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "Тошкент Давлат юридик институтининг “Давлат ва ҳуқуқ тарихи” кафедраси мудири\n" +
+                "\n</p>\n" +
+                "                <p>2013-2014й.\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "Юристлар малакасини ошириш маркази Халқаро ҳуқуқ ва инсон ҳуқуқлари кафедрасининг фан доктори, профессори в.б.\n" +
+                "\n</p>\n" +
+                "                <p>2014 – 2018й.\n" +
+                "\n" +
+                "\n" +
+                "Юристлар малакасини ошириш маркази Давлат –ҳуқуқий фанлар кафедрасининг мудири\n" +
+                "\n</p>\n" +
+                "                <p>2018- 2019 й.\n" +
+                "\n" +
+                "\n" +
+
+                "\n" +
+                "\n" +
+                "Ўзбекистон Республикаси Бош прокуратураси Академияси Иқтисодий жиноятларга ва жиноий даромадларни легаллаштиришга қарши курашишни ташкил этиш кафедраси катта ўқитувчиси"+
+                "\n</p>\n" +
+                "\n" +
+                "                <p>2019- ҳ./қ. Ўзбекистон Республикаси Бош прокуратураси Академияси Коррупцияга қарши курашиш илмий-таълим маркази бошлиғи</p>\n" +
                 "              </div>\n" +
-                "              <div class=\"social\" style=\"text-align: center;\">\n" +
-                "                <a href=\"\"><i class=\"fa fa-twitter\"></i></a>\n" +
-                "                <a href=\"\"><i class=\"fa fa-facebook\"></i></a>               \n" +
-                "                <a href=\"\"><i class=\"fa fa-linkedin\"></i></a>\n" +
+                "\n" +
+                "            </div>",
+            ru: "<div class=\"details\">\n" +
+                "              <h2>Справка</h2>\n" +
+                "              <div style=\"text-align: justify;\">\n" +
+                "                <p>С 10 декабря 2018 года руководитель Научно-образовательного центра по борьбе с коррупцией при Академии Генеральной прокуратуры Республики Узбекистан.</p>\n" +
+                "\n" +
+                "                <b>Год рождения:</b>\n" +
+                "                <p>31.10.1965й</p>\n" +
+                "                <b>Место рождения:</b>\n" +
+                "                <p>Бухарская область</p>\n" +
+                "                <b>Специальность:</b>\n" +
+                "                <p>правовед</p>\n" +
+                "                <b>Ранг:</b>\n" +
+                "                <p>Советник юстиции</p>\n" +
+                "\n" +
+                "                <H2>ТРУДОВАЯ ДЕЯТЕЛЬНОСТЬ:</H2>\n" +
+                "                <p>1986-1991 гг.\n" +
+                "\n" +
+                "\n" +
+                "\tСтудент Ташкентского государственного\n" +
+                "\n</p>\n" +
+                "\n" +
+                "                <p>1991-1994 гг.\n" +
+                "\n" +
+                "\n" +
+                "\tАспирант Института философии и права Академии наук Республики Узбекистан\n" +
+                "\n</p>\n" +
+                "\n" +
+                "                <p>1994-1996 гг.\n" +
+                "\n" +
+                "\n" +
+                "Ўзбекистон Республикаси Президенти ҳузуридаги Стратегик ва минтақалараро тадқиқотлар институтининг катта илмий ходими\n" +
+                "\n</p>\n" +
+                "\n" +
+                "                <p>1996-1998 гг.\n" +
+                "\n" +
+                "\n" +
+                "Старший преподаватель Ташкентского государственного юридического института\n" +
+                "\n</p>\n" +
+                "                \n" +
+                "                <p>1998-2000 гг.\n" +
+                "\n" +
+                "\n" +
+                "Заведующий отделом Национального центра по правам человека Республики Узбекистан\n" +
+                "\n</p>\n" +
+                "\n" +
+                "                <p>2000-2002 гг.\n" +
+                "\n" +
+                "\n" +
+                "Докторант Университета мировой экономики и дипломатии\n" +
+                "\n</p>\n" +
+                "\n" +
+                "                <p>2002-2007 гг.\n" +
+                "\n" +
+                "\n" +
+                "Кандидат наук, и.о.доцент и зав.кафедрой международного права и прав человека Центра повышения квалификации юристов\n" +
+                "\n</p>\n" +
+                "\n" +
+                "                <p>2007–2009 гг.\n" +
+                "\n" +
+                "\n" +
+                "Руководитель группы международно-правовых исследований Института мониторинга действующего законодательства при Президенте Республики Узбекистан\n" +
+                "\n</p>\n" +
+                "\n" +
+                "                <p>2009-2010 гг.\n" +
+                "\n" +
+                "\n" +
+                "Начальник отдела международных договоров Юридического управления Министерства иностранных дел Республики Узбекистан\n" +
+                "\n</p>\n" +
+                "\n" +
+                "                <p>2010 –2012 гг.\n" +
+                "\n" +
+                "\n" +
+                "Доктор наук, профессор кафедры международного права и прав человека Центра повышения квалификации юристов\n" +
+                "\n</p>\n" +
+                "\n" +
+                "                <p>2012-2013 гг.\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "Заведующий кафедрой истории государства и права Ташкентского государственного юридического института\n" +
+                "\n</p>\n" +
+                "                <p>2013-2014 гг.\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "Доктор наук, профессор и кафедры международного права и прав человека Центра повышения квалификации юристов\n" +
+                "\n</p>\n" +
+                "                <p>2014 – 2018 гг.\n" +
+                "\n" +
+                "\n" +
+                "Заведующий кафедрой государственно-правовых наук Центра повышения квалификации юристов\n" +
+                "\n</p>\n" +
+                "                <p>2018- 2019 гг.\n" +
+                "\n" +
+                "\n" +
+
+                "\n" +
+                "\n" +
+                "Старший преподаватель кафедры по борьбе с экономическими преступлениями и легализацией доходов при Академии Генеральной прокуратуры Республики Узбекистан"+
+                "\n</p>\n" +
+                "\n" +
+                "                <p>2019- н.в. Руководитель Научно-образовательного центра по борьбе с коррупцией при Академии Генеральной прокуратуры Республики Узбекистан</p>\n" +
                 "              </div>\n" +
+                "\n" +
+                "            </div>",
+            en: "<div class=\"details\">\n" +
+                "              <h2>EDUCATIONAL BACKGROUND</h2>\n" +
+                "              <div style=\"text-align: justify;\">\n" +
+                "                <p>DSc in the field of International Law, International Criminal Law and International Cooperation on\n" +
+                "                  criminal matters.</p>\n" +
+                "\n" +
+                "                <h3>WORK EXPERIENCE</h3>\n" +
+                "                <p>More than 120 years of professional experience in the field of legal assistance and legal supporting\n" +
+                "                  system, developed administrative skills.</p>\n" +
+                "                <p>2018-2020 Head of the Scientific and Educational Center for Combating Corruption\n" +
+                "                  of the Academy of the Prosecutor General of the Republic of Uzbekistan\n" +
+                "                </p>\n" +
+                "\n" +
+                "                <p>\n" +
+                "                  2010–2018 Head of the Department of the Center for Advanced Studies\n" +
+                "                  of Lawyers of the Ministry of Justice of the Republic of Uzbekistan\n" +
+                "                </p>\n" +
+                "\n" +
+                "                <p>\n" +
+                "                  2009-2010\tHead of the Department of the Ministry of Foreign Affairs of the Republic of Uzbekistan.\n" +
+                "                </p>\n" +
+                "\n" +
+                "                <p>2007-2009\tTeam Leader of the Institute for Monitoring Current Legislation under the President of the Republic of Uzbekistan.</p>\n" +
+                "\n" +
+                "                <p>2002-2005\tHead of the Department of the Center for Advanced Studies of Lawyers of the Ministry of Justice of the Republic of Uzbekistan.</p>\n" +
+                "\n" +
+                "                <p>2000-2002\tdoctoral student at the University of World Economy and Diplomacy.</p>\n" +
+                "\n" +
+                "                <p>1996-1998\tSenior Lecturer, Tashkent State Law University, 1998–2000 Head of the Department of the National Center for Human Rights of the Republic of Uzbekistan.</p>\n" +
+                "\n" +
+                "                <p>1994-1996\tSenior Researcher, Institute of Strategic and Interregional Studies under the President of the Republic of Uzbekistan.</p>\n" +
+                "                \n" +
+                "                <p>1992-1994 \tgraduate student of the Institute of Philosophy and Law of the Academy of Sciences of the Republic of Uzbekistan.</p>\n" +
+                "\n" +
+                "                <p>1991-1992\tIn 1991 graduated from the Faculty of Law of Tashkent State University. carried out scientific activities combining with practical.                </p>\n" +
+                "\n" +
+                "                <h3>MAJOR DUTIES</h3>\n" +
+                "                <p>•\tCoordination of projects and programmes\tHas been in charge of coordination of collaborative educational projects and programmes in Uzbekistan together with ministries, international and non-governmental organizations.</p>\n" +
+                "\n" +
+                "                <p>•\tPractical implementation of the projects and programmes\tHas actively implemented projects and programmes within the framework of UNICEF, OSCE, ICRC Participation Programme, which also included project monitoring, evaluation and reporting.</p>\n" +
+                "\n" +
+                "                <p>•\tOrganization of educational events\tHas organized dozens of workshops and trainings on various themes related to education together with project partners such as UNICEF, OSCE, ICRC UNESCO Representative Office in Tashkent, A. Avlony Teacher’s Training Institute, Ministry of Public Education, Ministry of Higher and Secondary Special Education, Ministry of Labour, DVV International, State Testing Centre etc.</p>\n" +
+                "\n" +
+                "                <p>•\tEngagement in projects and programmes on various themes\tSo far has been engaged in projects and programmes on early childhood care and education, general secondary, technical-vocational education, higher education, adult learning and education, anti-doping in sports, youth programmes, inclusive education, education for sustainable development, teacher education, education for international understanding, peace education, human rights education, global citizenship education, gender and ICT education, quality education, preventing corruption, international cooperation etc.</p>\n" +
+                "\n" +
+                "                <p>•\tActing as the National Coordinator\tHas been acting as the Coordinator of the Projects such as UNICEF, UNESCO in Uzbekistan.</p>\n" +
+                "\n" +
+                "                <p>•\tPreparation of Country-reports and statistics in the field of education\tHas been in charge of collecting data, communicating with relevant ministries for preparation of country reports, surveys, statistical data in formal and non-formal education. Author of over 40 monographs and 100 publications in the field of human rights, and anti-corruption.</p>\n" +
+                "              </div>\n" +
+                "\n" +
+                "            </div>"
+        }
+    },
+    {
+        id: 9,
+        img: "assets/img/speakers/9.jpg",
+        name: {
+            uz: "Raxmonqulova Nilufar",
+            ru: "Rakhmonkulova Nilufar",
+            en: "Rakhmonkulova Nilufar"
+        },
+        degree: {
+            uz: "Nutq so'zlovchi",
+            ru: "Оратор",
+            en: "Speaker"
+        },
+        detail: {
+            uz: "<div class=\"details\">\n" +
+                "              <h2>Bog'lanish</h2>             \n" +
+                "              <div style=\"text-align: justify;\">\n" +
+                "              <p><b>Elektron pochta: </b>nrakhmonkulova@inbox.ru</p> \n" +
+                "              <p><b>Telefon: </b>+998909186257</p> \n" +
+                "              <h2>Ish tajribasi va ta'lim</h2>             \n" +
+                "              <div style=\"text-align: justify;\">\n" +
+                "              <p><b>Sanalar: </b>09/2017-hozirgacha</p> \n" +
+                "              <p><b>Kasb yoki lavozim: </b>Professor</p> \n" +
+                "              <p><b>Ish beruvchining ismi va manzili: </b>Jahon iqtisodiyoti va diplomatiya universiteti, Mustaqillik 54, Toshkent, O'zbekiston</p> \n" +
+                "              <p><b>Biznes yoki sektor turi: </b>Ta’lim</p> \n" +
+                "               </div>" +
+                "<div style=\"text-align: justify;\">\n" +
+                "              <p><b>Sanalar: </b>01/2014-12/2016</p> \n" +
+                "              <p><b>Kasb yoki lavozim: </b>Katta ilmiy xodim (DSc)\n</p> \n" +
+                "              <p><b>Ish beruvchining ismi va manzili: </b>Toshkent davlat yuridik universiteti, Sayilgoh, 35, Toshkent, O'zbekiston</p> \n" +
+                "              <p><b>Biznes yoki sektor turi: </b>Tadqiqot</p> \n" +
+                "               </div>" +
+                "</div>",
+            ru: "<div class=\"details\">\n" +
+                "              <h2>Связь</h2>             \n" +
+                "              <div style=\"text-align: justify;\">\n" +
+                "              <p><b>Эл. адрес: </b>nrakhmonkulova@inbox.ru</p> \n" +
+                "              <p><b>Телефон: </b>+998909186257</p> \n" +
+                "              <h2>Опыт работы и образование</h2>             \n" +
+                "              <div style=\"text-align: justify;\">\n" +
+                "              <p><b>Даты: </b>09/2017 – н.в.\n</p> \n" +
+                "              <p><b>Род занятий или должность: </b>Профессор</p> \n" +
+                "              <p><b>Название и адрес работодателя: </b>Университет мировой экономики и дипломатии, Мустакиллик 54, Ташкент, Узбекистан</p> \n" +
+                "              <p><b>Тип деятельности или сектора: </b>Образование</p> \n" +
+                "               </div>" +
+                "<div style=\"text-align: justify;\">\n" +
+                "              <p><b>Даты: </b>01 / 2014-12 / 2016</p> \n" +
+                "              <p><b>Род занятий или должность: </b>Старший научный сотрудник (DSc)</p> \n" +
+                "              <p><b>Название и адрес работодателя: </b>Ташкентский государственный юридический университет, Сайилгох, 35, Ташкент, Узбекистан</p> \n" +
+                "              <p><b>Тип деятельности или сектора: </b>Исследовать</p> \n" +
+                "               </div>" +
+                "</div>",
+            en: "<div class=\"details\">\n" +
+                "              <h2>Work Experience and Education </h2>             \n" +
+                "              <div style=\"text-align: justify;\">\n" +
+                "              <p>Dates   \n" +
+                "                Occupation or position held.\n" +
+                "                09/2017-present\n" +
+                "                Professor\n" +
+                "                </p> \n" +
+                "                <p>\n" +
+                "                  Name and address of employer. University of World Economy and Diplomacy, Mustakillik 54, Tashkent, Uzbekistan\n" +
+                "                </p>\n" +
+                "\n" +
+                "                <p>\n" +
+                "                  Type of business or sector. Education\n" +
+                "                </p>\n" +
+                "              </div>\n" +
+                "           <h3>Publications </h3>\n" +
+                "             <p>2007-2019\tmore than forty scientific articles, theses at international and local academic journals in Uzbek, Russian and in English   </p>\n" +
+                "             <p>2010\t“Civil and commercial law of foreign countries”- the textbook in Uzbek   </p>\n" +
+                "             <p>2011\t“Regulation of marital relations in international private law” – the monograph in Uzbek   </p>\n" +
+                "             <p>2012\t“Regulation of divorce in international private law”- the textbook in Uzbek   </p>\n" +
+                "             <p>2012\t“Regulation of marriage in international private law” – the brochure in Uzbek   </p>\n" +
+                "             <p>2012\t“International Family Law” – the brochure in Uzbek   </p>\n" +
+                "             <p>2014\t“Current problems and prospects of development of private international law” –  the monograph in Uzbek   </p>\n" +
+                "             <p>2016\t“Problems of codification of private international law” – the monograph in Uzbek   </p>\n" +
+                "             <p>2019\t“International Private Law” – the hand book in Uzbek</p>\n" +
+                "\n" +
+                "             <h3>Additional informations  </h3>\n" +
+                "             <p>Membership                         Member of Scientific Council awarding of the scientific degrees                                                                             DSc.30.08.2018.Yu.74.01 at the Tashkent State University of Law – 12.00.03 – Civil law. Business law. Family law. International private law</p>\n" +
+                "            </div>"
+        }
+    },
+    {
+        id: 10,
+        img: "assets/img/speakers/10.jpg",
+        name: {
+            uz: "Saydullaev Shakhzod",
+            ru: "Saydullaev Shakhzod",
+            en: "Saydullaev Shakhzod"
+        },
+        degree: {
+            uz: "Nutq so'zlovchi",
+            ru: "Оратор",
+            en: "Speaker"
+        },
+        detail: {
+            uz: "<div class=\"details\">\n" +
+                "              <h2>Маълумоти</h2>             \n" +
+                "              <div style=\"text-align: justify;\">\n" +
+                "              <p><b>Сентябрь 2004 – Июль 2006 \tТошкент давлат юридик университети</b></p>  \n" +
+                "              <p>Давлат бошқаруви йўналиши магистри</p>\n" +
+                "              <p><b>Сентябрь 2000 – Июль 2004\tТошкент давлат юридик университети</b></p>\n" +
+                "              <p>Халқаро ҳуқуқ йўналиши бакалаври</p>\n" +
+                "\n" +
+                "              <h3>Меҳнат фаолияти</h3>\n" +
+                "              <p>2020 – ҳ.в.\tТошкент давлат юридик университети Оммавий хуқуқ факультети декани\n" +
+                "\twww.tsul.uz  \n</p>\n" +
+                "              <p>2017 – 2020 \tТошкент давлат юридик университети Давлат хуқуқи ва назарияси кафедраси мудири </p>\n" +
+                "              <p>\n" +
+                "               2015–2017 \tТошкент давлат юридик университети Давлат хуқуқи ва назарияси кафедраси профессори \n" +
+                "                </p>\n" +
+                "                <p>2013–2015 \tТошкент давлат юридик университети Давлат хуқуқи ва назарияси кафедраси бош мутахассиси</p>\n" +
+                "                <p>2006 –2013 \tТошкент давлат юридик университети Давлат хуқуқи ва назарияси кафедраси  ўқитувчиси</p>\n" +
+                "              </div>\n" +
+                "          \n" +
                 "             \n" +
                 "            </div>",
             ru: "<div class=\"details\">\n" +
-                "              <h2>PROFILE</h2>             \n" +
+                "              <h2>ИСТОРИЯ ОБРАЗОВАНИЯ</h2>             \n" +
                 "              <div style=\"text-align: justify;\">\n" +
-                "                <h3>Current Professional Activities (selection)</h3>\n" +
+                "              <p><b>Сентябрь 2004 г. - июль 2006 г. Ташкентский государственный юридический институт</b></p>  \n" +
+                "              <p>Магистр факультета права государственного управления</p>\n" +
+                "              <p><b>Сентябрь 2000 г. - июль 2004 г. Ташкентский государственный юридический институт\n</b></p>\n" +
+                "              <p>Бакалавр факультета международного права</p>\n" +
                 "\n" +
-                "\n" +
-                "                <p>Since April 2015:\tDirector of the Europa-Institut, Saarland University\n" +
-                "                  <br>\n" +
-                "                  Professor of Public International Law and European Law\n" +
+                "              <h3>РАБОЧИЙ СТАЖ</h3>\n" +
+                "              <p>2020 -                   действующий декан факультета публичного права Ташкентского государственного юридического университета. www.tsul.uz</p>\n" +
+                "              <p>2017 - 2020              Заведующий кафедрой теории и истории государства и права Ташкентского государственного юридического университета.</p>\n" +
+                "              <p>2015–2017 гг.              Доцент кафедры теории и истории государства и права Ташкентского государственного юридического университета.\t</p>\n" +
+                "              <p>\n" +
+                "                2013–2015 гг.             старший преподаватель кафедры теории и истории государства и права Ташкентского государственного юридического университета.\n" +
                 "                </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since May 2015\tEditor of the European Yearbook of International Economic Law (EYIEL)</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since May 2011\tMember of the Advisory Board of the International Investment Law Centre, Cologne</p>\n" +
-                "\n" +
-                "<h3>Former and other Professional Activities</h3>\n" +
-                "                <p>2020\tSenior Fellow University of Melbourne Law School</p>\n" +
-                "\n" +
-                "                <p>June 2015 - 2018\tSenior Fellow at the Centre for International Governance Innovation (CIGI), Ontario, Canada</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>May 2013 - June 2015\tVisiting Lecturer (for International Raw Materials Law) at Lucerne University, Switzerland</p>\n" +
-                "\n" +
-                "                <p>Since April 2011\tAdjunct Professor in the LL.M. Program for International Economic Law, Lausanne</p>\n" +
-                "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>March 2011\tVisiting Lecturer at the University of Sydney (European Economic Law)</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>September 2010\tTutor of a course in English language on “International Investment Protection Law” for staff members of the Ministry of Justice in Tiflis, Georgia (organized by GTZ - German Association for Technical Cooperation - and the German Ministry for Developmental Aid)</p>\n" +
-                "\n" +
-                "\n" +
+                "                <p>2006–2013 гг.               Преподаватель, завуч кафедрой теории и истории государства и права Ташкентского государственного юридического института. </p>\n" +
                 "              </div>\n" +
-                "              <div class=\"social\" style=\"text-align: center;\">\n" +
-                "                <a href=\"\"><i class=\"fa fa-twitter\"></i></a>\n" +
-                "                <a href=\"\"><i class=\"fa fa-facebook\"></i></a>               \n" +
-                "                <a href=\"\"><i class=\"fa fa-linkedin\"></i></a>\n" +
-                "              </div>\n" +
+                "          \n" +
                 "             \n" +
                 "            </div>",
             en: "<div class=\"details\">\n" +
-                "              <h2>PROFILE</h2>             \n" +
+                "              <h2>EDUCATION</h2>             \n" +
                 "              <div style=\"text-align: justify;\">\n" +
-                "                <h3>Current Professional Activities (selection)</h3>\n" +
+                "              <p><b>September 2004 – July 2006 \tTashkent State Institute of Law </b></p>  \n" +
+                "              <p>Master degree in the faculty of State governance law </p>\n" +
+                "              <p><b>September 2000 – July 2004\tTashkent State Institute of Law</b></p>\n" +
+                "              <p>Bachelor in the faculty of International law</p>\n" +
                 "\n" +
-                "\n" +
-                "                <p>Since April 2015:\tDirector of the Europa-Institut, Saarland University\n" +
-                "                  <br>\n" +
-                "                  Professor of Public International Law and European Law\n" +
+                "              <h3>WORK EXPERIENCE </h3>\n" +
+                "              <p>2020 – current \tDean of the Faculty of Public Law at Tashkent State University of Law \n" +
+                "                www.tsul.uz  \n" +
+                "              </p>\n" +
+                "              <p>2017 – 2020 \tThe head of the Department of Theory and History of State and Law at Tashkent State University of Law </p>\n" +
+                "              <p>2015–2017 \tThe associate professor of the Department of Theory and History of State and Law at Tashkent State University of Law \t</p>\n" +
+                "              <p>\n" +
+                "                2013–2015 \tThe head teacher of the Department of Theory and History of State and Law at Tashkent State University of Law \n" +
                 "                </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since May 2015\tEditor of the European Yearbook of International Economic Law (EYIEL)</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since May 2011\tMember of the Advisory Board of the International Investment Law Centre, Cologne</p>\n" +
-                "\n" +
-                "<h3>Former and other Professional Activities</h3>\n" +
-                "                <p>2020\tSenior Fellow University of Melbourne Law School</p>\n" +
-                "\n" +
-                "                <p>June 2015 - 2018\tSenior Fellow at the Centre for International Governance Innovation (CIGI), Ontario, Canada</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>May 2013 - June 2015\tVisiting Lecturer (for International Raw Materials Law) at Lucerne University, Switzerland</p>\n" +
-                "\n" +
-                "                <p>Since April 2011\tAdjunct Professor in the LL.M. Program for International Economic Law, Lausanne</p>\n" +
-                "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>March 2011\tVisiting Lecturer at the University of Sydney (European Economic Law)</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>September 2010\tTutor of a course in English language on “International Investment Protection Law” for staff members of the Ministry of Justice in Tiflis, Georgia (organized by GTZ - German Association for Technical Cooperation - and the German Ministry for Developmental Aid)</p>\n" +
-                "\n" +
-                "\n" +
+                "                <p>2006 –2013 \tThe teacher and head teacher of the Department of Theory and History of State and Law at Tashkent State Institute of Law </p>\n" +
                 "              </div>\n" +
-                "              <div class=\"social\" style=\"text-align: center;\">\n" +
-                "                <a href=\"\"><i class=\"fa fa-twitter\"></i></a>\n" +
-                "                <a href=\"\"><i class=\"fa fa-facebook\"></i></a>               \n" +
-                "                <a href=\"\"><i class=\"fa fa-linkedin\"></i></a>\n" +
-                "              </div>\n" +
+                "          \n" +
                 "             \n" +
                 "            </div>"
         }
     },
     {
-        id: 3,
-        img: "assets/img/speakers/3.jpg",
+        id: 11,
+        img: "assets/img/speakers/11.jpg",
         name: {
-            uz: "Prof. Dr. Marc Bungenberg, LL.M",
-            ru: "Prof. Dr. Marc Bungenberg, LL.M",
-            en: "Prof. Dr. Marc Bungenberg, LL.M"
+            uz: "Sardor Bozarov",
+            ru: "Sardor Bozarov",
+            en: "Sardor Bozarov"
         },
         degree: {
             uz: "Nutq so'zlovchi",
@@ -1208,538 +1442,145 @@ let data = [
         },
         detail: {
             uz: "<div class=\"details\">\n" +
-                "              <h2>PROFIL</h2>             \n" +
+                "         <p><b>2021 yil yanvar oyidan Toshkent davlat yuridik universiteti xalqaro xususiy huquq kafedrasi mudiri, yuridik fanlari bo’yicha falsafasi doktori (PhD).</b></p>    " +
+                " <h2>Ta'lim</h2>\n" +
                 "              <div style=\"text-align: justify;\">\n" +
-                "                <h3>Hozirgi kasbiy faoliyati (tanlov)</h3>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2015 yil apreldan:\tSaarland universiteti, Yevropa instituti direktori\n" +
-                "                  <br>\n" +
-                "                  Xalqaro ommaviy huquq va Yevropa huquqi professori\n" +
+                "                <p>Toshkent davlat yuridik instituti (bakalavr). Yurisprudensiya,\n" +
+                "2001-2005 yillar. Diplom a’lo B, 011557\n" +
                 "                </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2011 yil sentyabrdan\tShveytsariyaning Lozanna universitetining doimiy tashrif        buyuruvchi professori </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2015 yil may oyidan boshlab\tYevropa xalqaro iqtisodiy huquq yilnomasi (EYIEL) muharriri</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2011 yil may oyidan buyon\tKyoln xalqaro investitsiya huquqi markazi maslahat kengashi a'zosi</p>\n" +
-                "\n" +
-                "<h3>Oldingi va boshqa professional faoliyat</h3>\n" +
-                "                <p>2020\tMelburn universitetining huquqshunoslik fakultetining katta ilmiy xodimi\n</p>\n" +
-                "\n" +
-                "                <p>Iyun 2015 - 2018\tXalqaro boshqaruv innovatsiyalari markazining katta ilmiy xodimi (CIGI), Ontario, Kanada</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>May 2013 - Iyun 2015\tShveytsariyaning Lucerne universitetida tashrif buyurgan o'qituvchi (Xalqaro xom ashyo huquqi bo'yicha)</p>\n" +
-                "\n" +
-                "                <p>2011 yil apreldan\tLL.M.da  professor. Xalqaro iqtisodiy huquq dasturi,  Lozanna\n</p>\n" +
-                "\n" +
-                "                <p>2011 yil sentyabrdan\tShveytsariyaning Lozanna universitetining doimiy tashrif buyuruvchi professori\n</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2011 yil mart\tSidney universitetida tashrif buyurgan o'qituvchi (Evropa iqtisodiy huquqi)\n</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2010 yil sentyabr\tAdliya vazirligi xodimlari uchun Gruziyaning Tiflis shahrida \"Xalqaro investitsiyalarni himoya qilish huquqi\" bo'yicha ingliz tili kursining o'qituvchisi (GTZ - Germaniya Texnik Hamkorlik Assotsiatsiyasi va Germaniyaning Rivojlanish Vazirligi tomonidan tashkil etilgan).\n</p>\n" +
-                "                <p> 2010 yil aprel - 2015 yil mart Germaniya Siegen universitetida Yevropa huquqi, xalqaro ommaviy     huquq va xalqaro iqtisodiy huquq professori\n</p>\n" +
-                "                <p>Aprel. 2009 yil-2010 yil mart, Fridrix-Aleksandr universiteti Erlangen-Nyurnberg jamoat huquqi va xalqaro ommaviy huquq professori, Germaniya\n</p>\n" +
-                "                <p>Myunxen Lyudvig-Maksimilian universiteti Yevropa va xalqaro huquq professori <br/>\n" +
-                "                                              Siyosat akademiyasi o'qituvchisi (Hochschule für Politik), Myunxen, Germaniya\n\n</p>\n" +
-                "                <p>2008 yil oktabr- 2009 yil mart\tMyunxen Myunxen Lyudvig-Maksimilian universiteti jamoat huquqi, Yevropa huquqi va xalqaro ommaviy huquq professori\n</p>\n" +
-                "                <p>2008 yil aprel - 2008 yil sentyabr. \tDrezden TU konstitutsiyaviy, iqtisodiy va ekologik huquq professori \n</p>\n" +
-                "                <p>2006 yil oktabr - 2008 yil mart,\tMyunxen Lyudvig -Maksimilians universiteti jamoat huquqi professori\n</p>\n" +
-                "                <p>2005 yil oktyabr-2006 yil iyun\tThüringer Verwaltungs akademiyasi o'qituvchisi (Tyuringen savdo va sanoat va Evropa huquqi bo'yicha Germaniya ma'muriy huquqi akademiyasi), Erfurt, Germaniya\n</p>\n" +
-                "                <p>2006 yildan buyon\tmamlakat Germaniya, Evropa va xalqaro xaridlar huquqining rivojlanishi to'g'risida hisobot beradi\n</p>\n" +
-                "                <p>1998 yil avgust - sentyabr. 2006 Jan-Monnet kafedrasida jamoat huquqi, Yevropa huquqi, xalqaro ommaviy huquq va xalqaro iqtisodiy huquq kafedrasida o'qituvchi va katta ilmiy yordamchi (professor doktor Karl M. Meessen 1998-2004, professor doktor Kristian Uolter 2004/05, professor) Doktor Kristof Ohler, LLM 2005/06), Fridrix Shiller universiteti Yena, Germaniya, huquq fakulteti\n</p>\n" +
-                "\n" +
-                "\n" +
+                "                <p>Toshkent davlat yuridik instituti (magistratura). Fuqarolik huquqi, tadbirkorlik huquqi, oila huquqi, xalqaro xususiy huquq. 2005-2007 yillar. Diplom M,  026446</p>\n" +
                 "              </div>\n" +
-                "              <div class=\"social\" style=\"text-align: center;\">\n" +
-                "                <a href=\"\"><i class=\"fa fa-twitter\"></i></a>\n" +
-                "                <a href=\"\"><i class=\"fa fa-facebook\"></i></a>               \n" +
-                "                <a href=\"\"><i class=\"fa fa-linkedin\"></i></a>\n" +
-                "              </div>\n" +
-                "             \n" +
+                "\n" +
+                "              <h3>\n" +
+                "                Ilmiy daraja:\n" +
+                "              </h3>\n" +
+                "              <p>1) Yuridik fanlari bo'yicha falsafa doktori. (Toshkent davlat yuridik universiteti 12.00.03 - Fuqarolik huquqi, Tadbirkorlik huquqi, Oilaviy huquq, Xalqaro xususiy huquq. Diplom 01 No 000655). 50 dan ortiq ilmiy nashrlarning muallifi</p>\n" +
+                "              <h3>O'quv dasturlari:</h3>\n" +
+                "              <p>1) Hindiston parlamenti. Parlament tadqiqotlari va ta'lim byurosi. \"Qonun loyihalari bo'yicha 28 -Xalqaro o'quv dasturi\". 14 fevral - 2013 yil 15 mart, Nyu -Dehli, Hindiston.</p>\n" +
+                "              <p>2) Yoshlarning rivojlanishi va farovonligi 2013 yil 9-15 sentyabr, Kuala-Lumpur, Malayziya.</p>\n" +
+                "              <p>3) \"Ko'cha huquqi - tirik huquq\" 2018 yil 24-30 noyabr, White & Case LLP xalqaro yuridik firmasi, Vashington, Kolumbiya shtati, AQSh.</p>\n" +
+                "              <p>4) \"Chet el kontragentlari bilan shartnomalar tuzish va ular bilan nizolarni ko'rib chiqish: pudrat ishlari va hakamlik amaliyoti\". 2019 yil 5-8 noyabr, \"Huquq instituti\n" +
+                "\"M-Logos\", Moskva shahri, Rossiya Federatsiyasi" +
+                "              </p>\n" +
+                "              <h3>Ish tajribasi:</h3>\n" +
+                "              <p>1) 2007-2009. Oʻzbekiston Respublikasi Prezidenti huzuridagi Davlat boshqaruvi akademiyasi Davlat qurilishi va huquq kafedrasi mudiri</p>\n" +
+                "              <p>2) 2009-2013 yillar. O'zbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Toshkent islom universiteti yuridik fakulteti o'qituvchisi. (Xalqaro xususiy huquq, fuqarolik huquqi, fuqarolik protsessual huquqi)</p>\n" +
+                "              <p>3)2013-2016 yillar. Toshkent davlat yuridik universiteti fuqarolik protsessual va iqtisodiy protsessual huquqi kafedrasi o'qituvchisi (Fuqarolik protsessual huquqi, Tijorat protsessual huquqi, Protsessual hujjatlar fuqarolik ishlari va iqtisodiy ishlar bo'yicha)." +
+                "              <p>3.1) 2014-2017 yillar. \"Litsey va kollejlar bilan ishlash bo'limi boshlig'i\"\n" +
+                "(bir vaqtning o'zida)." +
+                "              </p>\n" +
+                "              <p>3.2) 2018 yil. BMTTDning \"O'zbekiston Respublikasida investitsiya muhitini rivojlantirish\" loyihasining yuridik mutaxassisi (bir vaqtning o'zida).  </p>\n" +
+                "              </p>\n" +
+                "              <p>4) 2016-2018 yillar. Toshkent davlat yuridik universiteti Xalqaro tijorat huquqi kafedrasi katta o'qituvchisi (Xalqaro xususiy huquq, Xalqaro arbitraj, Xalqaro savdo huquqi, Erkin iqtisodiy zonalar).</p>\n" +
+                "              <p>\n" +
+                "                5) 2019 yil yanvardan martgacha. Toshkent davlat yuridik universiteti xalqaro tijorat huquqi kafedrasi dotsenti vazifasini bajaruvchi (Xalqaro xususiy huquq, Xalqaro arbitraj, Xalqaro savdo huquqi, Erkin iqtisodiy zonalar)." +
+                "              </p>\n" +
+                "\n" +
+                "              <p> 6) 2019 yil martdan 2021 yilgacha. \"Enter engineering Pte. Ltd.\" xorijiy kompaniyasi yuristi. (Shartnomalar bilan ishlash: shartnomalarni tekshirish, tuzish va imzolash, huquqiy xulosalar va tavsiyalar berish. Buyurtmalar, buyruqlar, shartnomalar va boshqa yuridik xarakterdagi hujjatlar loyihalarining O'zbekiston Respublikasi qonunchiligiga muvofiqligini tekshirish. Mehnat nizolarini hal qilish. Kompaniyaning manfaatlarini himoya qilish uchun sudlarda ishtirok etish). </p>\n" +
+                "              <p>7) 2021 yil yanvaridan Toshkent davlat yuridik universiteti xalqaro xususiy huquq kafedrasi mudiri, yuridik fanlari yo’nalishida falsafasi doktori (PhD). </p>\n" +
                 "            </div>",
-            ru: "<div class=\"details\">\n" +
-                "              <h2>PROFILE</h2>             \n" +
+            ru: "<div class=\"details\">" +
+                "<p><b>C января 2021 года Заведующий кафедрой «Международное частное право» Ташкентского государственного юридического университета, доктор философии по юридическим наукам (PhD).</b></p>"+
+                "              <h2>Образование</h2>\n" +
                 "              <div style=\"text-align: justify;\">\n" +
-                "                <h3>Current Professional Activities (selection)</h3>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since April 2015:\tDirector of the Europa-Institut, Saarland University\n" +
-                "                  <br>\n" +
-                "                  Professor of Public International Law and European Law\n" +
+                "                <p>Ташкентский государственный юридический институт (Бакалавр). Юриспруденция, \n" +
+                "2001-2005 годы. Диплом с отличием B, № 011557\n" +
                 "                </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since May 2015\tEditor of the European Yearbook of International Economic Law (EYIEL)</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since May 2011\tMember of the Advisory Board of the International Investment Law Centre, Cologne</p>\n" +
-                "\n" +
-                "<h3>Former and other Professional Activities</h3>\n" +
-                "                <p>2020\tSenior Fellow University of Melbourne Law School</p>\n" +
-                "\n" +
-                "                <p>June 2015 - 2018\tSenior Fellow at the Centre for International Governance Innovation (CIGI), Ontario, Canada</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>May 2013 - June 2015\tVisiting Lecturer (for International Raw Materials Law) at Lucerne University, Switzerland</p>\n" +
-                "\n" +
-                "                <p>Since April 2011\tAdjunct Professor in the LL.M. Program for International Economic Law, Lausanne</p>\n" +
-                "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>March 2011\tVisiting Lecturer at the University of Sydney (European Economic Law)</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>September 2010\tTutor of a course in English language on “International Investment Protection Law” for staff members of the Ministry of Justice in Tiflis, Georgia (organized by GTZ - German Association for Technical Cooperation - and the German Ministry for Developmental Aid)</p>\n" +
-                "\n" +
-                "\n" +
+                "                <p>Ташкентский государственный юридический институт (Магистратура). Гражданское право, Предпринимательское право, Семейное право, Международное частное право. 2005-2007 годы. Диплом М, № 026446</p>\n" +
                 "              </div>\n" +
-                "              <div class=\"social\" style=\"text-align: center;\">\n" +
-                "                <a href=\"\"><i class=\"fa fa-twitter\"></i></a>\n" +
-                "                <a href=\"\"><i class=\"fa fa-facebook\"></i></a>               \n" +
-                "                <a href=\"\"><i class=\"fa fa-linkedin\"></i></a>\n" +
-                "              </div>\n" +
-                "             \n" +
+                "\n" +
+                "              <h3>\n" +
+                "                Ученая степень:\n" +
+                "              </h3>\n" +
+                "              <p>1) Доктор философии по юридическим наукам. (Ташкентский государственный юридический университет 12.00.03 – Гражданское право, Предпринимательское право, Семейное право, Международное частное право.  Диплом 01 № 000655). Автор более 50 научных публикации..</p>\n" +
+                "              <h3>Тренинговые программы:</h3>\n" +
+                "              <p>1)  Парламент Индии. Бюро парламентских исследований и обучения. «28 Международная учебная программа по разработке законопроектов». 14 февраля - 15 марта 2013 г., Нью-Дели, Индия..</p>\n" +
+                "              <p>2) «Развитие и процветание молодежи» 9-15 сентября 2013 г., Куала-Лумпур, Малайзия.</p>\n" +
+                "              <p>3) «Street law – Живое право» 24-30 ноября 2018 года, Международная юридическая фирма White & Case LLP, Вашингтон, округ Колумбия, США.</p>\n" +
+                "              <p>4) «Заключение контрактов с иностранными контрагентами и рассмотрение споров с ними: практика договроной работы и арбитража». 5-8 ноября 2019 года, «Юридический институт \n" +
+                "«М-Логос», Москва сити, Российская Федерация." +
+                "              </p>\n" +
+                "              <h3>Опыт работы:</h3>\n" +
+                "              <p>1) 2007-2009 годы. Заведующий кабинетом кафедры «Государственное строительство и право» Академии государственного управления при Президенте Республики Узбекистан.</p>\n" +
+                "              <p>2) 2009-2013 годы. Преподаватель юридического факультета Ташкентского исламского университета при Кабинете Министров Республики Узбекистан. (Международное частное право, Гражданское право, Гражданское процессуальное право)</p>\n" +
+                "              <p>3) 2013-2016 годы. Преподаватель кафедры «Гражданско-процессуальное и хозяйственно-процессуальное права» Ташкентского государственного юридического университета \n" +
+                "(Гражданское процессуальное право, Хозяйственное процессуальное право, Процессуальные акты \n" +
+                "по гражданским делам и хозяйственным делам)" +
+                "              <p>3.1) 2014-2017 годы. «Начальник отдела по работе с лицеями и колледжами» \n" +
+                "(по совместительству).\n" +
+                "              </p>\n" +
+                "              <p>2018 году. Эксперт по правовым вопросам проекта UNDP «Развитие инвестиционной среды в Республике Узбекистан» (по совместительству)..</p>\n" +
+                "              </p>\n" +
+                "              <p>4) 2016-2018 годы. Старший преподаватель кафедры «Международное коммерческое право» Ташкентского государственного юридического университета (Международное частное право, Международный арбитраж, Международное торговое право, Свободные экономические зоны).\n.</p>\n" +
+                "              <p>\n" +
+                "                5) 2019 с января по март. Исполняющий обязанности доцента кафедры «Международное коммерческое право» Ташкентского государственного юридического университета (Международное частное право, Международный арбитраж, Международное торговое право, Свободные экономические зоны).\n\n" +
+                "              </p>\n" +
+                "\n" +
+                "              <p> 6) 2019 г. с марта по 2021 года. Юрист иностранной компании «Enter engineering Pte.Ltd». (Работа с договорами: проверка, составление и визирование договоров, выдача юридических заключений и рекомендаций. Осуществление экспертизы проектов приказов, распоряжений, договоров и иных документов правового характера, на предмет их соответствия с законодательством Республики Узбекистан. Разрешение трудовых споров. Участие в судах по защите интересов компании). \n. </p>\n" +
+                "              <p>7) с января 2021 года Заведующий кафедрой «Международное частное право» Ташкентского государственного юридического университета, доктор философии по юридическим наукам (PhD). </p>\n" +
                 "            </div>",
             en: "<div class=\"details\">\n" +
-                "              <h2>PROFILE</h2>             \n" +
+                "              <h2>EDUCATION</h2>\n" +
                 "              <div style=\"text-align: justify;\">\n" +
-                "                <h3>Current Professional Activities (selection)</h3>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since April 2015:\tDirector of the Europa-Institut, Saarland University\n" +
-                "                  <br>\n" +
-                "                  Professor of Public International Law and European Law\n" +
+                "                <p>1. Tashkent State Institute of Law (Bachelor's degree). Jurisprudence,\n" +
+                "                  2001-2005. Diploma with honors B, No. 011557\n" +
                 "                </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since May 2015\tEditor of the European Yearbook of International Economic Law (EYIEL)</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since May 2011\tMember of the Advisory Board of the International Investment Law Centre, Cologne</p>\n" +
-                "\n" +
-                "<h3>Former and other Professional Activities</h3>\n" +
-                "                <p>2020\tSenior Fellow University of Melbourne Law School</p>\n" +
-                "\n" +
-                "                <p>June 2015 - 2018\tSenior Fellow at the Centre for International Governance Innovation (CIGI), Ontario, Canada</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>May 2013 - June 2015\tVisiting Lecturer (for International Raw Materials Law) at Lucerne University, Switzerland</p>\n" +
-                "\n" +
-                "                <p>Since April 2011\tAdjunct Professor in the LL.M. Program for International Economic Law, Lausanne</p>\n" +
-                "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>March 2011\tVisiting Lecturer at the University of Sydney (European Economic Law)</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>September 2010\tTutor of a course in English language on “International Investment Protection Law” for staff members of the Ministry of Justice in Tiflis, Georgia (organized by GTZ - German Association for Technical Cooperation - and the German Ministry for Developmental Aid)</p>\n" +
-                "\n" +
-                "\n" +
+                "                <p>1. Tashkent State Institute of Law (Master's degree). Civil law, Business Law, Family Law, Private\n" +
+                "                  International Law. 2005-2007. Diploma M, No. 026446</p>\n" +
                 "              </div>\n" +
-                "              <div class=\"social\" style=\"text-align: center;\">\n" +
-                "                <a href=\"\"><i class=\"fa fa-twitter\"></i></a>\n" +
-                "                <a href=\"\"><i class=\"fa fa-facebook\"></i></a>               \n" +
-                "                <a href=\"\"><i class=\"fa fa-linkedin\"></i></a>\n" +
-                "              </div>\n" +
-                "             \n" +
-                "            </div>"
-        }
-    },
-    {
-        id: 3,
-        img: "assets/img/speakers/3.jpg",
-        name: {
-            uz: "Prof. Dr. Marc Bungenberg, LL.M",
-            ru: "Prof. Dr. Marc Bungenberg, LL.M",
-            en: "Prof. Dr. Marc Bungenberg, LL.M"
-        },
-        degree: {
-            uz: "Nutq so'zlovchi",
-            ru: "Оратор",
-            en: "Speaker"
-        },
-        detail: {
-            uz: "<div class=\"details\">\n" +
-                "              <h2>PROFIL</h2>             \n" +
-                "              <div style=\"text-align: justify;\">\n" +
-                "                <h3>Hozirgi kasbiy faoliyati (tanlov)</h3>\n" +
                 "\n" +
-                "\n" +
-                "                <p>2015 yil apreldan:\tSaarland universiteti, Yevropa instituti direktori\n" +
-                "                  <br>\n" +
-                "                  Xalqaro ommaviy huquq va Yevropa huquqi professori\n" +
-                "                </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2011 yil sentyabrdan\tShveytsariyaning Lozanna universitetining doimiy tashrif        buyuruvchi professori </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2015 yil may oyidan boshlab\tYevropa xalqaro iqtisodiy huquq yilnomasi (EYIEL) muharriri</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2011 yil may oyidan buyon\tKyoln xalqaro investitsiya huquqi markazi maslahat kengashi a'zosi</p>\n" +
-                "\n" +
-                "<h3>Oldingi va boshqa professional faoliyat</h3>\n" +
-                "                <p>2020\tMelburn universitetining huquqshunoslik fakultetining katta ilmiy xodimi\n</p>\n" +
-                "\n" +
-                "                <p>Iyun 2015 - 2018\tXalqaro boshqaruv innovatsiyalari markazining katta ilmiy xodimi (CIGI), Ontario, Kanada</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>May 2013 - Iyun 2015\tShveytsariyaning Lucerne universitetida tashrif buyurgan o'qituvchi (Xalqaro xom ashyo huquqi bo'yicha)</p>\n" +
-                "\n" +
-                "                <p>2011 yil apreldan\tLL.M.da  professor. Xalqaro iqtisodiy huquq dasturi,  Lozanna\n</p>\n" +
-                "\n" +
-                "                <p>2011 yil sentyabrdan\tShveytsariyaning Lozanna universitetining doimiy tashrif buyuruvchi professori\n</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2011 yil mart\tSidney universitetida tashrif buyurgan o'qituvchi (Evropa iqtisodiy huquqi)\n</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2010 yil sentyabr\tAdliya vazirligi xodimlari uchun Gruziyaning Tiflis shahrida \"Xalqaro investitsiyalarni himoya qilish huquqi\" bo'yicha ingliz tili kursining o'qituvchisi (GTZ - Germaniya Texnik Hamkorlik Assotsiatsiyasi va Germaniyaning Rivojlanish Vazirligi tomonidan tashkil etilgan).\n</p>\n" +
-                "                <p> 2010 yil aprel - 2015 yil mart Germaniya Siegen universitetida Yevropa huquqi, xalqaro ommaviy     huquq va xalqaro iqtisodiy huquq professori\n</p>\n" +
-                "                <p>Aprel. 2009 yil-2010 yil mart, Fridrix-Aleksandr universiteti Erlangen-Nyurnberg jamoat huquqi va xalqaro ommaviy huquq professori, Germaniya\n</p>\n" +
-                "                <p>Myunxen Lyudvig-Maksimilian universiteti Yevropa va xalqaro huquq professori <br/>\n" +
-                "                                              Siyosat akademiyasi o'qituvchisi (Hochschule für Politik), Myunxen, Germaniya\n\n</p>\n" +
-                "                <p>2008 yil oktabr- 2009 yil mart\tMyunxen Myunxen Lyudvig-Maksimilian universiteti jamoat huquqi, Yevropa huquqi va xalqaro ommaviy huquq professori\n</p>\n" +
-                "                <p>2008 yil aprel - 2008 yil sentyabr. \tDrezden TU konstitutsiyaviy, iqtisodiy va ekologik huquq professori \n</p>\n" +
-                "                <p>2006 yil oktabr - 2008 yil mart,\tMyunxen Lyudvig -Maksimilians universiteti jamoat huquqi professori\n</p>\n" +
-                "                <p>2005 yil oktyabr-2006 yil iyun\tThüringer Verwaltungs akademiyasi o'qituvchisi (Tyuringen savdo va sanoat va Evropa huquqi bo'yicha Germaniya ma'muriy huquqi akademiyasi), Erfurt, Germaniya\n</p>\n" +
-                "                <p>2006 yildan buyon\tmamlakat Germaniya, Evropa va xalqaro xaridlar huquqining rivojlanishi to'g'risida hisobot beradi\n</p>\n" +
-                "                <p>1998 yil avgust - sentyabr. 2006 Jan-Monnet kafedrasida jamoat huquqi, Yevropa huquqi, xalqaro ommaviy huquq va xalqaro iqtisodiy huquq kafedrasida o'qituvchi va katta ilmiy yordamchi (professor doktor Karl M. Meessen 1998-2004, professor doktor Kristian Uolter 2004/05, professor) Doktor Kristof Ohler, LLM 2005/06), Fridrix Shiller universiteti Yena, Germaniya, huquq fakulteti\n</p>\n" +
-                "\n" +
-                "\n" +
-                "              </div>\n" +
-                "              <div class=\"social\" style=\"text-align: center;\">\n" +
-                "                <a href=\"\"><i class=\"fa fa-twitter\"></i></a>\n" +
-                "                <a href=\"\"><i class=\"fa fa-facebook\"></i></a>               \n" +
-                "                <a href=\"\"><i class=\"fa fa-linkedin\"></i></a>\n" +
-                "              </div>\n" +
-                "             \n" +
-                "            </div>",
-            ru: "<div class=\"details\">\n" +
-                "              <h2>PROFILE</h2>             \n" +
-                "              <div style=\"text-align: justify;\">\n" +
-                "                <h3>Current Professional Activities (selection)</h3>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since April 2015:\tDirector of the Europa-Institut, Saarland University\n" +
-                "                  <br>\n" +
-                "                  Professor of Public International Law and European Law\n" +
-                "                </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since May 2015\tEditor of the European Yearbook of International Economic Law (EYIEL)</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since May 2011\tMember of the Advisory Board of the International Investment Law Centre, Cologne</p>\n" +
-                "\n" +
-                "<h3>Former and other Professional Activities</h3>\n" +
-                "                <p>2020\tSenior Fellow University of Melbourne Law School</p>\n" +
-                "\n" +
-                "                <p>June 2015 - 2018\tSenior Fellow at the Centre for International Governance Innovation (CIGI), Ontario, Canada</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>May 2013 - June 2015\tVisiting Lecturer (for International Raw Materials Law) at Lucerne University, Switzerland</p>\n" +
-                "\n" +
-                "                <p>Since April 2011\tAdjunct Professor in the LL.M. Program for International Economic Law, Lausanne</p>\n" +
-                "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>March 2011\tVisiting Lecturer at the University of Sydney (European Economic Law)</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>September 2010\tTutor of a course in English language on “International Investment Protection Law” for staff members of the Ministry of Justice in Tiflis, Georgia (organized by GTZ - German Association for Technical Cooperation - and the German Ministry for Developmental Aid)</p>\n" +
-                "\n" +
-                "\n" +
-                "              </div>\n" +
-                "              <div class=\"social\" style=\"text-align: center;\">\n" +
-                "                <a href=\"\"><i class=\"fa fa-twitter\"></i></a>\n" +
-                "                <a href=\"\"><i class=\"fa fa-facebook\"></i></a>               \n" +
-                "                <a href=\"\"><i class=\"fa fa-linkedin\"></i></a>\n" +
-                "              </div>\n" +
-                "             \n" +
-                "            </div>",
-            en: "<div class=\"details\">\n" +
-                "              <h2>PROFILE</h2>             \n" +
-                "              <div style=\"text-align: justify;\">\n" +
-                "                <h3>Current Professional Activities (selection)</h3>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since April 2015:\tDirector of the Europa-Institut, Saarland University\n" +
-                "                  <br>\n" +
-                "                  Professor of Public International Law and European Law\n" +
-                "                </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since May 2015\tEditor of the European Yearbook of International Economic Law (EYIEL)</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since May 2011\tMember of the Advisory Board of the International Investment Law Centre, Cologne</p>\n" +
-                "\n" +
-                "<h3>Former and other Professional Activities</h3>\n" +
-                "                <p>2020\tSenior Fellow University of Melbourne Law School</p>\n" +
-                "\n" +
-                "                <p>June 2015 - 2018\tSenior Fellow at the Centre for International Governance Innovation (CIGI), Ontario, Canada</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>May 2013 - June 2015\tVisiting Lecturer (for International Raw Materials Law) at Lucerne University, Switzerland</p>\n" +
-                "\n" +
-                "                <p>Since April 2011\tAdjunct Professor in the LL.M. Program for International Economic Law, Lausanne</p>\n" +
-                "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>March 2011\tVisiting Lecturer at the University of Sydney (European Economic Law)</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>September 2010\tTutor of a course in English language on “International Investment Protection Law” for staff members of the Ministry of Justice in Tiflis, Georgia (organized by GTZ - German Association for Technical Cooperation - and the German Ministry for Developmental Aid)</p>\n" +
-                "\n" +
-                "\n" +
-                "              </div>\n" +
-                "              <div class=\"social\" style=\"text-align: center;\">\n" +
-                "                <a href=\"\"><i class=\"fa fa-twitter\"></i></a>\n" +
-                "                <a href=\"\"><i class=\"fa fa-facebook\"></i></a>               \n" +
-                "                <a href=\"\"><i class=\"fa fa-linkedin\"></i></a>\n" +
-                "              </div>\n" +
-                "             \n" +
-                "            </div>"
-        }
-    },
-    {
-        id: 3,
-        img: "assets/img/speakers/3.jpg",
-        name: {
-            uz: "Prof. Dr. Marc Bungenberg, LL.M",
-            ru: "Prof. Dr. Marc Bungenberg, LL.M",
-            en: "Prof. Dr. Marc Bungenberg, LL.M"
-        },
-        degree: {
-            uz: "Nutq so'zlovchi",
-            ru: "Оратор",
-            en: "Speaker"
-        },
-        detail: {
-            uz: "<div class=\"details\">\n" +
-                "              <h2>PROFIL</h2>             \n" +
-                "              <div style=\"text-align: justify;\">\n" +
-                "                <h3>Hozirgi kasbiy faoliyati (tanlov)</h3>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2015 yil apreldan:\tSaarland universiteti, Yevropa instituti direktori\n" +
-                "                  <br>\n" +
-                "                  Xalqaro ommaviy huquq va Yevropa huquqi professori\n" +
-                "                </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2011 yil sentyabrdan\tShveytsariyaning Lozanna universitetining doimiy tashrif        buyuruvchi professori </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2015 yil may oyidan boshlab\tYevropa xalqaro iqtisodiy huquq yilnomasi (EYIEL) muharriri</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2011 yil may oyidan buyon\tKyoln xalqaro investitsiya huquqi markazi maslahat kengashi a'zosi</p>\n" +
-                "\n" +
-                "<h3>Oldingi va boshqa professional faoliyat</h3>\n" +
-                "                <p>2020\tMelburn universitetining huquqshunoslik fakultetining katta ilmiy xodimi\n</p>\n" +
-                "\n" +
-                "                <p>Iyun 2015 - 2018\tXalqaro boshqaruv innovatsiyalari markazining katta ilmiy xodimi (CIGI), Ontario, Kanada</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>May 2013 - Iyun 2015\tShveytsariyaning Lucerne universitetida tashrif buyurgan o'qituvchi (Xalqaro xom ashyo huquqi bo'yicha)</p>\n" +
-                "\n" +
-                "                <p>2011 yil apreldan\tLL.M.da  professor. Xalqaro iqtisodiy huquq dasturi,  Lozanna\n</p>\n" +
-                "\n" +
-                "                <p>2011 yil sentyabrdan\tShveytsariyaning Lozanna universitetining doimiy tashrif buyuruvchi professori\n</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2011 yil mart\tSidney universitetida tashrif buyurgan o'qituvchi (Evropa iqtisodiy huquqi)\n</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2010 yil sentyabr\tAdliya vazirligi xodimlari uchun Gruziyaning Tiflis shahrida \"Xalqaro investitsiyalarni himoya qilish huquqi\" bo'yicha ingliz tili kursining o'qituvchisi (GTZ - Germaniya Texnik Hamkorlik Assotsiatsiyasi va Germaniyaning Rivojlanish Vazirligi tomonidan tashkil etilgan).\n</p>\n" +
-                "                <p> 2010 yil aprel - 2015 yil mart Germaniya Siegen universitetida Yevropa huquqi, xalqaro ommaviy     huquq va xalqaro iqtisodiy huquq professori\n</p>\n" +
-                "                <p>Aprel. 2009 yil-2010 yil mart, Fridrix-Aleksandr universiteti Erlangen-Nyurnberg jamoat huquqi va xalqaro ommaviy huquq professori, Germaniya\n</p>\n" +
-                "                <p>Myunxen Lyudvig-Maksimilian universiteti Yevropa va xalqaro huquq professori <br/>\n" +
-                "                                              Siyosat akademiyasi o'qituvchisi (Hochschule für Politik), Myunxen, Germaniya\n\n</p>\n" +
-                "                <p>2008 yil oktabr- 2009 yil mart\tMyunxen Myunxen Lyudvig-Maksimilian universiteti jamoat huquqi, Yevropa huquqi va xalqaro ommaviy huquq professori\n</p>\n" +
-                "                <p>2008 yil aprel - 2008 yil sentyabr. \tDrezden TU konstitutsiyaviy, iqtisodiy va ekologik huquq professori \n</p>\n" +
-                "                <p>2006 yil oktabr - 2008 yil mart,\tMyunxen Lyudvig -Maksimilians universiteti jamoat huquqi professori\n</p>\n" +
-                "                <p>2005 yil oktyabr-2006 yil iyun\tThüringer Verwaltungs akademiyasi o'qituvchisi (Tyuringen savdo va sanoat va Evropa huquqi bo'yicha Germaniya ma'muriy huquqi akademiyasi), Erfurt, Germaniya\n</p>\n" +
-                "                <p>2006 yildan buyon\tmamlakat Germaniya, Evropa va xalqaro xaridlar huquqining rivojlanishi to'g'risida hisobot beradi\n</p>\n" +
-                "                <p>1998 yil avgust - sentyabr. 2006 Jan-Monnet kafedrasida jamoat huquqi, Yevropa huquqi, xalqaro ommaviy huquq va xalqaro iqtisodiy huquq kafedrasida o'qituvchi va katta ilmiy yordamchi (professor doktor Karl M. Meessen 1998-2004, professor doktor Kristian Uolter 2004/05, professor) Doktor Kristof Ohler, LLM 2005/06), Fridrix Shiller universiteti Yena, Germaniya, huquq fakulteti\n</p>\n" +
-                "\n" +
-                "\n" +
-                "              </div>\n" +
-                "              <div class=\"social\" style=\"text-align: center;\">\n" +
-                "                <a href=\"\"><i class=\"fa fa-twitter\"></i></a>\n" +
-                "                <a href=\"\"><i class=\"fa fa-facebook\"></i></a>               \n" +
-                "                <a href=\"\"><i class=\"fa fa-linkedin\"></i></a>\n" +
-                "              </div>\n" +
-                "             \n" +
-                "            </div>",
-            ru: "<div class=\"details\">\n" +
-                "              <h2>PROFILE</h2>             \n" +
-                "              <div style=\"text-align: justify;\">\n" +
-                "                <h3>Current Professional Activities (selection)</h3>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since April 2015:\tDirector of the Europa-Institut, Saarland University\n" +
-                "                  <br>\n" +
-                "                  Professor of Public International Law and European Law\n" +
-                "                </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since May 2015\tEditor of the European Yearbook of International Economic Law (EYIEL)</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since May 2011\tMember of the Advisory Board of the International Investment Law Centre, Cologne</p>\n" +
-                "\n" +
-                "<h3>Former and other Professional Activities</h3>\n" +
-                "                <p>2020\tSenior Fellow University of Melbourne Law School</p>\n" +
-                "\n" +
-                "                <p>June 2015 - 2018\tSenior Fellow at the Centre for International Governance Innovation (CIGI), Ontario, Canada</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>May 2013 - June 2015\tVisiting Lecturer (for International Raw Materials Law) at Lucerne University, Switzerland</p>\n" +
-                "\n" +
-                "                <p>Since April 2011\tAdjunct Professor in the LL.M. Program for International Economic Law, Lausanne</p>\n" +
-                "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>March 2011\tVisiting Lecturer at the University of Sydney (European Economic Law)</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>September 2010\tTutor of a course in English language on “International Investment Protection Law” for staff members of the Ministry of Justice in Tiflis, Georgia (organized by GTZ - German Association for Technical Cooperation - and the German Ministry for Developmental Aid)</p>\n" +
-                "\n" +
-                "\n" +
-                "              </div>\n" +
-                "              <div class=\"social\" style=\"text-align: center;\">\n" +
-                "                <a href=\"\"><i class=\"fa fa-twitter\"></i></a>\n" +
-                "                <a href=\"\"><i class=\"fa fa-facebook\"></i></a>               \n" +
-                "                <a href=\"\"><i class=\"fa fa-linkedin\"></i></a>\n" +
-                "              </div>\n" +
-                "             \n" +
-                "            </div>",
-            en: "<div class=\"details\">\n" +
-                "              <h2>PROFILE</h2>             \n" +
-                "              <div style=\"text-align: justify;\">\n" +
-                "                <h3>Current Professional Activities (selection)</h3>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since April 2015:\tDirector of the Europa-Institut, Saarland University\n" +
-                "                  <br>\n" +
-                "                  Professor of Public International Law and European Law\n" +
-                "                </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since May 2015\tEditor of the European Yearbook of International Economic Law (EYIEL)</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since May 2011\tMember of the Advisory Board of the International Investment Law Centre, Cologne</p>\n" +
-                "\n" +
-                "<h3>Former and other Professional Activities</h3>\n" +
-                "                <p>2020\tSenior Fellow University of Melbourne Law School</p>\n" +
-                "\n" +
-                "                <p>June 2015 - 2018\tSenior Fellow at the Centre for International Governance Innovation (CIGI), Ontario, Canada</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>May 2013 - June 2015\tVisiting Lecturer (for International Raw Materials Law) at Lucerne University, Switzerland</p>\n" +
-                "\n" +
-                "                <p>Since April 2011\tAdjunct Professor in the LL.M. Program for International Economic Law, Lausanne</p>\n" +
-                "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>March 2011\tVisiting Lecturer at the University of Sydney (European Economic Law)</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>September 2010\tTutor of a course in English language on “International Investment Protection Law” for staff members of the Ministry of Justice in Tiflis, Georgia (organized by GTZ - German Association for Technical Cooperation - and the German Ministry for Developmental Aid)</p>\n" +
-                "\n" +
-                "\n" +
-                "              </div>\n" +
-                "              <div class=\"social\" style=\"text-align: center;\">\n" +
-                "                <a href=\"\"><i class=\"fa fa-twitter\"></i></a>\n" +
-                "                <a href=\"\"><i class=\"fa fa-facebook\"></i></a>               \n" +
-                "                <a href=\"\"><i class=\"fa fa-linkedin\"></i></a>\n" +
-                "              </div>\n" +
-                "             \n" +
+                "              <h3>\n" +
+                "                Academic degree:\n" +
+                "              </h3>\n" +
+                "              <p>1) Doctor of Philosophy in Legal Sciences. (Tashkent State University of Law 12.00.03 – Civil Law,\n" +
+                "                Business Law, Family Law, Private International Law. Diploma 01 No. 000655). Author of more than 50\n" +
+                "                scientific publications.</p>\n" +
+                "              <h3>Training programs:</h3>\n" +
+                "              <p>1) The Parliament of India. Bureau of Parliamentary Research and Training. \"28 International Training\n" +
+                "                program on the development of draft laws\". February 14 - March 15, 2013, New Delhi, India.</p>\n" +
+                "              <p>2) \"Development and prosperity of youth\" on September 9-15, 2013, Kuala Lumpur, Malaysia.</p>\n" +
+                "              <p>3) \"Street law-Living Law\" on November 24-30, 2018, the International Law Firm White & Case LLP,\n" +
+                "                Washington, DC Columbia, USA.</p>\n" +
+                "              <p>4) \"Conclusion of contracts with foreign contractors and consideration of disputes with them: the\n" +
+                "                practice of contractual work and arbitration\". November 5-8, 2019, \"\n" +
+                "                M-Logos Institute of Law \",Moscow City, Russian Federation.\n" +
+                "              </p>\n" +
+                "              <h3>Work experience:</h3>\n" +
+                "              <p>2) 2007-2009. Head of the Cabinet of the Department \"State Construction and Law\" of the Academy of\n" +
+                "                Public Administration under the President of the Republic of Uzbekistan.</p>\n" +
+                "              <p>3) 2009-2013. Lecturer at the Law Faculty of Tashkent Islamic University under the Cabinet of Ministers\n" +
+                "                of the Republic of Uzbekistan. (Private International Law, Civil Law, Civil Procedural Law)</p>\n" +
+                "              <p>4) 2013-2016 years. Lecturer of the Department of \"Civil Procedural and Economic Procedural Law\" of\n" +
+                "                Tashkent State University of Law\n" +
+                "                (Civil procedural law, Economic procedural law, Procedural acts\n" +
+                "                on civil cases and economic cases).\n" +
+                "              <p>4.1) 2014-2017. \"Head of the Department for collaboration with lyceums and Colleges\"\n" +
+                "                (part-time).\n" +
+                "              </p>\n" +
+                "              <p>4.2) in 2018. Legal expert of the UNDP project \"Development of the investment environment in the\n" +
+                "                Republic of Uzbekistan\" (part-time).</p>\n" +
+                "              </p>\n" +
+                "              <p>5) 2016-2018 Senior Lecturer of the Department of \"International Commercial Law\" of Tashkent State\n" +
+                "                University of Law (Private international law, International Arbitration, International Trade Law, Free\n" +
+                "                Economic Zones).</p>\n" +
+                "              <p>\n" +
+                "                6) 2019 from January to March. Senior Lecturer of the Department of \"International Commercial Law\" of\n" +
+                "                Tashkent State University of Law (Private international law, International Arbitration, International\n" +
+                "                Trade Law, Free Economic Zones).\n" +
+                "              </p>\n" +
+                "\n" +
+                "              <p> 7) from March , 2019 to 2021. Lawyer of the foreign company \"Enter engineering Pte. Ltd\". (Working\n" +
+                "                with contracts: checking, drafting and approving contracts, issuing legal opinions and recommendations.\n" +
+                "                Carrying out an expert examination of draft orders, orders, contracts and other legal documents for\n" +
+                "                their compliance with the legislation of the Republic of Uzbekistan. Resolution of labor disputes.\n" +
+                "                Participation in courts to protect the interests of the company). </p>\n" +
+                "              <p>8) Since January 2021, Head of the Department of \"Private International Law\" of Tashkent State\n" +
+                "                University of Law , Doctor of Philosophy in Legal Sciences (PhD). </p>\n" +
                 "            </div>"
         }
     },
 ];
 
-// let dataStatic = [
-//     {
-//         "id": "homeNav",
-//         "uz": "Bosh sahifa",
-//         "ru": "Дом",
-//         "en": "Home"
-//     },
-//     {
-//         "id": "aboutNav",
-//         "uz": "Haqida",
-//         "ru": "O нас",
-//         "en": "About"
-//     },
-//     {
-//         "id": "speakerNav",
-//         "uz": "Spekerlar",
-//         "ru": "Оратор",
-//         "en": "Speakers"
-//     },
-//     {
-//         "id": "scheduleNav",
-//         "uz": "Jadval",
-//         "ru": "Расписание",
-//         "en": "Schedule"
-//     },
-//     {
-//         "id": "venueNav",
-//         "uz": "Joylar",
-//         "ru": "Место проведения",
-//         "en": "Venue"
-//     },
-//     {
-//         "id": "galleryNav",
-//         "uz": "Galereya",
-//         "ru": "Галерея",
-//         "en": "Gallery"
-//     },
-//     {
-//         "id": "homeText",
-//         "uz": "Bosh sahifa",
-//         "ru": "Дом",
-//         "en": "Home"
-//     }
-// ];
 
 function speakerList(lang) {
     data.map((item) => {
