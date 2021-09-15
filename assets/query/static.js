@@ -78,22 +78,112 @@ let dataStatic=[
         "en": "where"
     },
     {
-        "id": "1",
+        "id": "Hyatt",
         "uz":"Hyatt mehmonhonasi, Toshkent",
         "ru": "Гостиница Hyatt, Ташкент",
         "en": "Hyatt Regency, Tashkent"
     },
     {
-        "id": "2",
-        "uz":"Hyatt mehmonhonasi, Toshkent",
-        "ru": "Гостиница Hyatt, Ташкент",
-        "en": "Hyatt Regency, Tashkent"
+        "id": "when",
+        "uz":"Marosim sanasi",
+        "ru": "Дата церемонии",
+        "en": "when"
     },
     {
-        "id": "3",
-        "uz":"Hyatt mehmonhonasi, Toshkent",
-        "ru": "Гостиница Hyatt, Ташкент",
-        "en": "Hyatt Regency, Tashkent"
+        "id": "eventDate",
+        "uz":"Juma 17 sentyabr",
+        "ru": "Пятница, 17 сентября",
+        "en": "Friday 17 September"
+    },
+    {
+        "id": "Event_Speakers",
+        "uz":"Nutq so'zlovchilar",
+        "ru": "Спикеры мероприятия",
+        "en": "Event Speakers"
+    },
+    {
+        "id": "eventSchedule",
+        "uz":"Nutq so'zlovchilar ro'yhati",
+        "ru": "Список спикеров мероприятия",
+        "en": "List of event speakers"
+    },
+    {
+        "id": "eventSchedule1",
+        "uz":"Nutq so'zlovchilar ro'yhati",
+        "ru": "Список спикеров мероприятия",
+        "en": "List of event speakers"
+    },
+    {
+        "id": "eventSchedule2",
+        "uz":"Nutq so'zlovchilar",
+        "ru": "Спикеров мероприятия",
+        "en": "Event speakers"
+    },
+    {
+        "id": "eventVenue",
+        "uz":"Marosim joyi",
+        "ru": "Место проведения церемонии",
+        "en": "The place of the ceremony"
+    },
+    {
+        "id": "eventPlaceInfo",
+        "uz":"Marosim joyi va uning ko'rinishi",
+        "ru": "Место церемонии и ее внешний вид",
+        "en": "Event venue location info and gallery"
+    },
+    {
+        "id": "venueGallery",
+        "uz":"Galereya",
+        "ru": "Галерея",
+        "en": "Gallery"
+    },
+    {
+        "id": "hyattImg",
+        "uz":"Mehmonhona ko'rinishi",
+        "ru": "Вид на отель",
+        "en": "Hotel view"
+    },
+    {
+        "id": "aboutTheTSUL",
+        "uz":"Unversitet haqida",
+        "ru": "Об университете",
+        "en": "About the university"
+    },
+    {
+        "id": "UnverInfo",
+        "uz":"Toshkent davlat yuridik universiteti (TDYU) yuridik kadrlarni tayyorlash bo‘yicha O‘zbekistonda tayanch  oliy o‘quv va ilmiy-uslubiy muassasa hisoblanadi.",
+        "ru": "Ташкентский государственный юридический университет является базовым высшим образовательным и научно-методическим учреждением по подготовке юридических кадров в Узбекистане.",
+        "en": "Tashkent State University of Law (TSUL) is the main higher educational and scientific institution for educating, training and retraining of lawyers in the Republic of Uzbekistan."
+    },
+    {
+        "id": "footerCon",
+        "uz":"Bog'lanish",
+        "ru": "Контакт",
+        "en": "Contact us"
+    },
+    {
+        "id": "Phone",
+        "uz":"Telefon",
+        "ru": "Телефон",
+        "en": "Contact us"
+    },
+    {
+        "id": "email",
+        "uz":"Email",
+        "ru": "Эл. адрес",
+        "en": "Email"
+    },
+    {
+        "id": "footerAdress",
+        "uz":"Manzil",
+        "ru": "адрес",
+        "en": "address"
+    },
+    {
+        "id": "laction",
+        "uz":"O‘zbekiston Respublikasi,100047. Toshkent sh, Sayilgoh ko‘ch., 35 uy ",
+        "ru": "Республика Узбекистан, 100047. г. Ташкент, ул. Сайилгох, 35",
+        "en": "100047, Sayilgokh str. 35, Tashkent,Uzbekistan"
     },
 ];
 function staticWords(lang) {
