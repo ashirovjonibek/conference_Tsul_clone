@@ -2249,8 +2249,8 @@ let data = [
             "<p><b>Web site</b></p>\n"+    
             "<p>Official: http://www.law.kobe-u.ac.jp/graduate/faculty/professor/kawashima.html</p>\n"+  
             "<p><b>Private:</b></p>\n"+    
-            "<p></p>\n"+    
-            "<p></p>\n"+    
+            "<p>https://fujiokawashima.wordpress.com/</p>\n"+    
+            "<p>He has worked for the World Trade Organization (WTO) since the 1990s on scientific issues such as dispute resolution, legal reforms related to China's WTO accession, and the development of competition law in Asian countries. Over the years, she has served as the Academic Supervisor in English for students interested in the WTO and competition law. He is currently leading a WTO training workshop.</p>\n"+    
 
 
 
@@ -2265,9 +2265,222 @@ let data = [
         id: 21,
         img: "assets/img/speakers/21.jpg",
         name: {
-            uz: "Fujio Kavashima",
-            ru: "Профессор Фудзио",
-            en: "Fujio Kavashima"
+            uz: "Koen Marquering",
+            ru: "Кун Маркверинг",
+            en: "Koen Marquering"
+        },
+        degree: {
+            uz: "Nutq so'zlovchi",
+            ru: "Оратор",
+            en: "Speaker"
+        },
+        detail: {
+            uz: "<div class=\"details\">\n" +            
+                "              <div style=\"text-align: justify;\">\n" +                            
+       "<p>2019 yildan buyon jinoiy adolat, jinoyatchilikning oldini olish va korrupsiyaga qarshi kurashish dasturi UNODC ROCA kordinatori lavozimida faoliyat yuritib kelmoqda.</p>\n"+
+       "<p>U Birlashgan Millatlar Tashkilotining Giyohvandlik va jinoyatchilik bo'yicha boshqarmasi (UNODC) Qirg'iziston Respublikasidagi dasturlar boshqarmasi boshlig'i vazifasini bajaruvchi va UNODCning Markaziy Osiyo uchun 2015-2019 yillarga mo'ljallangan dasturining 'Jinoyat odilligi, jinoyatchilikning oldini olish va yaxlitlik' dasturining muvofiqlashtiruvchisi bo'lgan. Ushbu dastur UNODC Markaziy Osiyoda texnik yordam ko'rsatadigan keng qamrovli strategik tizimni ifodalaydi.</p>\n"+     
+       "<p>2012 yilda UNODCga kirishdan oldin Koen Marquering BMT Inson huquqlari bo'yicha Oliy komissari idorasi (2005-2009) va Birlashgan Millatlar Tashkilotining Taraqqiyot Dasturi (2010-2012) da faoliyat olib borgan.</p>\n"+     
+       "<p>Koen Marquering Inson huquqlari va demokratlashtirish bo'yicha Yevropa universitetlararo markazining Inson huquqlari va demokratlashtirish magistri, shuningdek, Gollandiyadagi Groningen universitetining xalqaro munosabatlar magistri hisoblanadi. </p>\n"+                
+              "              </div>\n" +
+                "\n" +
+                "            </div>",
+            ru: "<div class=\"details\">\n" +
+     "              </div>\n" +
+     "<p>Кун Маркверинг – координатор программы по уголовному правосудию, предупреждению преступности и борьбе с коррупцией в УНП ООН в Центральной Азии с 2019 по настоящее время.</p>\n" +
+     "<p>С 2015 года – был исполняющим обязанности руководителя Программного офиса Управления ООН по наркотикам и преступности (УНП ООН) в Кыргызской Республике, и координатор Подпрограммы 2 «Уголовное правосудие, предупреждение преступности и неподкупность» Программы УНП ООН для Центральной Азии на 2015-2019 гг. Эта Программа представляет собой всеобъемлющую стратегическую основу, в рамках которой УНП ООН оказывает техническую помощь в Центральной Азии.</p>\n" +
+     "<p>До прихода в УНП ООН в 2012 году Коэн Маркверинг работал в Управлении Верховного комиссара ООН по правам человека (2005–2009 годы) и Программе развития Организации Объединенных Наций (2010–2012 годы).</p>\n" +
+     "<p>Кун Маркверинг имеет степень магистра в области прав человека и демократизации Европейского межуниверситетского центра по правам человека и демократизации, а также степень магистра международных отношений Гронингенского университета в Нидерландах.</p>\n" +  
+            "\n" +
+            "            </div>",
+            en: "<div class=\"details\">\n" +             
+            "              <div style=\"text-align: justify;\">\n" +                            
+            "<p>Koen Marquering- Criminal Justice, Crime Prevention and Anti-Corruption Program Coordinator at UNODC ROCA from 2019 till present time.</p>\n"+     
+            "<p>He was the Acting Head of the United Nations Office on Drugs and Crime (UNODC) Program Office in the Kyrgyz Republic and Coordinator of Sub-Program 2 “Criminal Justice, Crime Prevention and Integrity” of the UNODC Program for Central Asia 2015-2019. This Program represents the overarching strategic framework under which UNODC provides technical assistance in Central Asia. </p>\n"+     
+            "<p>Before joining UNODC in 2012, Koen Marquering completed assignments with the Office of the UN High Commissioner for Human Rights (2005-2009) and the United Nations Development Programme (2010-2012).</p>\n"+     
+            "<p>Koen Marquering holds a Master’s Degree in Human Rights and Democratisation from the European Inter-University Centre in Human Rights and Democratisation, as well as a Master’s Degree in International Relations from the University of Groningen in the Netherlands.</p>\n"+                 
+
+
+          "              </div>\n" +
+            "\n" +
+            "            </div>"
+        }
+    },
+
+    {
+        id: 22,
+        img: "assets/img/speakers/22.jpg",
+        name: {
+            uz: "Окюлов Омонбай",
+            ru: "Окюлов Омонбай",
+            en: "Okyulov Omonbay"
+        },
+        degree: {
+            uz: "Nutq so'zlovchi",
+            ru: "Оратор",
+            en: "Speaker"
+        },
+        detail: {
+            uz: "<div class=\"details\">\n" +            
+                "              <div style=\"text-align: justify;\">\n" +                            
+     "<p>2015 йил 11 февралдан:</p>\n"+
+     "<p><b>Тошкент давлат юридик университетининг “Фуқаролик ҳуқуқи” кафедраси профессори</b></p>\n"+
+     "<p>Туғилган йили: 02.05.1953</p>\n"+
+     "<p>Туғилган жойи: Фарғона вилояти, Фурқат тумани</p>\n"+
+     "<p>Маълумоти бўйича мутахассислиги: ҳуқуқшунос</p>\n"+
+     "<p>Илмий даражаси: юридик фанлари доктори </p>\n"+
+     "<p>Илмий унвони: профессор</p>\n"+
+     "<p><b>Давлат мукофотлари билан тақдирланганми (қанақа):</b> Ўзбекистон Республикасида хизмат кўрсатган юрист</p>\n"+
+     "<h2>МЕҲНАТ ФАОЛИЯТИ</h2>\n"+
+     "<p>1975-1980 йй. - Тошкент давлат университети юридик факультети талабаси     </p>\n"+
+     "<p>1980-1983 йй. - Ўзбекистон Республикаси Фанлар Академияси И.Мўминов номли фалсафа ва ҳуқуқ институтининг фуқаролик ва хўжалик ҳуқуқи бўлими катта лаборанти</p>\n"+
+     "<p>1983-1986 йй. - Ўзбекистон Республикаси Фанлар Академияси И.Мўминов номли фалсафа ва ҳуқуқ институтининг фуқаролик, оила ва хўжалик ҳуқуқи бўлими катта лаборанти</p>\n"+
+     "<p>1986-1987 йй. - Ўзбекистон Республикаси Фанлар Академияси И.Мўминов номли фалсафа ва ҳуқуқ институтининг хўжалик ҳуқуқи бўлими катта лаборанти</p>\n"+
+     "<p>1987-1994 йй. - Ўзбекистон Республикаси Фанлар Академияси И.Мўминов номли фалсафа ва ҳуқуқ институтининг хўжалик ҳуқуқи бўлими кичик илмий ходими, катта илмий ходим вазифасини бажарувчиси</p>\n"+
+     "<p>1994-1996 йй. - Ўзбекистон Республикаси Фанлар Академияси И.Мўминов номли фалсафа ва ҳуқуқ институтининг мулк ва бозор муносабатлари ҳуқуқий муаммолари бўлими катта илмий ходими</p>\n"+
+     "<p>1996-2002 йй. - Тошкент давлат юридик институти “Фуқаролик ҳуқуқи” кафедраси доцент вазифасини бажарувчиси, доценти, профессор вазифасини бажарувчиси</p>\n"+
+     "<p>2002-2005 йй. - Тошкент давлат юридик институти “Хўжалик ва меҳнат ҳуқуқи” кафедраси профессор вазифасини бажарувчи</p>\n"+
+     "<p>2002-2005 йй. - Тошкент давлат юридик институти “Хўжалик ва меҳнат ҳуқуқи” кафедраси профессор вазифасини бажарувчи</p>\n"+
+     "<p>2007-2013 йй. - Тошкент давлат юридик институти “Хўжалик ҳуқуқи ва хўжалик процессуал ҳуқуқи” кафедраси мудири, кафедра профессори</p>\n"+
+     "<p>2007-2013 йй. - Тошкент давлат юридик институти “Хўжалик ҳуқуқи ва хўжалик процессуал ҳуқуқи” кафедраси мудири, кафедра профессори</p>\n"+
+     "<p>2015 й.-ҳ.в. - Тошкент давлат юридик университетининг Фуқаролик ҳуқуқи кафедраси профессори</p>\n"+
+     "<p></p>\n"+
+                "              </div>\n" +
+                "\n" +
+                "            </div>",
+
+            ru: "<div class=\"details\">\n" +
+     "              </div>\n" +
+    "<p><b>Профессор кафедры</b></p>\n"+
+    "<p><b>Гражданское право Ташкентского государственного юридического университета</b></p>\n"+
+    "<p><b>Профиль</b></p>\n"+
+    "<p>1975-1980 Ташкентский государственный университет</p>\n"+
+    "<p>1980-1983 гг. - Академия наук Республики Узбекистан старший лаборант кафедры гражданского и хозяйственного права Института философии и права им. И. Муминова</p>\n"+
+    "<p>1983-1986гг. - Академия наук Республики Узбекистан старший лаборант кафедры гражданского, семейного и хозяйственного права Института философии и права имени И. Муминова</p>\n"+
+    "<p>1986-1987 гг. - Академия наук Республики Узбекистан старший лаборант кафедры экономического права Института философии и права им. И. Муминова</p>\n"+
+    "<p>1987-1994 гг. - Академия наук Республики Узбекистан, исполняющий обязанности младшего научного сотрудника, старшего научного сотрудника кафедры экономического права Института философии и права имени И. Муминова</p>\n"+
+    "<p>1994-1996 гг. - Академия наук Республики Узбекистан старший научный сотрудник отдела правовых проблем собственности и рыночных отношений Института философии и права им. И. Муминова</p>\n"+
+    "<p>1996-2002 гг. - исполняющий обязанности доцента кафедры 'Гражданское право' Ташкентского государственного юридического института</p>\n"+
+    "<p>2002-2005 гг. - и. о. профессора кафедры 'Экономическое и трудовое право' Ташкентского государственного юридического института</p>\n"+
+    "<p>2005-2007 гг. - профессор кафедры 'Экономическое право и процесс' Ташкентского государственного юридического института</p>\n"+
+    "<p>2007-2013 гг. - профессор кафедры 'Экономическое право и экономическое процессуальное право' Ташкентского государственного юридического института.</p>\n"+
+    "<p>2013-2015 гг. – заведующий кафедрой гражданского права Ташкентского государственного юридического университета</p>\n"+
+    "<p>2015 г. - в настоящее время – профессор кафедры 'Гражданское право' Ташкентского государственного юридического университета</p>\n"+
+    
+
+
+     "\n" +
+            "            </div>",
+            en: "<div class=\"details\">\n" +             
+            "              <div style=\"text-align: justify;\">\n" +                            
+    "<p><b>Professor of the Department of the 'Civil law' at Tashkent State University of law</b></p>\n"+
+    "<p><b>Profile</b></p>\n"+
+    "<p>1975-1980 Tashkent State University </p>\n"+
+    "<p>1980-1983 yy. - Academy of Sciences of the Republic of Uzbekistan senior laboratory assistant of the civil and Economic Law Department of the Institute of philosophy and law named after I.Muminov</p>\n"+
+    "<p>1983-1986y. - Academy of Sciences of the Republic of Uzbekistan senior laboratory assistant of the Civil, family and Economic Law Department of the Institute of philosophy and law named after I.Muminov</p>\n"+
+    "<p>1986-1987 y. - Academy of Sciences of the Republic of Uzbekistan senior laboratory assistant of the Department of Economic Law of the Institute of philosophy and law named after I.Muminov</p>\n"+
+    "<p>1987-1994 y. - Academy of Sciences of the Republic of Uzbekistan acting as a junior scientific worker, senior scientific worker of the Department of Economic Law of the Institute of philosophy and law named after I.Muminov</p>\n"+
+    "<p>1994-1996 y. - Academy of Sciences of the Republic of Uzbekistan senior researcher of the Department of legal problems of property and market relations of the Institute of philosophy and law named after I.Muminov</p>\n"+
+    "<p>1996-2002 y. - Acting associate professor of the Department of 'civil law' of the Tashkent State Institute of law</p>\n"+
+    "<p>2002-2005 y. - Acting professor of the department 'Economic and labor law' of the Tashkent State Institute of law</p>\n"+
+    "<p>2005-2007 y. - Professor of the department 'Economic law and process' of Tashkent State Institute of Law</p>\n"+
+    "<p>2007-2013 y. - Professor of the department 'Economic law and economic procedural law' of Tashkent State Institute of Law</p>\n"+
+    "<p>2013-2015 y. – The head of the Department of civil law of Tashkent State University of Law</p>\n"+
+    "<p>2015 - now – Professor of the Department of 'Civil law' at Tashkent State University of Law</p>\n"+    
+
+          "              </div>\n" +
+            "\n" +
+            "            </div>"
+        }
+    },
+
+    {
+        id: 23,
+        img: "assets/img/speakers/23.jpg",
+        name: {
+            uz: "Suyunova Dilbar",
+            ru: "Суюнова Дильбар",
+            en: "Koen Marquering"
+        },
+        degree: {
+            uz: "Nutq so'zlovchi",
+            ru: "Оратор",
+            en: "Speaker"
+        },
+        detail: {
+            uz: "<div class=\"details\">\n" +            
+                "              <div style=\"text-align: justify;\">\n" +                            
+       "<p></p>\n"+
+       "<p></p>\n"+
+       "<p></p>\n"+
+       "<p></p>\n"+
+       "<p></p>\n"+
+       "<p></p>\n"+
+
+                "              </div>\n" +
+                "\n" +
+                "            </div>",
+            ru: "<div class=\"details\">\n" +
+     "              </div>\n" +
+    "<p>И.о.профессора Ташкентского государственного юридического университета, доктор юридических наук, доцент</p>\n"+
+    "<p>Дата рождения: 05.06.1963г.</p>\n"+
+    "<p>Знание иностранных языков: лекции на русском, узбекском языках.</p>\n"+
+    "<h2>Опыт работы:</h2>\n"+
+    "<p>Имеет стаж работы в сфере юриспруденции более 30 лет, из них, около 20 лет в качестве судьи, в том числе, в Верховном суде Республики Узбекистан в должности председателя коллегии по уголовным делам, многолетний опыт преподавания уголовно-правовых дисциплин в ТДЮУ и Университете общественной безопасности, где является членом Научных Советов по защите докторских диссертаций по специальностям “Уголовное право, Уголовный процесс”, член редколлегии научно-аналитического журнала “Обзор законодательства Узбекистана”, международного журнала киберисследований (ICRJ), почетный член «Зиёлилар гурухи» ТДЮУ. В настоящее время и.о. профессора кафедры «Уголовно-процессуального права» Ташкентского государственного юридического университета.</p>\n"+
+    "<h2>Направления исследований:</h2>\n"+
+    "<p>- кредитно-правовые отношения;</p>\n"+
+    "<p>- совершенствование уголовного, уголовно-процессуального законодательства;</p>\n"+
+    "<p>-вопросы применения уголовно-правовых норм в судебно-следственнoй практике.</p>\n"+
+    "<h3>Учебная деятельность:</h3>\n"+
+    "<p>- Уголовно-процессуальное право;</p>\n"+
+    "<p>- Адвокат в уголовном судопроизводстве;</p>\n"+
+    "<p>- Обвинение и защита в уголовном процессе;</p>\n"+
+    "<p>- Доказательства и доказывание в уголовном процессе.</p>\n"+
+    "<h2>Опубликованы основные работы:</h2>\n"+
+    "<p>– Д.Суюнова. Оқланиш ва реабилитацияга эришиш ҳуқуқингиз бор. Тошкент давлат юридик университети.2020.</p>\n"+
+    "<p>–Жиноят ҳуқуқи. Казуслар тўплами.Ўзбекистон Республикаси Миллий   гвардияси.Харбий-техник институти. Тошкент 2020.</p>\n"+
+    "<p>-Д.Суюнова. Вопросы совершенствования уголовно-правовых мер для   предотвращения насилия в отношении женщин. Евразийский юридический журнал.2021. №2. С.262-265</p>\n"+
+    "<p>- D.Suyunova, Bodhisatva Acharya. Prospects for the Institution of Preliminary Hearing in Uzbekistan. The American Journal of Political Science Law and criminology (ISSN-2693-0803) February 28, 2021.page 139-143</p>\n"+
+
+
+     "\n" +
+            "            </div>",
+            en: "<div class=\"details\">\n" + 
+            "<p>Acting professor of the Tashkent State Law University, Doctor of Law (DSc), docent</p>\n"  +
+            "              <div style=\"text-align: justify;\">\n" +                            
+           "<p><b>Date of birth:</b> 1963.05.06</p>\n"+
+           "<p>Knowledge of foreign languages: holds lections on Uzbek and Russian.</p>\n"+
+           "<h2>Work experience:</h2>\n"+
+           "<p>She has more than 30 years of experience in the field of jurisprudence, including about 20 years as a judge, including in the Supreme Court of the Republic of Uzbekistan as chairman of the criminal Cases Board, many years of experience in teaching criminal law disciplines at the TDUU and the University of Public Security, where she is a member of the Scientific Councils for the defense of doctoral dissertations in the specialties 'Criminal Law, Criminal Procedure', a member of the editorial board of the scientific and analytical journal 'Review of Legislation of Uzbekistan', the international journal of Cyber Research (ICRJ), Honorary member of the 'Zielilar Guruhi' TDUU. Currently, she is an acting professor of the Department of 'Criminal Procedure Law' of the Tashkent State Law University.</p>\n"+
+           "<h2>Research fields:</h2>\n"+
+           "<p>- credit and legal relations;</p>\n"+
+           "<p>- improvement of the criminal, criminal procedure legislation;</p>\n"+
+           "<p>- issues of the application of criminal law norms in judicial and investigative practice.</p>\n"+
+           "<h2>Educational activities:</h2>\n"+
+           "<p>- Criminal Procedure Law;</p>\n"+
+           "<p>- Lawyer in criminal proceedings</p>\n"+
+           "<p>- Prosecution and defense in criminal proceedings;</p>\n"+
+           "<p>- Evidence and proof in criminal proceedings.</p>\n"+
+           "<h2>Publications:</h2>\n"+
+           "<p>- D.Suyunova. You have the right to acquittal and rehabilitation. Tashkent State Law University.2020.</p>\n"+
+           "<p>- Criminal law. Collection of cases. National Guard of the Republic of Uzbekistan. Military-Technical Institute. Tashkent 2020.</p>\n"+
+           "<p>- D. Suyunova. Issues of improving criminal law measures to prevent violence against women. Eurasian Law Journal. 2021. No. 2. S.262-265</p>\n"+
+           "<p>- D.Suyunova, Bodhisatva Acharya. Prospects for the Institution of Preliminary Hearing in Uzbekistan. The American Journal of Political Science Law and criminology (ISSN-2693-0803) February 28, 2021.page 139-143</p>\n"+
+
+
+
+          "              </div>\n" +
+            "\n" +
+            "            </div>"
+        }
+    },
+
+    {
+        id: 24,
+        img: "assets/img/speakers/24.jpg",
+        name: {
+            uz: "ZACHARY R. CALO",
+            ru: "ZACHARY R. CALO",
+            en: "ZACHARY R. CALO"
         },
         degree: {
             uz: "Nutq so'zlovchi",
@@ -2276,59 +2489,155 @@ let data = [
         },
         detail: {
             uz: "<div class=\"details\">\n" +
-                "         <h2><b>Ta’lim</h2>" +               
-                "              <div style=\"text-align: justify;\">\n" +                            
-       "<p>1990 y. Tokio universiteti (LL.B.)</p>\n"+     
-       "<p>1990 y. Tokio universiteti ilmiy xodimi</p>\n"+     
-       "<p>1996 y. Kanazava universiteti dotsenti</p>\n"+     
-       "<p>2005 y. Nagoya universiteti dotsenti</p>\n"+     
-       "<p>2011 y. Nagoya universiteti professori</p>\n"+     
-       "<p>2015 y. Kobe universiteti professori</p>\n"+     
-       "<h2>Ilmiy yoʼnalishi</h2>\n"+     
-       "<p>Xalqaro iqtisodiyot huquqi, Osiyo davlatlarida raqobat huquqi</p>\n"+     
-       "<p><b>Website</b></p>\n"+     
-       "<p>Rasmiy: </p>\n"+  
-       "<p>http://www.law.kobe-u.ac.jp/graduate/faculty/professor/kawashima.html </p>\n"+     
-       "<p>Shaxsiy:</p>\n"+     
-       "<p>https://fujiokawashima.wordpress.com/ </p>\n"+   
-       "<p>U 1990-yillardan buyon Jahon Savdo Tashkilotida (JST) nizolarni xal etish, Xitoyning JSTga kirishi bilan bog`liq huquqiy islohotlar hamda Osiyo davlatlarida raqobat huquqining rivojlanishi kabi ilmiy mavzularda o`z faoliyatini olib bormoqda. Yillar davomida u JST faoliyati va raqobat huquqiga qiziqqan talabalarga ingliz tilida ilmiy rahbarlik vazifasini bajarib kelmoqda. U hozirda JST moot ustaxonasini (WTO Moot Workshop) yuritib kelmoqda.</p>\n"+     
+                "         <h2><b>Ta’lim</h2>" +
+                "              <div style=\"text-align: justify;\">\n" +
+                "<p>Pepperdine huquq maktabi, Straus instituti, LLM, nizolarni hal qilish (2021)\n</p>\n" +
+                "<p>Virjiniya universiteti, MA,  (2020)</p>\n" +
+                "<p>Pensilvaniya universiteti, fan doktori, tarix (2007)\n<br>" +
+                "Jeykob K. Javits stipendiyasi, AQSh ta'lim vazirligi; Franklin Mellon xodimi</p>\n" +
+                "<p>Virjiniya universiteti huquqshunoslik fakulteti, JD (2005)\n<br>" +
+                "Virjiniya qonunlari sharhi, tahririyat kengashi</p>\n" +
+                "<p>Jon Xopkins universiteti, san'at magistri, tarix (1997)\n<br>" +
+                "Jons Xopkins universiteti, BA, Tarix (1997)\n<br>" +
+                "Peabody Konservatoriyasi, (1997)\n</p>\n<br>" +
+                "<h2>O'QITISH FAOLIYATLARI</h2>\n" +
+                "<p>Hamad bin Xalifa universiteti yuridik fakulteti, Doha, Qatar\n</p>\n" +
+                "<p>Pritsker yuridik maktabi, Chikago, Illinoys, AQSh professori (2015 yildan hozirgi kungacha)\n\n</p>\n" +
+                "<p>Valparaiso universiteti huquqshunoslik maktabi, Valparaiso, Indiana, AQSh\n" +
+                "Maykl va Diana Svigert professor (2012-2015), huquqshunoslik professori (2013-2014)\n\n</p>\n" +
+                "<p>Huquq kafedrasi dotsenti (2010-2013) (2012 yil noyabrda berilgan) Huquq kafedrasi dotsenti (2007-2010)\n\n</p>\n" +
+                "<p><b>QONUNIY FAOLIYATLAR</b></p>\n" +
+                "<p>McNair Chamber, Doha, Qatar / London, Buyuk Britaniya\n" +
+                "Advokat / Sport huquqi va xalqaro arbitraj palatasi a'zosi (2021 - hozirgacha)\n</p>\n" +
+                "<p>London, Buyuk Britaniya Xalqaro arbitrlar va vositachilar panelining a'zosi\n" +
+                " (2021 - hozirgacha)\n</p>\n" +
+                "<p>Xalqaro arbitrlar va vositachilar panelining a'zosi Doha, Qatar (2019-hozirgacha)\n</p>\n" +
+                "<p>Teng bandlik bo'yicha komissiya, Charlotte, Shimoliy Karolina, AQSh vositachisi (2021 - hozirgacha)\n</p>\n" +
+                "<p>Keyn okrugini ko'chirish bo'yicha vositachilik dasturi, Keyn okrugi, Illinoys, AQSh vositachisi (2021 - hozirgacha)</p>\n" +
+                "<p>DuPage County ko'chirish vositachilik dasturi, DuPage County, Illinoys, AQSh mediatori (2021 - hozirgacha)\n" +
+                "\n</p>\n" +
+                "<p>Bakley, LLP, Vashington, Kolumbiya\n" +
+                "Bank va moliya institutlarini tartibga solish amaliyoti bo'yicha advokat (2005-2007)\n</p>\n" +
+                "<p>Amerika Qo'shma Shtatlari Adliya Departamenti, Fuqarolik huquqlari bo'limi, Vashington shtatining yozgi mukofotlari dasturi, bandlik bo'yicha da'vo bo'limi (2004)\n</p>\n" +
+                "<p>Qatar shimoli -g'arbiy universiteti, Doxa, Qatar sport huquqi professori (2021 yildan hozirgi kungacha)\n\n</p>\n" +
+                "<p>Yetakchilik fanlari akademiyasi, Tsyurix, Shveytsariya\n" +
+                "Sport huquqi, xalqaro munosabatlar va diplomatiya dasturlari o'qituvchisi (2021 yildan hozirgi kungacha)</p>\n" +
+                "<p>Toshkent davlat yuridik universiteti, Toshkent, O'zbekiston, yuridik professori (2021 yildan hozirgi kungacha)\n</p>\n" +
+                "<p>Notre Dame universiteti Avstraliya huquqshunoslik maktabi, Sidney, Avstraliya huquqshunoslik professori (ad.) (2018 - hozirgacha)\n</p>\n" +
+                "<p>Ochiq Universitet biznes va huquq maktabi, London, Buyuk Britaniya mehmon professori (2017 - hozirgacha)\n</p>\n" +
+                "<p>Handong yuridik maktabi, Poxang, Koreya\n" +
+                "Huquq professori (2014; 2016; 2019)\n</p>\n" +
+                "<p>Strathmore universiteti huquqshunoslik maktabi, Nayrobi, Keniya tashrif buyurgan professor (taklif qilingan) (2018)</p>\n" +
 
-              "              </div>\n" +
+                "              </div>\n" +
                 "\n" +
                 "            </div>",
             ru: "<div class=\"details\">\n" +
-            "         <h2><b>Образование</p>" +               
-            "              <div style=\"text-align: justify;\">\n" +                            
-            "<p>1990 г. Токийский университет (бакалавр права)</p>\n"+     
-            "<p>1990 г. Исследователь Токийского университета</p>\n"+     
-            "<p>1996 г. Доцент Канадзавского университета</p>\n"+     
-            "<p>2005 г. Доцент Нагойского университета</p>\n"+     
-            "<p>2011 г. Профессор Нагойского университета</p>\n"+     
-            "<p>2015 г. Профессора Университета Кобе</p>\n"+     
-            "<h2>Научное направление</h2>\n"+     
-            "<p>Международное экономическое право, конкурентное право в странах Азии</p>\n"+     
-            "<p><b>Веб-сайт</b></p>\n"+     
-            "<p>Официальный: http://www.law.kobe-u.ac.jp/graduate/faculty/professor/kawashima.html </p>\n"+     
-            "<p>Личный: https://fujiokawashima.wordpress.com/ </p>\n"+     
-            "<p>Он работает во Всемирной торговой организации (ВТО) с 1990-х годов над научными вопросами, такими как разрешение споров, правовые реформы, связанные с вступлением Китая в ВТО, и развитие законодательства о конкуренции в азиатских странах. На протяжении многих лет он работала научным руководителем по английскому языку для студентов, интересующихся деятельностью ВТО и законодательством о конкуренции. В настоящее время он ведет учебный семинар ВТО.</p>\n"+     
-          "              </div>\n" +
-            "\n" +
-            "            </div>",
+                "         <h2><b>ОБРАЗОВАНИЕ</h2>" +
+                "              <div style=\"text-align: justify;\">\n" +
+                "<p>Pepperdine школа права, Straus институт, LLM, разрешение споров (2021)\n\n</p>\n" +
+                "<p>Университет Вирджинии, MA, этика (2020)\n</p>\n" +
+                "<p>Университет Пенсильвании, доктор философии, истории (2007)\n" +
+                "Стипендиат Jacob K. Javits, США Департамент образования; Франклин сотрудник Меллона</p>\n" +
+                "<p>Университет Вирджинии школы права, JD (2005)\n" +
+                "Virginia Law Review, редакция журнала\n</p>\n" +
+                "<p>Университет Джонса Хопкинса, магистр гуманитарных наук,, История (1997)\n\n</p>" +
+                "<p>Университет Джонса Хопкинса, бакалавр гуманитарнқх наук ., История (1997)<br>Консерватория Пибоди, (1997)\n\n\n</p>\n<br>" +
+                "<h2>ПРЕПОДАВАТЕЛЬСКАЯ ДЕЯТЕЛЬНОСТЬ</h2>\n" +
+                "<p>Юридическая школа ниверситета Хамад бин Халифа, Доха, Катар\n\n</p>\n" +
+                "<p>Школы права Прицкер, Чикаго, Иллинойс, США профессор (2015-настоящее время)\n\n\n</p>\n" +
+                "<p>Университет Вальпараисо, юридический факультет, Вальпараисо, Индиана, США\n" +
+                "Майкл и Дайана Свайгерт профессор (2012-2015), профессор права (2013-2014)\n" +
+                "Ассоциированный профессор права (2010-2013) (владения награжден Nov 2012) Доцент права (2007-2010 годы)\n</p>\n" +
+                "<p><b>ПРАВОВАЯ ДЕЯТЕЛЬНОСТЬ\n</b></p>\n" +
+                "<p>Палата Макнейр, Доха, Катар / Лондон, Великобритания\n" +
+                "Адвокат / Член палаты спортивного права и международного арбитража (2021-настоящее время)</p>\n" +
+                "<p>Член Международной группы арбитров и посредников Лондон, Великобритания\n" +
+                " (2021-настоящее время)\n</p>\n" +
+                "<p>Член Международной группы арбитров и посредников Доха, Катар (2019-настоящее время)\n</p>\n" +
+                "<p>Комиссия равных возможностей в области занятости, Шарлотт, Северная Каролина, США Посредник (2021-настоящее время)\n\n</p>\n" +
+                "<p>Kane County Выселение Посредничество программы, Кейн Каунти, штат Иллинойс, США Посредник (2021-настоящее время)</p>\n" +
+                "<p>DuPage County Выселение Медиация Программа, DuPage Каунти, штат Иллинойс, США Посредник (2021-настоящее время)\n\n" +
+                "\n</p>\n" +
+                "<p>Buckley, LLP, Вашингтон, округ Колумбия\n" +
+                "Associate Attorney в банковской и финансовых институтов практики нормативного регулирования (2005-2007)\n</p>\n" +
+                "<p>Государственный департамент Соединенных юстиции, Отдел по гражданским правам, Вашингтон, Летняя программа отличием DC, занятость Судебная практика Раздел (2004)\n</p>\n" +
+
+                "              </div>\n" +
+                "\n" +
+                "            </div>",
             en: "<div class=\"details\">\n" +
-            "         <h2><b>Education</p>" +               
-            "              <div style=\"text-align: justify;\">\n" +                            
-            "<p></p>\n"+     
-            "<p></p>\n"+     
-            "<p></p>\n"+     
-            "<p></p>\n"+     
-            "<p></p>\n"+    
+                "         <h2><b>EDUCATION</p>" +
+                "              <div style=\"text-align: justify;\">" +
+                "<p>Pepperdine School of Law, Straus Institute, LLM, Dispute Resolution (2021)</p>" +
+                "\n" +
+                "<p>University of Virginia, MA, Ethics (2020)</p>" +
+                "\n" +
+                "<p>University of Pennsylvania, Ph.D., History (2007)\n</p>" +
+                "<p>Jacob K. Javits Fellow, US Department of Education; Franklin Mellon employee\n</p>" +
+                "\n" +
+                "<p>University of Virginia School of Law, JD (2005)\n</p>" +
+                "<p>Virginia Law Review, Editorial Board\n</p>" +
+                "\n" +
+                "<p>Johns Hopkins University, Master of Arts, History (1997)\n</p>" +
+                "<p>Johns Hopkins University, B.A., History (1997)\n</p>" +
+                "<p>Peabody Conservatory, (1997)\n</p>" +
+                "\n" +
+                " <b>TEACHING ACTIVITIES</b>\n" +
+                "<p>Hamad bin Khalifa University Law School, Doha, Qatar\n</p>" +
+                "\n" +
+                "<p>Pritzker School of Law, Chicago, Illinois, USA professor (2015 - present)\n</p>" +
+                "\n" +
+                "<p>Valparaiso University School of Law, Valparaiso, Indiana, USA\n</p>" +
+                "<p>Michael and Diana Swigert Professor (2012-2015), Professor of Law (2013-2014)\n</p>" +
+                "<p>Associate Professor of Law (2010-2013) (tenure awarded Nov 2012) Associate Professor of Law (2007-2010)\n</p>" +
+                "\n" +
+                "\n" +
+                " <b>LEGAL ACTIVITIES</b>\n" +
+                "\n" +
+                "<p>McNair Chamber, Doha, Qatar / London, UK\n</p>" +
+                "<p>Attorney / Member of the Chamber of Sports Law and International Arbitration (2021 - present)\n</p>" +
+                "\n" +
+                "<p>Member of the International Panel of Arbitrators and Mediators London, UK\n" +
+                " (2021 - present)\n</p>" +
+                " \n" +
+                "<p>Member of the International Panel of Arbitrators and Mediators Doha, Qatar (2019 - present)\n</p>" +
+                "\n" +
+                "<p>Equal Employment Opportunity Commission, Charlotte, North Carolina, US Mediator (2021 - present)\n</p>" +
+                "\n" +
+                "<p>Kane County Eviction Mediation Program, Kane County, Illinois, U.S. Mediator (2021 - present)\n</p>" +
+                "\n" +
+                "<p>DuPage County Eviction Mediation Program, DuPage County, Illinois, USA Mediator (2021 - present)\n</p>" +
+                "\n" +
+                "<p>Buckley, LLP, Washington DC\n</p>" +
+                "<p>Associate Attorney in Banking and Financial Institutions Regulatory Practices (2005-2007)\n</p>" +
+                "\n" +
+                "<p>United State Department of Justice, Division of Civil Rights, Washington DC Summer Honors Program, Employment Litigation Section (2004)\n</p>" +
+                "\n" +
+                "\n" +
+                "<b>ADDITIONAL EDUCATIONAL PURPOSES</b>\n" +
+                "\n" +
+                "<p>Northwestern University in Qatar, Doha, Qatar Adjunct Professor of Sports Law (2021 - present)\n</p>" +
+                "\n" +
+                "<p>Academy of Leadership Sciences, Zurich, Switzerland\n</p>" +
+                "<p>Lecturer in Sports Law, International Relations and Diplomacy Programs (2021 - present)\n</p>" +
+                "\n" +
+                "<p>Tashkent State University of Law, Tashkent, Uzbekistan Visiting Professor of Law (2021-present)\n</p>" +
+                "\n" +
+                "<p>University of Notre Dame Australia School of Law, Sydney, Australia Professor of Law (adj.) (2018 - present)\n</p>" +
+                "\n" +
+                "<p>Open University School of Business and Law, London, UK Visiting Professor (2017 - present)\n</p>" +
+                "\n" +
+                "<p>Handong Law School, Pohang, Korea\n</p>" +
+                "<p>Visiting Professor of Law (2014; 2016; 2019)\n</p>" +
+                "\n" +
+                "<p>Strathmore University School of Law, Nairobi, Kenya Visiting Professor (Invited) (2018)</p>" +
 
-
-          "              </div>\n" +
-            "\n" +
-            "            </div>"
+                "              </div>\n" +
+                "\n" +
+                "            </div>"
         }
-    },
+    }
 ];
 
 
