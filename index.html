@@ -238,10 +238,10 @@
 
          <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
           <li class="nav-item">
-            <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Part 1</a>
+            <a class="nav-link active" onclick="localStorage.setItem('part',1)" href="#day-1" role="tab" data-toggle="tab">Part 1</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">Part 2</a>
+            <a class="nav-link" onclick="localStorage.setItem('part',2)" href="#day-2" role="tab" data-toggle="tab">Part 2</a>
           </li>
         </ul>
 
@@ -733,6 +733,19 @@
     function setId(id) {
         localStorage.setItem("speaker-id",id)
     }
+    function setScheduleId(id) {
+      localStorage.setItem("schedule-id",id)
+    }
+
+    $(document).ready(()=>{
+      $("#day-1").click(()=>{
+        localStorage.setItem("part",1)
+      });
+      $("#day-2").click(()=>{
+        console.log("sdfsdfsdfsd")
+        localStorage.setItem("part",2)
+      });
+    })
   </script>
 
 </body>
