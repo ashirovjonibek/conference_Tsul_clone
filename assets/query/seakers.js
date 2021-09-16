@@ -2238,11 +2238,21 @@ let data = [
             en: "<div class=\"details\">\n" +
             "         <h2><b>Education</p>" +               
             "              <div style=\"text-align: justify;\">\n" +                            
-            "<p></p>\n"+     
-            "<p></p>\n"+     
-            "<p></p>\n"+     
-            "<p></p>\n"+     
+            "<p>1990 University of Tokyo (LLB)</p>\n"+     
+            "<p>1990 Researcher at the University of Tokyo</p>\n"+     
+            "<p>1996 Associate Professor at Kanazawa University</p>\n"+     
+            "<p>2005 Associate Professor, Nagoya University</p>\n"+     
+            "<p>2011 Professor, Nagoya University</p>\n"+  
+            "<p>2015 Professors at Kobe University</p>\n"+    
+            "<h2>Scientific direction</h2>\n"+    
+            "<p>International economic law, competition law in Asia</p>\n"+    
+            "<p><b>Web site</b></p>\n"+    
+            "<p>Official: http://www.law.kobe-u.ac.jp/graduate/faculty/professor/kawashima.html</p>\n"+  
+            "<p><b>Private:</b></p>\n"+    
             "<p></p>\n"+    
+            "<p></p>\n"+    
+
+
 
 
           "              </div>\n" +
