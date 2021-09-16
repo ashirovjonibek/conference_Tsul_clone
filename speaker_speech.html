@@ -158,7 +158,7 @@
     }else {
         let a=localStorage.getItem("schedule-id").split("-");
         $("#selectLanguage").val(localStorage.getItem("language"));
-        oneSchedule(parseInt(a[0]),parseInt(a[1]),localStorage.getItem("language"))
+        oneSchedule(parseInt(a[0]),parseInt(a[1]),parseInt(a[2]),localStorage.getItem("language"))
     }
     function changeLang(lang) {
         localStorage.setItem("language",lang);
