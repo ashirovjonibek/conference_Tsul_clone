@@ -1740,12 +1740,12 @@ let data = [
     },
 
     {
-        id: 13,
-        img: "assets/img/speakers/13.jpg",
+        id: 14,
+        img: "assets/img/speakers/14.jpg",
         name: {
-            uz: "Юлдашева Говхержан",
-            ru: "Юлдашева Говхержан",
-            en: "Yuldasheva govxerjan"
+            uz: "Axmedshayeva Mavlyuda ",
+            ru: "Ахмедшаева Мавлюда ",
+            en: "Akhmedshaeva Mavluda"
         },
         degree: {
             uz: "Nutq so'zlovchi",
@@ -1754,84 +1754,565 @@ let data = [
         },
         detail: {
             uz: "<div class=\"details\">\n" +
-                "         <p>2020 йил 17 августдан:</p>" +               
-                "              <div style=\"text-align: justify;\">\n" +
-                "                <p><b>Тошкент давлат юридик университетининг “Халқаро ҳуқуқ ва инсон ҳуқуқлари” кафедраси профессори</b></p>\n" +
-                "<p><b>Туғилган йили:</b> 27.09.1958</p>\n" +
-                "<p><b>Туғилган жойи:</b> Туркманистон Республикаси Кўҳна-Урганч шаҳри</p>\n" +
-                "<p><b>Миллати:</b> ўзбек</p>\n" +
-                "<p><b>Партиявийлиги: </b> партиясиз</p>\n" +
-                "<h2>МЕҲНАТ ФАОЛИЯТИ</h2>\n" +
-                "<p>1977-1982 йй.	-	Қозон давлат университети талабаси</p>\n" +
-                "<p>1982-1987 йй. 	-	Нукус давлат университети “Ҳуқуқшунослик” кафедраси ўқитувчиси </p>\n" +
-                "<p>1987-1993 йй. 	-	Нукус давлат университети “Социология” кафедраси ўқитувчиси</p>\n" +
-                "<p>1993-1995 йй. 	-	Қорақалпоқ давлат университети “Социология ва маданиятшунослик” кафедраси ўқитувчиси</p>\n" +
-                "<p>1995-2000 йй. 	-	Қорақалпоқ давлат университети “Ҳуқуқшунослик” кафедраси асистенти, катта ўқитувчиси</p>\n" +
-                "<p>2000-2002 йй. 	-	Қорақалпоқ давлат университети Давлат ҳуқуқи ва бошқаруви кафедраси катта ўқитувчиси, доценти</p>\n" +
-                "<p>2002-2002 йй. 	-	Қорақалпоқ давлат университети Фуқаролик ва хўжалик ҳуқуқи кафедраси мудири</p>\n" +
-                "<p>2002-2013 йй.	-	Тошкент давлат юридик институти Халқаро ва қиёсий ҳуқуқ кафедраси катта ўқитувчиси, вазифасини бажарувчиси, доценти, кафедра мудири вазифасини бажарувчиси, кафедраси мудири</p>\n" +
-                "<p>2013-2014 йй. 	-	Тошкент давлат юридик университети Халқаро оммавий ҳуқуқ кафедраси доценти</p>\n" +
-                "<p>2014-2017 йй.	-	Тошкент давлат юридик университети Ҳуқуқий тадқиқотлар маркази раҳбари</p>\n" +
-                "<p>2017-2018 йй.	-	Тошкент давлат юридик университети Халқаро оммавий ҳуқуқ кафедраси профессори</p>\n" +
-                "<p>2018-2020 йй.	-	Жаҳон иқтисодиёти ва дипломатия университети ЮНЕСКОнинг Халқаро ҳуқуқ ва инсон ҳуқуқлари кафедраси профессори</p>\n" +
-                "<p>2020й-х.в..	-	Тошкент давлат юридик университети Халқаро ҳуқуқ ва инсон ҳуқуқлари кафедраси профессори</p>\n" +
+                "         <p><b>Davlat va huquq nazariyasi kafedrasi </b></p>" +               
+                "              <div style=\"text-align: justify;\">\n" +                            
+                "<p>Umumiy staji: 44 yil</p>\n" +   
+                "<p>Kasbiy staji: 23 yil </p>\n" +            
+                "<p>Lavozimi: Professor</p>\n" +            
+                "<p>Ilmiy unvoni: Professor</p>\n" +            
+                "<p>Ilmiy darajasi: Yuridik fanlar doktori.</p>\n" +            
+                "<p>Ilmiy faoliyat yo`nalishi: 12.00.01 – Davlat va huquq nazariyasi va tarixi; Huquqiy ta’limotlar tarixi</p>\n" +            
+                "<p>Davlat va huquq nazariyasi bo‘yicha mutaxassis.</p>\n" +            
+                "<p>1951-yil 15-fevralda Toshkent viloyatida tug‘ilgan. </p>\n" +            
+                "<p>1976-yili Toshkent davlat universitetining yuridik fakultetining kunduzgi bo‘limini tugatgan. </p>\n" +            
+                "<p>1976-1997-yillarda O‘zbekiston Respublikasi Fanlar akademiyasining I.Mo‘minov nomidagi Falsafa va huquq institutida ilmiy xodim bo‘lib ishlagan.</p>\n" +  
+                "<p>1997-yili 12.00.02. – Davlat huquqi va  boshqaruvi; ma'muriy huquq; moliya huquqi ixtisosligi bo‘yicha yuridik fanlar nomzodi ilmiy darajasi berilgan.(O‘zbekiston Respublikasi Prezidenti huzuridagi Davlat va jamiyat qurilishi Akademiyasi, mavzu: — “Organizatsionno-pravovыe voprosы gosudarstvennogo upravleniya v sfere kulturы”)</p>\n" +            
+                "<p>2011-yili 12.00.01 – Davlat va huquq nazariyasi va tarixi; huquqiy ta'limotlar ixtisosligi yuridik fanlari doktori ilmiy darajasi berilgan.(Toshkent davlat yuridik instituti, mavzu: — “Davlat hokimiyati tizimida ijro hokimiyati”)</p>\n" +            
+                "<p>2011-2013-yillarda TDYuI huzuridagi dissertatsiyalar himoyasi bo‘yicha Ilmiy Kengash a'zosi.</p>\n" +            
+                "<p>2017-2019-yillarda O‘zbekiston Respublikasi Vazirlar Mahkamasi huzuridagi OAK qoshidagi Ekspertlar Kengashi a'zosi.</p>\n" +            
+                "<p>2020-yil yanvaridan TDYuU huzuridagi ilmiy darajalar beruvchi Dsc.07/30.12.2019.yu.22.02 raqamli ilmiy kengash a'zosi va ushbu Kengash huzuridagi Ilmiy seminar raisi.</p>\n" +            
+                "<p>2014-yildan TDYU da chop etilgan Yuridik fanlar axborotnomasi / Вестник юридических наук / Review of law sciences» va «O` z b e k i s t o n q o n u n c h i l i g i t a h l i l i ♦ U z b e k  l a w  r e v ie w ♦ О б з о р з а к о н о д а т е л ь с т в а Уз б е к и с т а н а» jurnali hamda “Huquqiy tadqiqotlar” electron ilmiy jurnali tahrir hay’ati a’zosi.  </p>\n" +                       
+
+              "              </div>\n" +
+                "\n" +
+                "            </div>",
+            ru: "<div class=\"details\">\n" +
+            "         <p><b>Кафедра теории государства и права</b></p>" +               
+            "              <div style=\"text-align: justify;\">\n" +                            
+            "<p>Общий стаж: 44 года</p>\n" +  
+            "<p>Профессиональный стаж: 23 года</p>\n" +   
+            "<p>Должность: профессор</p>\n" +   
+            "<p>Ученое звание: профессор.</p>\n" +   
+            "<p>Ученая степень: доктор наук. Доктор юридических наук, профессор.</p>\n" +   
+            "<p>Направление научной деятельности: 12.00.01 – Теория и история государства и права; история правовых учений</p>\n" +   
+            "<p>Специалист в области теории государства и права Родилась 15 февраля 1951 года в Ташкентской области.</p>\n" +   
+            "<p>В 1976 году окончила дневное отделение юридического факультета Ташкентского государственного университета.</p>\n" +   
+            "<p>С 1976 по 1997 год работала  научным сотрудником Института философии и права имени И. Муминова Академии наук Республики Узбекистан.</p>\n" +   
+            "<p>В 1997 году присвоена научная степень  кандидата юридических наук  по специальности 12.00.02 - Государственное право и управление; административное право; финансовое право (Академия государственного и общественнного строительства при Президенте Республики Узбекистан, тема диссертации: - «Организационно-правовые вопросы государственного управления в сфере культуры»)</p>\n" +   
+            "<p>В 2011 году присвоена научная степень  доктора  юридических наук  по специальности 12.00.01 – Теория и история государства и права; история правовых учений (Ташкентский государственный юридический институт, тема: - «Исполнительная власть в системе государственной власти»)</p>\n" +   
+            "<p>С 2011 по 2013 год  являлась членом Ученого совета по защите диссертаций при Ташкентском государственном  юридическом университете.</p>\n" + 
+            "<p>В 2017-2019 годах являлась членом Экспертного совета  ВАК при Кабинете Министров Республики Узбекистан.</p>\n" +   
+            "<p>С января 2020 года она является членом Ученого совета Dsc.07 / 30.12.2019.yu.22.02, по присуждению  ученых степеней  при ТГЮУ,  также председателем Научного семинара при этом Совете.Член редколлегии   журнала «Юридик фанлар ахборотномаси / Вестник юридических наук / Review of law sciences», «Ўз б е к и с т о н  к о н у н ч и л и г и   т а х л и л и ♦ U z b e k  l a w  r e v ie w ♦ О б з о р з а к о н о д а т е л ь с т в а Уз б е к и с т а н а», также, электронного научного журнала «Правовые исследования.</p>\n" +              
+
+           
+          "              </div>\n" +
+            "\n" +
+            "            </div>",
+            en: "<div class=\"details\">\n" +
+            "         <p><b>Department of Theory of State and Law</b></p>" +               
+            "              <div style=\"text-align: justify;\">\n" +                            
+            "<p>Total experience: 44 years</p>\n" +  
+            "<p>Professional experience: 23 years</p>\n" +  
+            "<p>Position: professor</p>\n" +  
+            "<p>Academic title: professor.</p>\n" +  
+            "<p>Academic degree: Doctor of Science. Doctor of Law, Professor.</p>\n" +  
+            "<p>Direction of scientific activity: 12.00.01 – Theory and history of State and law; history of legal doctrines</p>\n" +  
+            "<p>Specialist in the field of theory of state and law Was born on February 15, 1951 in the Tashkent region.</p>\n" +  
+            "<p>In 1976 she graduated from the full-time department of the law faculty of Tashkent State University.</p>\n" +  
+            "<p>From 1976 to 1997 she worked as a researcher at the Institute of Philosophy and Law named after I. Muminov of the Academy of Sciences of the Republic of Uzbekistan.</p>\n" +  
+            "<p>In 1997 she was awarded the scientific degree of candidate of legal sciences in the specialty 12.00.02 - State law and management; administrative law; financial law (Academy of State and Public Construction under the President of the Republic of Uzbekistan, dissertation topic: - 'Organizational and legal issues of public administration in the field of culture')</p>\n" +  
+            "<p>In 2011 she was awarded the scientific degree of Doctor of Law in the specialty 12.00.01 - Theory and history of state and law; history of legal doctrines (Tashkent State Law Institute, topic: - 'Executive power in the system of state power')</p>\n" +  
+            "<p>From 2011 to 2013 she was a member of the Academic Council for the defense of dissertations at the Tashkent State University of Law.</p>\n" +  
+            "<p>In 2017-2019, she was a member of the Expert Council of the Higher Attestation Commission under the Cabinet of Ministers of the Republic of Uzbekistan.</p>\n" +  
+            "<p>Since January 2020, she is a member of the Academic Council Dsc.07 / 30.12.2019.yu.22.02, for the award of academic degrees at TSUL, also the chairman of the Scientific Seminar at this Council.</p>\n" +  
+            "<p>Member of the editorial board of the journal 'Yuridik fanlar akhborotnomasi / Bulletin of legal sciences / Review of law sciences'Uzbeklawrev ie w ♦ About an overview of the uzbekistan's sup port ', as well as the electronic scientific journal' Legal Research.</p>\n" +            
+          "              </div>\n" +
+            "\n" +
+            "            </div>"
+        }
+    },
+    
+
+    {
+        id: 15,
+        img: "assets/img/speakers/15.jpg",
+        name: {
+            uz: "Махмудов Алишер",
+            ru: "Махмудов Алишер",
+            en: "Makhmudov Alisher"
+        },
+        degree: {
+            uz: "Nutq so'zlovchi",
+            ru: "Оратор",
+            en: "Speaker"
+        },
+        detail: {
+            uz: "<div class=\"details\">\n" +
+            "<p>2019 йил 23 сентябрдан</p>\n" +
+                "         <p><b>Ўзбекистон Республикаси Бош прокуратураси қонунийлик ва ҳуқуқ-тартиботни таъминлаш муаммоларини таҳлил қилиш бошқармаси бошлиғи</b></p>" +               
+                "              <div style=\"text-align: justify;\">\n" +                            
+                "<p>Туғилган йили: 03.07.1984</p>\n" +  
+                "<p>Туғилган жойи: Бухоро вилояти, Бухоро шаҳри</p>\n" +   
+                "<p>Маълумоти бўйича мутахассислиги	юриспруденция, давлат бошқаруви</p>\n" +   
+                "<p>Илмий даражаси: Юридик фанлар бўйича фалсафа доктори (PhD) </p>\n" +   
+                "<p>Даражали унвони: адлия катта маслаҳатчиси 29.08.2020 й.</p>\n" +   
+                "<h2>МЕҲНАТ  ФАОЛИЯТИ:</h2>\n" +   
+                "<p>2002-2006 йй.	-	Тошкент давлат юридик институти талабаси</p>\n" +   
+                "<p>2007-2010 йй.	-	Ўзбекистон Республикаси Олий Мажлиси Сенати девони Умумий бўлимининг стенографист-котиби</p>\n" +   
+                "<p>2010-2013 йй.	-	Ўзбекистон Республикаси Олий Мажлиси Сенати раҳбарияти ҳузуридаги котибият референти</p>\n" +   
+                "<p>2013-2015 йй.	-	Ўзбекистон Республикаси Президенти ҳузуридаги Давлат бошқаруви академияси тингловчиси</p>\n" +   
+                "<p>2015-2017 йй.	-	Ўзбекистон Республикаси Олий Мажлиси Сенати девони юридик бўлими катта референти, бўлим мудирининг ўринбосари</p>\n" +   
+                "<p>2017-2018 йй.	-	Ўзбекистон Республикаси Олий Мажлиси Сенати девони Ахборот-таҳлил бўлими мудири</p>\n" +   
+                "<p>2018-2018 йй.	-	Ўзбекистон Республикаси Олий Мажлиси Сенати девони раҳбари ўринбосари – Ахборот-таҳлил бўлими мудири</p>\n" +   
+                "<p>2018-2019 йй.	-	Ўзбекистон Республикаси Бош прокуратураси қонунийлик ва ҳуқуқ-тартиботни таъминлаш муаммоларини таҳлил қилиш бошқармаси катта прокурори, бошлиқ ўринбосари</p>\n" + 
+                "<p>2019 й. - ҳ.қ.	-	Ўзбекистон Республикаси Бош прокуратураси қонунийлик ва ҳуқуқ-тартиботни таъминлаш муаммоларини таҳлил қилиш бошқармаси бошлиғи</p>\n" +                 
+               
+              "              </div>\n" +
+                "\n" +
+                "            </div>",
+            ru: "<div class=\"details\">\n" +
+            "<p>С 23 сентября 2019 г.</p>\n" +
+            "         <p><b>Начальник Управления анализа проблем правоохранительной деятельности Генеральной прокуратуры Республики Узбекистан </b></p>" +               
+            "              <div style=\"text-align: justify;\">\n" +                            
+          "<p>Год рождения: 03.07.1984</p>\n" +
+          "<p>Место рождения: Бухарская область, Г. Бухара</p>\n" +
+          "<p>Ученая степень: Доктор философских наук (PhD) в области права</p>\n" +
+          "<h2>ТРУДОВАЯ ДЕЯТЕЛЬНОСТЬ:</h2>\n" +
+          "<p>2002-2006 гг.	-	Студент Ташкентского государственного юридического института</p>\n" +
+          "<p>2007-2010 гг.	-	Стенографист-секретарь Генерального Управления Сената Олий Мажлиса Республики Узбекистан</p>\n" +
+          "<p>2010-2013 гг.	-	Референт Секретариата при Сенате Олий Мажлиса Республики Узбекистан</p>\n" +
+          "<p>2013-2015 гг.	-	Студент Академии государственного управления при Президенте Республики Узбекистан</p>\n" +
+          "<p>2015-2017 гг.	-	Старший помощник юридического отдела Сената Олий Мажлиса Республики Узбекистан, заместитель заведующего отделом</p>\n" +
+          "<p>2017-2018 гг.	-	Заведующий информационно-аналитическим отделом Сената Олий Мажлиса Республики Узбекистан </p>\n" +
+          "<p>2018-2018 гг.	-	Заместитель руководителя Аппарата Сената Олий Мажлиса Республики Узбекистан - начальник информационно-аналитического управления</p>\n" +
+          "<p>2018-2019 гг.	-	Старший прокурор, заместитель начальника Управления по анализу проблем законности и правоприменения Генеральной прокуратуры Республики Узбекистан</p>\n" +
+          "<p>2019 й. – с.д	-	Начальник управления анализа проблем правоохранительной деятельности Генеральной прокуратуры Республики Узбекистан</p>\n" +
+
+
+           
+          "              </div>\n" +
+            "\n" +
+            "            </div>",
+            en: "<div class=\"details\">\n" +
+            "<p>From September 23, 2019</p>\n" +
+            "         <p><b>Head of the Office for Analysis of Legality and Law Enforcement Issues of the General Prosecutors Office of the Republic of Uzbekistan</b></p>" +               
+            "              <div style=\"text-align: justify;\">\n" +                            
+            "<p>Year of birth: 03.07.1984</p>\n" +  
+            "<p>Place of birth: Bukhara region, Bukhara city</p>\n" +  
+            "<p>Specialty in education: jurisprudence, public administration</p>\n" +  
+            "<p>Academic degree: Doctor of Philosophy (PhD) in Law </p>\n" +  
+            "<h2>Work experience</h2>\n" +  
+            "<p>2002-2006 yy.	-	Student of Tashkent State Law Institute            </p>\n" +  
+            "<p>2007-2010 yy.	-	Stenographer-Secretary of the General Department of the Senate of the Oliy Majlis of the Republic of Uzbekistan            </p>\n" +  
+            "<p>2010-2013 yy.	-	Assistant of the Secretariat under the leadership of the Senate of the Oliy Majlis of the Republic of Uzbekistan</p>\n" +  
+            "<p>2015-2017 yy.	-	Senior Assistant of the Legal Department of the Senate of the Oliy Majlis of the Republic of Uzbekistan, Deputy Head of the Department            </p>\n" +  
+            "<p>2017-2018 yy.	-	Head of the Information and Analysis Department of the Senate of the Oliy Majlis of the Republic of Uzbekistan</p>\n" +  
+            "<p>2018-2018 yy.	-	Deputy Head of the Office of the Senate of the Oliy Majlis of the Republic of Uzbekistan - Head of the Information and Analysis Department            </p>\n" +  
+            "<p>2018-2019 yy.	-	Senior Prosecutor, Deputy Chief of the Office for Analysis of Legality and Law Enforcement Problems of the Prosecutor General's Office of the Republic of Uzbekistan            </p>\n" +  
+            "<p>2019 y. - present	-	Head of the Office for Analysis of Law Enforcement Problems of the Prosecutor General's Office of the Republic of Uzbekistan</p>\n" +  
+
+           "              </div>\n" +
+            "\n" +
+            "            </div>"
+        }
+    },
+
+    {
+        id: 16,
+        img: "assets/img/speakers/16.jpg",
+        name: {
+            uz: "Мусаев Бекзод",
+            ru: "Мусаев Бекзод Турсунбоевич",
+            en: "Musaev Bekzod Tursunboevich"
+        },
+        degree: {
+            uz: "Nutq so'zlovchi",
+            ru: "Оратор",
+            en: "Speaker"
+        },
+        detail: {
+            uz: "<div class=\"details\">\n" +
+                "         <p><b>Конституциявий ҳуқуқ кафедраси мудири, юридик фанлари бўйича фалсафа доктори (PhD), доцент</b></p>" +               
+                "              <div style=\"text-align: justify;\">\n" +                            
+       "<p><b>Илмий қизиқишлари соҳаси:</b>Конституциявий ҳуқуқ, Халқаро хусусий ҳуқуқ</p>\n"+
+       "<p>2018-2020-йилларда Илмий даражалар берувчи Илмий кенгаш котиби</p>\n"+
+       "<p>2020 йил январдан Ўзбекистон Республикаси Конституциявий судининг Илмий-маслаҳат кенгаши аъзоси.</p>\n"+
+       "<p>Илмий фаолиятнинг йўналишлари ва ютуқлари: 100 дан ортиқ ўқув ва илмий ишлар муаллифи, улар қаторида 4 та монография, 105 та мақола, 6 та дарслик (ҳаммуаллифликда), 5 та рисола шулар жумласидан.</p>\n"+
+       "<p><b>Мурожаат учун: </b>e-mail: bek.yurist@gmail.com</p>\n"+
+       "<p></p>\n"+
+
+              "              </div>\n" +
+                "\n" +
+                "            </div>",
+            ru: "<div class=\"details\">\n" +
+            "         <p><b>Заведующий кафедрой конституционного права, доктор философских наук (PhD), доцент</b></p>" +               
+            "              <div style=\"text-align: justify;\">\n" +                            
+            "<p>Сфера научных интересов: конституционное право, международное частное право</p>\n" +  
+            "<p>2018- 2020 гг Секретарь Ученого совета, присуждающего ученые степени</p>\n" +  
+            "<p>С января 2020 года Член Научно-консультативного совета Конституционного суда Республики Узбекистан </p>\n" +  
+            "<p>Направления и достижения научной деятельности: автор более 100 учебных и научных работ, в том числе 4 монографий, 105 статей, 6 учебников (в соавторстве), 5 брошюр.</p>\n" +  
+            "<p><b>Контакты: </b>e-mail: bek.yurist@gmail.com</p>\n" +            
+
+           
+          "              </div>\n" +
+            "\n" +
+            "            </div>",
+            en: "<div class=\"details\">\n" +
+            "         <p><b>Head of the Department of Constitutional Law, PhD in Law, Associate Professor</b></p>" +               
+            "              <div style=\"text-align: justify;\">\n" +                            
+            "<p>Field of research interests: Constitutional law, private international law.</p>\n" +  
+            "<p>Secretary of the Academic Council 2018-2020.</p>\n" +  
+            "<p>Member of the Scientific Advisory Board of the Constitutional Court of the Republic of Uzbekistan since January 2020.</p>\n" +  
+            "<p>Directions and achievements of scientific activity: author of more than 100 educational and scientific works, including 4 monographs, 105 articles, 6 textbooks (in co-authorship), 5 pamphlets.</p>\n" +  
+            "<p><b>e-mail address: </b>bek.yurist@gmail.com</p>\n" +  
+            "<p></p>\n" + 
+            "              </div>\n" +
+            "\n" +
+            "            </div>"
+        }
+    },
+
+    {
+        id: 17,
+        img: "assets/img/speakers/17.jpg",
+        name: {
+            uz: "Сафаров Джахонгир",
+            ru: "Сафаров Джахонгир",
+            en: "Safarov Djaxongir"
+        },
+        degree: {
+            uz: "Nutq so'zlovchi",
+            ru: "Оратор",
+            en: "Speaker"
+        },
+        detail: {
+            uz: "<div class=\"details\">\n" +
+                "         <p><b>Иш жойи ва лавозими: </b>Вазирлар Маҳкамаси Юридик таъминлаш бошқармаси бўлим мудири</p>" +               
+                "              <div style=\"text-align: justify;\">\n" +                            
+       "<p><b>Асосий илмий ютуқлари:</b>  юридик фанлар доктори (2018), доцент (2014). 10 дан ортиқ дарслик, монография ва ўқув қўлланмалар муаллифи (ҳаммуаллифи). Жами 100 дан зиёд, шу жумладан, хорижий давлатларда 20 дан ортиқ  илмий мақолалари чоп этилган. </p>\n"+ 
+       "<p>Ўзбекистон Республикасида юридик фанларни ривожлантириш бўйича мувофиқлаштирувчи кенгаш, Инновацион ривожланиш вазирлиги ҳузуридаги Ҳуқуқ йўналиши бўйича илмий-техник кенгаш, Қонунчилик муаммолари ва парламент тадқиқотлари институтининг Илмий-эксперт кенгаши, Тошкент давлат юридик университети ҳузуридаги илмий кенгаш  аъзоси. </p>\n"+ 
+       "<p>Тадқиқот мавзуси: “Экологик қонунчиликни тизимлаштириш ва кодификациялаш масалалари” (2011), “Экологик қонунчилик тизими ва уни кодификациялаш истиқболлари” (2018). </p>\n"+ 
+       "<p>Экология ҳуқуқи, экологик сиёсат, экологик қонунчилик, қонунчилик,  норма ижодкорлиги, ҳуқуқий сиёсат каби йўналишларда илмий изланишлар олиб боради. </p>\n"+ 
+
+     
+
+              "              </div>\n" +
+                "\n" +
+                "            </div>",
+            ru: "<div class=\"details\">\n" +
+            "         <p><b>Место работы и занимаемая должность: </b>начальник Управления правового обеспечения Кабинета Министров.</p>" +               
+            "              <div style=\"text-align: justify;\">\n" +                            
+            "<p>Основные научные достижения: доктор юридических наук (2018 г.), доцент (2014 г.). Автор (соавтор) более 10 учебников, монографий и учебников. Всего более 100, в том числе в зарубежных странах</p>\n" +  
+            "<p>Опубликовал более 20 научных статей.</p>\n" +  
+            "<p>Он является членом Координационного совета по развитию юридических наук в Республике Узбекистан, Научно-технического совета по праву при Министерстве инновационного развития, Научно-экспертного совета Института проблем законодательства и парламентских исследований, Академического Совет при Ташкентском государственном юридическом университете.</p>\n" +  
+            "<p>Тема исследования: «Проблемы систематизации и кодификации экологического законодательства» (2011 г.), «Система экологического законодательства и перспективы его кодификации» (2018 г.).</p>\n" +  
+            "<p>Проводит исследования в таких областях, как экологическое право, экологическая политика, экологическое законодательство, законодательство, нормотворчество, правовая политика.</p>\n" +                 
+           
+          "              </div>\n" +
+            "\n" +
+            "            </div>",
+            en: "<div class=\"details\">\n" +
+            "         <p><b>Place of work and position: </b>Head of the Legal Support Department of the Cabinet of Ministers</p>" +               
+            "              <div style=\"text-align: justify;\">\n" +                            
+   "<p><b>Main scientific achievements: </b> Doctor of Law (2018), Associate Professor (2014).</p>\n"+ 
+   "<p>Author (co-author) of more than 10 textbooks, monographs and textbooks. In total, more than 100, including in foreign countries</p>\n"+ 
+   "<p>He has published more than 20 scientific articles.</p>\n"+ 
+   "<p>He is a member of the Coordinating Council for the Development of Legal Sciences in the Republic of Uzbekistan, the Scientific and Technical Council for Law under the Ministry of Innovation Development, the Scientific Expert Council of the Institute of Legislative Problems and Parliamentary Research, the Academic Council at Tashkent State University of Law.</p>\n"+ 
+   "<p><b>Research topic: </b>'Issues of systematization and codification of environmental legislation' (2011), 'System of environmental legislation and prospects for its codification' (2018).</p>\n"+ 
+   "<p>Conducts research in areas such as environmental law, environmental policy, environmental legislation, legislation, rule-making, legal policy.</p>\n"+ 
+
+          "              </div>\n" +
+            "\n" +
+            "            </div>"
+        }
+    },
+
+    {
+        id: 18,
+        img: "assets/img/speakers/18.jpg",
+        name: {
+            uz: "АЛИБАЕВА ГУЛЬНАР",
+            ru: "АЛИБАЕВА ГУЛЬНАР",
+            en: "ALIBAYEVA GULNAR"
+        },
+        degree: {
+            uz: "Nutq so'zlovchi",
+            ru: "Оратор",
+            en: "Speaker"
+        },
+        detail: {
+            uz: "<div class=\"details\">\n" +
+                "         <h2><b>Ta’lim</h2>" +               
+                "              <div style=\"text-align: justify;\">\n" +                            
+       "<p>1980-1982 yillar - Taldiko'rg'on yuridik kolleji, mutaxassislik: - Yurist 1982-1986 yillar - Sverdlovsk yuridik instituti, mutaxassislik: - Yurist 1995-1998 yillar - Al-Farobiy nomidagi Qozog'iston milliy universiteti aspiranti</p>" +
+       "<h2>Ilmiy daraja, ilmiy unvon</h2>\n" +
+       "<p>Yuridik fanlari doktori, professor - 'Qozog'iston Respublikasi ijroiya hokimiyati organlarining huquqiy maqomini oshirishning nazariy muammolari' mavzusidagi dissertatsiya, mutaxassislik: 12.00.02 - Yurisprudensiya</p>\n"+
+       "<h2>Ish tajribasi</h2>\n"+
+       "<p>1986-1988 yillar - qo'rg'oshin-kislotali akkumulyatorlar zavodining yuristi (Taldiko'rg'on)</p>\n"+
+       "<p>1988-1995 yillar - Taldiko'rg'on yuridik kolleji o'qituvchisi</p>\n"+
+       "<p>1995-1998 yillar - Al-Forobiy nomidagi KazDU., D.A.Kunaev nomidagi universitet</p>\n"+
+       "<p>1995-yildan hozirgi kungacha – D.A.Kunaev nomidagi Evrosiyo yuridik akademiyasi</p>\n"+
+       "<p>1995 - 1998 yillar - Al-Forobiy nomidagi KazDU katta o'qituvchisi, davlat va huquqiy fanlar kafedrasi mudiri o'rinbosari; yuridik fakultet dissertatsiyalar kengashining texnik kotibi</p>\n"+
+       "<p>1998 - 2005 yillar - Universitet dekani, konstitutsiyaviy va xalqaro huquq kafedrasi dotsenti</p>\n"+
+       "<p>2002 - 2011 yillar - Konstitutsiyaviy va xalqaro huquq kafedrasi dotsenti, Dissertatsiya kengashining ilmiy kotibi</p>\n"+
+       "<p>2011 - 2015 yillar - ilmiy ishlar va xalqaro aloqalar bo'yicha prorektor, konstitutsiyaviy va xalqaro huquq kafedrasi professori, Qirg'iziston Respublikasi hukumati huzuridagi Qirg'iziston davlat yuridik akademiyasi dissertatsiya kengashi a'zosi. Qozog'iston Respublikasi Ta'lim va fan vazirligi Ta'lim va fan qo'mitasi Ekspert kengashi raisi o'rinbosari</p>\n"+
+       "<p>2011-yildan hozirgi kungacha – D.A.Kunaev nomidagi Evrosiyo yuridik akademiyasi Ilmiy ishlar va xalqaro aloqalar bo'yicha prorektor, konstitutsiyaviy va xalqaro huquq kafedrasi professori, Evroosiyo yuridik akademiyasining 'Vestnik', 'Qozog'iston xalqaro huquq jurnali' jurnallari bosh muharriri D.A. Qunaev.</p>\n"+
+       "<p></p>\n"+     
+              "              </div>\n" +
+                "\n" +
+                "            </div>",
+            ru: "<div class=\"details\">\n" +
+            "         <h2><b>Образование</p>" +               
+            "              <div style=\"text-align: justify;\">\n" +                            
+           "<p>1980-1982 гг. Талдыкорганский юридический техникум, спец. – Юрист</p>\n"+
+           "<p>1982-1986 гг. Свердловский юридический институт, спец. – Юрист</p>\n"+
+           "<p>1995-1998 гг. Аспирантура  в Казахском Национальном университете им. аль-Фараби</p>\n"+
+           "<h2>Ученая степень, уче-ное звание</h2>\n"+
+           "<p>Доктор юридических наук,  профессор - диссертация  на тему: «Теорети-ческие проблемы совершенствования правового статуса органов испол-нительной власти Республики Казахстан», спец. 12.00.02 – Юриспруден-ция</p>\n"+
+           "<h2>Опыт работы </h2>\n"+
+           "<p>1986-1988 гг – юрист  Завода свинцовых аккумуляторов (г. Талдыкорган)  </p>\n"+
+           "<p>1988-1995 гг – преподаватель Талдыкорганского юридического техникума</p>\n"+
+           "<p>1995-1998 гг -  КазНУ им. аль-Фараби, Университет им. Д.А. Кунаева</p>\n"+
+           "<p>1995 г. - по настоящее время – Евразийская юридическая академия им. Д.А. Кунаева:</p>\n"+
+           "<p>1995 – 1998 гг - Старший преподаватель заместитель заведующего кафедрой государственно-правовых дисциплин; технический секретарь диссертационного совета  юридического факультета КазНу им. аль-Фараби</p>\n"+
+           "<p>1998 - 2005 гг.- Декан Университета, доцент кафедры конституционного и международного права</p>\n"+
+           "<p>2002 – 2011гг.- Доцент кафедры конституционного и международного права, ученый секретарь диссертационного совета</p>\n"+
+           "<p>2011 – 2015 гг. -  Проректор по научно-исследовательской работе и международным связам, профессор кафедры Конституционного и международного права, член Диссертационного совета   Кыргызской государственной юридической академии при Правительстве Республики Кыргызстан. Заместитель председателя экспертного совета комитета в сфере образования и науки МОН РК </p>\n"+
+           "<p>2011 г.  -  по настоящее время - проректор по научно-исследовательской работе и международным связам, профессор кафедры Конституционного и международного права, главный редактор журналов «Вестник», «Казахстанский журнал международного права» Евразийской юридической академии Д.А. Кунаева.</p>\n"+
+   
+
+
+
+          "              </div>\n" +
+            "\n" +
+            "            </div>",
+            en: "<div class=\"details\">\n" +
+            "         <h2><b>Education</p>" +               
+            "              <div style=\"text-align: justify;\">\n" +                            
+  "<p>1980-1982 - Taldykorgan law college, speciality - Lawyer</p>\n"+
+  "<p>1982-1986 - Sverdlovsk Law Institute, speciality - Lawyer</p>\n"+
+  "<p>1995-1998 - Postgraduate studies at the Kazakh National University named after al-Farabi</p>\n"+
+  "<h2>Academic degree, title</h2>\n"+
+  "<p>Doctor of Law, Professor - dissertation on the topic: 'Theoretical problems of improving the legal status of the executive authorities of the Republic of Ka-zakhstan', speciality 12.00.02 - Jurisprudence</p>\n"+
+  "<h2>Work experience</h2>\n"+
+  "<p>1986-1988 - Lawyer at the Lead-Acid Batteries Plant (Taldykorgan)</p>\n"+
+  "<p>1988-1995 - Lecturer at Taldykorgan Law College</p>\n"+
+  "<p>1995-1998 - KazNU named after I. al-Farabi, University. YES. Kunaeva</p>\n"+
+  "<p>1995 - present - Eurasian Law Academy named after YES. Kunaeva:</p>\n"+
+  "<p>1995 - 1998 - Senior Lecturer, Deputy Head of the Department of State and Legal Disciplines; technical secretary of the dissertation council of the law faculty of KazNu named after al-Farabi</p>\n"+
+  "<p>1998 - 2005 - Dean of the University, Associate Professor of the Department of Constitutional and International Law</p>\n"+
+  "<p>2002 - 2011 - Associate Professor of the Department of Constitutional and International Law, Scientific Secretary of the Dissertation Council</p>\n"+
+  "<p>2011 - 2015 - Vice-rector for research and international relations, professor of the Department of Constitutional and International Law, member of the Dissertation Council of the Kyrgyz State Law Academy under the Government of the Republic of Kyrgyzstan. Deputy Chairman of the Expert Council of the Committee in Education and Science of the Ministry of Education and Science of the Republic of Kazakhstan</p>\n"+
+  "<p>2011 - present - Vice-Rector for Research and International Relations, Professor of the Department of Constitutional and International Law, editor-in-chief of the magazines 'Vestnik', 'Kazakhstan Journal of International Law' of the Eurasian Law Academy D.A. Kunaev.</p>\n"+
+
+
+
+          "              </div>\n" +
+            "\n" +
+            "            </div>"
+        }
+    },
+
+    {
+        id: 19,
+        img: "assets/img/speakers/19.jpg",
+        name: {
+            uz: "АНДРEЙ ДАҲДАЛ",
+            ru: "ЭНДРЮ ДАХДАЛ",
+            en: "ANDREW DAHDAL"
+        },
+        degree: {
+            uz: "Nutq so'zlovchi",
+            ru: "Оратор",
+            en: "Speaker"
+        },
+        detail: {
+            uz: "<div class=\"details\">\n" +
+                "         <h2>АКАДEМИК ЮТУҚЛАРИ</h2>" +               
+                "              <div style=\"text-align: justify;\">\n" +                            
+      "<p>PhD (Фалсафа доктори) (2013), Жанубий Уэлс университети(UNSW). Сидней, Австралия. (2014 UNSW PhD Мукаммаллик мукофоти)</p>\n" +
+      "<p>Ҳуқуқ амалиёти битирувчиси дипломи, (2009) юридик коллеж, Сент- Леонардс, Сидней, Австралия.</p>\n" +
+      "<p>Тижорат бакалаври (иқтисод) / ҳуқуқ бакалаври  битирувчиси (2004), Маккуайр университети, Сидней, Австралия.</p>\n" +
+      "<h2>ЛАВОЗИМЛАР</h2>\n" +
+      "<p>2021 йил – ҳ.в.  – Тижорат йўналишида доцент, Ҳуқуқ мактаби, Қатар университети, Қатар</p>\n" +
+      "<p>2015 - 2021 – доцент, Қатар университети, ҳуқуқ  мактаби, Қатар университети, Қатар.</p>\n" +
+      "<p>2018 йил (январ - апрел) – доцент ёрдамчи, Индиана университети Пенсилвания штати (АҚШ) ва Женин Aраб  Америка университети (Фаластин)  </p>\n" +
+      "<p>2016 - 2018  –  ёрдамчи профессор, Падуа университети, Италия.</p>\n" +
+      "<p>2010-2015 Маккуайер университети, бизнес ва иқтисодиёт факультети, бизнес ҳуқуқи ўқитувчи, Австралия.</p>\n" +
+      "<p>2005 - 2010 –  доцент, ҳуқуқ кафедраси, Маккуайер университети, Австралия</p>\n" +
+      "<h2>ТАДҚИҚОТ ГРАНТЛАРИ</h2>\n" +
+      "<p>2019 QNRF –  “Fin tech and Reg tech” Қатарда ХХI аср мустаҳкам, инклюзив ва рақобатбардош ҳуқуқий ва меъёрий - базани яратиш( 579,000 АҚШ доллари)</p>\n" +
+      "<p>2016 йил –  (QUINTERNAL) 'Қатардаги молиявий ҳолатни  тартибга солиш таҳлили”: 2005 йилдан ҳозирги кунгача'. (18 000 АҚШ доллари)</p>\n" +
+     
 
 
               "              </div>\n" +
                 "\n" +
                 "            </div>",
-            ru:  "<div class=\"details\">\n" +
-            "         <p>с 17 августа 2020 года:</p>" +               
-            "              <div style=\"text-align: justify;\">\n" +
-            "                <p><b>профессор кафедры «Международное право и прав человека» Ташкентского государственного юридического университета </b></p>\n" +
-            "<p><b>Дата рождения:</b> 27.09.1958</p>\n" +
-            "<p><b>Место рождения:</b>Республика Туркменистан,город Кухна-Ургенч </p>\n" +
-            "<p><b>Национальность:</b>узбечка</p>\n" +
-            "<p><b>Партийность</b> беспартийная</p>\n" +
-            "<h2>ТРУДОВАЯ ДЕЯТЕЛЬНОСТЬ</h2>\n" +
-            "<p>1982-1987 гг. - преподаватель кафедры «Юриспруденция» Нукусского Государственного университета</p>\n" +
-            "<p> 1987-1993 гг. - преподаватель кафедры «Социология» Нукусского Государственного университета</p>\n" +
-            "<p>1993-1995 гг. - преподаватель кафедры «Социология и культуроведение» Каракалпакского государственного университета</p>\n" +
-            "<p>1995-1996 гг. - ассистент кафедры «Юриспруденция» Каракалпакского государственного университета</p>\n" +
-            "<p>1996-2000 гг. - старший преподаватель кафедры «Юриспруденция» Каракалпакского государственного университета </p>\n" +
-            "<p>2000-2002 гг. - старший преподаватель кафедры «Государственное право и управление» Каракалпакского государственного университета</p>\n" +
-            "<p>2002-2002 гг. - доцент кафедры «Государственное право и управление» Каракалпакского государственного университета</p>\n" +
-            "<p>2002-2002 гг. - заведующая кафедрой «Гражданское и хозяйственное право» Каракалпакского государственного университета </p>\n" +
-            "<p>2002-2005 гг. - старший преподаватель кафедры «Международное и сравнительное право» Ташкентского государственного юридического института</p>\n" +
-            "<p>2005-2007 гг. - исполняющая обязанности доцента кафедры «Международное и сравнительное право» Ташкентского государственного юридического института </p>\n" +
-            "<p>2007 -2011гг. - доцент кафедры «Международное и сравнительное право» Ташкентского государственного юридического института </p>\n" +
-            "<p>2011 -2012гг. - исполняющая обязанности заведующей кафедрой «Международное и сравнительное право» Ташкентского государственного юридического института </p>\n" +
-            "<p>2012-2013 гг. - заведующая кафедрой «Международное и сравнительное право» Ташкентского государственного юридического </p>\n" +
-            "<p>2013-2014 гг. - доцент кафедры «Международное публичное право» Ташкентского государственного юридического университета</p>\n" +
-            "<p>2014-2017гг.     - руководитель «Центр правовых исследований» Ташкентского государственного юридического университета</p>\n" +
-            "<p>2017г.-2020гг. –профессор кафедры ЮНЕСКО «Международное право и права человека» Университета мировой          экономики и дипломатии </p>\n" +
-            "<p>2020г.-по н.в. - профессор кафедры «Международное право и права человека» Ташкентского государственного юридического университета</p>\n" +
+            ru: "<div class=\"details\">\n" +
+            "         <h2><b>АКАДЕМИЧЕСКИЕ ПОЛНОМОЧИЯ</p>" +               
+            "              <div style=\"text-align: justify;\">\n" +                            
+            "<p>Доктор философии (2013 г.), Университет Нового Южного Уэльса (UNSW), Сидней, Австралия. (Премия UNSW PhD Excellence Award 2014)</p>\n" +
+            "<p>Диплом об окончании юридической практики (2009 г.), юридический колледж, Сент-Леонардс, Сидней, Австралия.</p>\n" +
+            "<p>Бакалавр коммерции (экономика) / бакалавр права (с отличием) (2004 год), Университет Маккуори, Сидней, Австралия.</p>\n" +
+            "<h2>ПОЗИЦИИ</h2>\n" +
+            "<p>2021 - настоящее время Доцент, юридический колледж, Катарский университет, Катар</p>\n" +
+            "<p>2015–2021 годы Доцент коммерческого права, Юридический колледж Катарского университета, Катар.</p>\n" +
+            "<p>2018 (январь - апрель) Адъюнкт-профессор, Пенсильванский университет Индианы (США) и Арабско-американский университет Дженина (Палестина)</p>\n" +
+            "<p>2016 - 2018 (лето) Приглашенный адъюнкт-профессор Падуанского университета, Италия.</p>\n" +
+            "<p>2010–2015 годы Преподаватель делового права, факультет бизнеса и экономики, Университет Маккуори, Австралия.</p>\n" +
+            "<p>2005 - 2010 младший преподаватель, юридический факультет, университет Маккуори, Австралия</p>\n" +
+            "<h2>ИССЛЕДОВАТЕЛЬСКИЕ ГРАНТЫ</h2>\n" +
+            "<p>2019 QNRF «FinTech and RegTech: создание устойчивой, инклюзивной и конкурентоспособной нормативно-правовой базы для финансирования 21 века в Катаре» (579 000 долларов США)</p>\n" +
+            "<p>2016 (QU INTERNAL) «Обзор финансового регулирования в Катаре: с 2005 г. по настоящее время». (18 000 долларов США)</p>\n" +          
 
           "              </div>\n" +
             "\n" +
             "            </div>",
-            en:  "<div class=\"details\">\n" +
-            "         <p>From 2020 :</p>" +               
-            "              <div style=\"text-align: justify;\">\n" +
-            "                <p><b>Professor of the Department of International Law and Human Rights, Tashkent State University of Law</b></p>\n" +
-            "<p><b>Born </b> 27.09.1958</p>\n" +
-            "<p><b>Place of birth:</b>Republic of Turkmenistan Old-Urgench city</p>\n" +
-            "<p><b>Nationality:</b> ўзбек</p>\n" +
-            "<p><b>The party of secular levels: </b> N/A</p>\n" +
-            "<h2>WORK EXPERIENCE</h2>\n" +
-            "<p>1977-1982.	-	Student of Kazan State University</p>\n" +
-            "<p>1982-1987.	-	Lecturer at the Department of Law, Nukus State University</p>\n" +            
-            "<p>1987-1993.	-	Lecturer at the Department of Sociology, Nukus State University</p>\n" +            
-            "<p>1993-1995.	-	Lecturer at the Department of Sociology and Cultural Studies, Karakalpak State University</p>\n" +            
-            "<p>1995-2000.	-	Assistant, Senior Lecturer, Department of Law, Karakalpak State University</p>\n" +            
-            "<p>2000-2002.	-	Senior Lecturer, Associate Professor, Department of State Law and Management, Karakalpak State University</p>\n" +            
-            "<p>2002-2002.	-	Head of the Department of Civil and Economic Law, Karakalpak State University</p>\n" +            
-            "<p>2002-2013.	-	Senior Lecturer, Acting Associate Professor, Acting Head of the Department of International and Comparative Law, Tashkent State Law Institute, Head of the Department</p>\n" +            
-            "<p>2013-2014.	-	Tashkent State University of Law, Associate Professor of International Public Law</p>\n" +            
-            "<p>2014-2017.	-	Head of the Center for Legal Research, Tashkent State University of Law</p>\n" +            
-            "<p>2017-2018.	-	Professor of the Department of International Public Law, Tashkent State University of Law</p>\n" +            
-            "<p>2018 -2020 .	-	University of World Economy and Diplomacy, UNESCO Professor of the Department of International Law and Human Rights</p>\n" +            
-            "<p>2020 - present.	-	Professor of the Department of International Law and Human Rights, Tashkent State University of Law</p>\n" +                             
+            en: "<div class=\"details\">\n" +
+            "         <h2><b>ACADEMIC CREDENTIALS </p>" +               
+            "              <div style=\"text-align: justify;\">\n" +                            
+            "<p>PhD (2013), University of New South Wales (UNSW), Sydney, Australia. (2014 UNSW PhD Excellence Award)</p>\n" +
+            "<p>Graduate Diploma of Legal Practice, (2009) College of Law, St Leonards, Sydney, Australia.</p>\n" +
+            "<p>Bachelor Commerce (Economics) / Bachelor of Law (Hons) (2004), Macquarie University, Sydney, Australia.</p>\n" +
+            "<h2>POSITIONS</h2>\n" +
+            "<p>2021 – Present                        Associate Professor, College of Law, Qatar University, Qatar</p>\n" +
+            "<p>2015 – 2021 	Assistant Professor of Commercial Law, College of Law, Qatar University, Qatar.</p>\n" +
+            "<p>2018 (January – April)	Adjunct Assistant Professor, Indiana University of Pennsylvania (US) and Arab American University of Jenin (Palestine)  </p>\n" +
+            "<p>2016  - 2018  (Summer) 	Visiting Adjunct Professor, University of Padua, Italy. </p>\n" +
+            "<p>2010 – 2015 	Lecturer in Business Law, Faculty of Business and Economics, Macquarie University, Australia.</p>\n" +
+            "<p>2005 – 2010 	Associate Lecturer, Division of Law, Macquarie University, Australia</p>\n" +
+            "<p>Research Grants</p>\n" +
+            "<p>2019 QNRF 	‘FinTech and RegTech: Building a resilient, inclusive and competitive legal and regulatory framework for 21st century finance in Qatar’ ($USD 579,000) </p>\n" +
+            "<p>2016 (QU Internal)	‘A Review of Financial Regulations in Qatar: 2005-Present’. ($US 18 000) </p>\n" +           
+
+          "              </div>\n" +
+            "\n" +
+            "            </div>"
+        }
+    },
+
+    {
+        id: 20,
+        img: "assets/img/speakers/20.jpg",
+        name: {
+            uz: "Fujio Kavashima",
+            ru: "Профессор Фудзио",
+            en: "Fujio Kavashima"
+        },
+        degree: {
+            uz: "Nutq so'zlovchi",
+            ru: "Оратор",
+            en: "Speaker"
+        },
+        detail: {
+            uz: "<div class=\"details\">\n" +
+                "         <h2><b>Ta’lim</h2>" +               
+                "              <div style=\"text-align: justify;\">\n" +                            
+       "<p>1990 y. Tokio universiteti (LL.B.)</p>\n"+     
+       "<p>1990 y. Tokio universiteti ilmiy xodimi</p>\n"+     
+       "<p>1996 y. Kanazava universiteti dotsenti</p>\n"+     
+       "<p>2005 y. Nagoya universiteti dotsenti</p>\n"+     
+       "<p>2011 y. Nagoya universiteti professori</p>\n"+     
+       "<p>2015 y. Kobe universiteti professori</p>\n"+     
+       "<h2>Ilmiy yoʼnalishi</h2>\n"+     
+       "<p>Xalqaro iqtisodiyot huquqi, Osiyo davlatlarida raqobat huquqi</p>\n"+     
+       "<p><b>Website</b></p>\n"+     
+       "<p>Rasmiy: </p>\n"+  
+       "<p>http://www.law.kobe-u.ac.jp/graduate/faculty/professor/kawashima.html </p>\n"+     
+       "<p>Shaxsiy:</p>\n"+     
+       "<p>https://fujiokawashima.wordpress.com/ </p>\n"+   
+       "<p>U 1990-yillardan buyon Jahon Savdo Tashkilotida (JST) nizolarni xal etish, Xitoyning JSTga kirishi bilan bog`liq huquqiy islohotlar hamda Osiyo davlatlarida raqobat huquqining rivojlanishi kabi ilmiy mavzularda o`z faoliyatini olib bormoqda. Yillar davomida u JST faoliyati va raqobat huquqiga qiziqqan talabalarga ingliz tilida ilmiy rahbarlik vazifasini bajarib kelmoqda. U hozirda JST moot ustaxonasini (WTO Moot Workshop) yuritib kelmoqda.</p>\n"+     
+
+              "              </div>\n" +
+                "\n" +
+                "            </div>",
+            ru: "<div class=\"details\">\n" +
+            "         <h2><b>Образование</p>" +               
+            "              <div style=\"text-align: justify;\">\n" +                            
+            "<p>1990 г. Токийский университет (бакалавр права)</p>\n"+     
+            "<p>1990 г. Исследователь Токийского университета</p>\n"+     
+            "<p>1996 г. Доцент Канадзавского университета</p>\n"+     
+            "<p>2005 г. Доцент Нагойского университета</p>\n"+     
+            "<p>2011 г. Профессор Нагойского университета</p>\n"+     
+            "<p>2015 г. Профессора Университета Кобе</p>\n"+     
+            "<h2>Научное направление</h2>\n"+     
+            "<p>Международное экономическое право, конкурентное право в странах Азии</p>\n"+     
+            "<p><b>Веб-сайт</b></p>\n"+     
+            "<p>Официальный: http://www.law.kobe-u.ac.jp/graduate/faculty/professor/kawashima.html </p>\n"+     
+            "<p>Личный: https://fujiokawashima.wordpress.com/ </p>\n"+     
+            "<p>Он работает во Всемирной торговой организации (ВТО) с 1990-х годов над научными вопросами, такими как разрешение споров, правовые реформы, связанные с вступлением Китая в ВТО, и развитие законодательства о конкуренции в азиатских странах. На протяжении многих лет он работала научным руководителем по английскому языку для студентов, интересующихся деятельностью ВТО и законодательством о конкуренции. В настоящее время он ведет учебный семинар ВТО.</p>\n"+     
+          "              </div>\n" +
+            "\n" +
+            "            </div>",
+            en: "<div class=\"details\">\n" +
+            "         <h2><b>Education</p>" +               
+            "              <div style=\"text-align: justify;\">\n" +                            
+            "<p></p>\n"+     
+            "<p></p>\n"+     
+            "<p></p>\n"+     
+            "<p></p>\n"+     
+            "<p></p>\n"+    
+
+
+          "              </div>\n" +
+            "\n" +
+            "            </div>"
+        }
+    },
+
+    {
+        id: 21,
+        img: "assets/img/speakers/21.jpg",
+        name: {
+            uz: "Fujio Kavashima",
+            ru: "Профессор Фудзио",
+            en: "Fujio Kavashima"
+        },
+        degree: {
+            uz: "Nutq so'zlovchi",
+            ru: "Оратор",
+            en: "Speaker"
+        },
+        detail: {
+            uz: "<div class=\"details\">\n" +
+                "         <h2><b>Ta’lim</h2>" +               
+                "              <div style=\"text-align: justify;\">\n" +                            
+       "<p>1990 y. Tokio universiteti (LL.B.)</p>\n"+     
+       "<p>1990 y. Tokio universiteti ilmiy xodimi</p>\n"+     
+       "<p>1996 y. Kanazava universiteti dotsenti</p>\n"+     
+       "<p>2005 y. Nagoya universiteti dotsenti</p>\n"+     
+       "<p>2011 y. Nagoya universiteti professori</p>\n"+     
+       "<p>2015 y. Kobe universiteti professori</p>\n"+     
+       "<h2>Ilmiy yoʼnalishi</h2>\n"+     
+       "<p>Xalqaro iqtisodiyot huquqi, Osiyo davlatlarida raqobat huquqi</p>\n"+     
+       "<p><b>Website</b></p>\n"+     
+       "<p>Rasmiy: </p>\n"+  
+       "<p>http://www.law.kobe-u.ac.jp/graduate/faculty/professor/kawashima.html </p>\n"+     
+       "<p>Shaxsiy:</p>\n"+     
+       "<p>https://fujiokawashima.wordpress.com/ </p>\n"+   
+       "<p>U 1990-yillardan buyon Jahon Savdo Tashkilotida (JST) nizolarni xal etish, Xitoyning JSTga kirishi bilan bog`liq huquqiy islohotlar hamda Osiyo davlatlarida raqobat huquqining rivojlanishi kabi ilmiy mavzularda o`z faoliyatini olib bormoqda. Yillar davomida u JST faoliyati va raqobat huquqiga qiziqqan talabalarga ingliz tilida ilmiy rahbarlik vazifasini bajarib kelmoqda. U hozirda JST moot ustaxonasini (WTO Moot Workshop) yuritib kelmoqda.</p>\n"+     
+
+              "              </div>\n" +
+                "\n" +
+                "            </div>",
+            ru: "<div class=\"details\">\n" +
+            "         <h2><b>Образование</p>" +               
+            "              <div style=\"text-align: justify;\">\n" +                            
+            "<p>1990 г. Токийский университет (бакалавр права)</p>\n"+     
+            "<p>1990 г. Исследователь Токийского университета</p>\n"+     
+            "<p>1996 г. Доцент Канадзавского университета</p>\n"+     
+            "<p>2005 г. Доцент Нагойского университета</p>\n"+     
+            "<p>2011 г. Профессор Нагойского университета</p>\n"+     
+            "<p>2015 г. Профессора Университета Кобе</p>\n"+     
+            "<h2>Научное направление</h2>\n"+     
+            "<p>Международное экономическое право, конкурентное право в странах Азии</p>\n"+     
+            "<p><b>Веб-сайт</b></p>\n"+     
+            "<p>Официальный: http://www.law.kobe-u.ac.jp/graduate/faculty/professor/kawashima.html </p>\n"+     
+            "<p>Личный: https://fujiokawashima.wordpress.com/ </p>\n"+     
+            "<p>Он работает во Всемирной торговой организации (ВТО) с 1990-х годов над научными вопросами, такими как разрешение споров, правовые реформы, связанные с вступлением Китая в ВТО, и развитие законодательства о конкуренции в азиатских странах. На протяжении многих лет он работала научным руководителем по английскому языку для студентов, интересующихся деятельностью ВТО и законодательством о конкуренции. В настоящее время он ведет учебный семинар ВТО.</p>\n"+     
+          "              </div>\n" +
+            "\n" +
+            "            </div>",
+            en: "<div class=\"details\">\n" +
+            "         <h2><b>Education</p>" +               
+            "              <div style=\"text-align: justify;\">\n" +                            
+            "<p></p>\n"+     
+            "<p></p>\n"+     
+            "<p></p>\n"+     
+            "<p></p>\n"+     
+            "<p></p>\n"+    
+
 
           "              </div>\n" +
             "\n" +
