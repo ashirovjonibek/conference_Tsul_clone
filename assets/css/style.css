@@ -13,6 +13,9 @@
   color: white;
 }
 
+.chapterBg{
+  background-color:#0B112643 !important;
+}
 body {
   background: #fff;
   color: #2f3138;
@@ -748,7 +751,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media screen and (max-width: 992px) {
   .speaker{
     text-align: center;
-    height: 200px;
+    height: auto;
     width: 100%;
   }
   .speaker img{

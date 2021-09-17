@@ -16,14 +16,14 @@ let part1=[
         img:"assets/img/intro-bg.jpg",
         time:"09.30 – 10.00",
         name:{
-            uz:"ЯЛПИ МАЖЛИС",
+            uz:"ЯЛПИ МАЖЛИС <br> <p>Тадбирнинг очилиши ва табрик сўзлари:</p>",
             ru:"ГЕНЕРАЛЬНАЯ АССАМБЛЕЯ\n",
-            en:"GENERAL ASSEMBLY"
+            en:"PLENARY SESSION <br> <p>Opening remarks and congratulations:</p>"
         },
         description:{
-            uz:"<p>Русланбек Куролтайевич Давлетов, Акмал Холматович Саидов, Рахимжон Расулжонович Хакимов, Ибрахим Айдинли, Ханс-Ульрих Им, Нунзио Куакворелли,<br> <b>Модератор:</b>  Умаров Дилшоджон Маъруфович</p>",
-            ru:"<p>Русланбек Куролтайевич Давлетов, Акмал Холматович Саидов, Акмал Холматович Саидов, Ибрахим Айдинли, Ханс-Ульрих Им, Нунзио Куакворелли,<br> <b>Модератор:</b>  Умаров Дилшоджон Маъруфович</p>",
-            en:"<p>Ruslanbek Kuroltaevich Davletov, Akmal Kholmatovich Saidov, Rakhimjon Rasuljonovich Khakimov, Ibrahim Aydinli, Hans-Ulrich Im, Nunzio Quakvorelli,<br> <b>Moderator:</b>  Umarov Dilshodjon Marufovich</p>",
+            uz:"<p> <b>Русланбек Куролтайевич Давлетов </b>– Ўзбекистон Республикаси адлия вазири<br>  <b>Акмал Холматович Саидов</b>– Ўзбекистон Республикаси Олий Мажлиси Қонунчилик палатаси Спикерининг биринчи ўринбосари, Инсон ҳуқуқлари бўйича Миллий марказ директори, Ўзбекистон Республикаси Фанлар академияси академиги, юридик фанлари доктори, профессор<br>  <b>Абдукодир Хамидович Тошкулов</b>– Ўзбекистон Республикаси олий ва ўрта махсус таълим вазири<br>  <b>Ибрахим Айдинли </b>– Анкара Йилдирим Баязид университети президенти, юридик фанлари доктори, профессор (Туркия<br>  <b>Ханс-Ульрих Им</b> – Европада хавфсизлик ва ҳамкорлик ташкилотининг Ўзбекистондаги лойиҳалари координатори в.б.<br>  <b>Нунзио Куакворелли </b>– QS жаҳон университетлари рейтинги президенти ва асосчиси (Буюк Британия, онлайн)<br>  <b>Модератор:</b> Исламбек Рустамбекович Рустамбеков – Тошкент давлат юридик университети ректори в.в.б.,юридик фанлари доктори, профессор            <br></p>",
+            ru:"<p><b></b> <br> <b></b> <br> <b></b> <br> <b></b> <br> <b></b> <br> <b></b> <br></p>",
+            en:"<p><b>Ruslanbek Kuroltaevich Davletov</b>– Minister of Justice of the Republic of Uzbekistan <br> <b>Akmal Kholmatovich Saidov </b>v – First Deputy Speaker of the Legislative Chamber of the Oliy Majlis of the Republic of Uzbekistan, Director of the National Human Rights Centre, member of the Academy of Sciences of the Republic of Uzbekistan, Doctor of Law, Professor<br> <b>Abdukodir Khamidovich Toshkulov</b> – Minister of Higher and Secondary Special Education of the Republic of Uzbekistan <br> <b>Ibrahim Aydinli</b> – President of Ankara Yildirim Bayazid University, Doctor of Law, Professor (Turkey) <br> <b>Hans Ullrich Ihm</b> – Acting OSCE Project Co-ordinator in Uzbekistan<br> <b>Nunzio Quacquarelli</b>– President and Founder of QS World University Rankings (UK, online) <br>  <b>Moderator:</b>Islambek Rustambekovich Rustambekov – Acting Rector of Tashkent State University of Law, Doctor of Law, Professor             <br></p>"
         },
         largeDescription:null
     },
@@ -76,14 +76,14 @@ let part1=[
         img:"assets/img/intro-bg.jpg",
         time:"10.20 –10.30",
         name:{
-            uz:"Харуо Сабури",
-            ru:"Харуо Сабури",
-            en:"Haruo Saburi"
+            uz:"Mark Bungenberg",
+            ru:"Марк Бунгенберг",
+            en:"Mark Bungenberg"
         },
         description:{
-            uz:"<p>Нагоя иқтисодиёт университети президенти, юридик фанлари доктори, профессор (Япония, онлайн)</p>",
-            ru:"<p>президент Нагойского экономического университета, доктор юридических наук, профессор (Япония, онлайн)</p>",
-            en:"<p>President of Nagoya University of Economics, Doctor of Law, Professor (Japan, online)</p>"
+            uz:"<p>– Европа-институти директори, Саарленд университети профессори, юридик фанлари доктори(Германия)</p>",
+            ru:"<p>– Director of the Europa-Institut, Professor of Saarland University, Doctor of Law (Germany)</p>",
+            en:"<p>– Director of the Europa-Institut, Professor of Saarland University, Doctor of Law (Germany)</p>"
         },
         largeDescription:null
     },
@@ -104,14 +104,14 @@ let part1=[
         img:null,
         time:"11.00 -11.15",
         name:{
-            uz:"Марк Бунгенберг",
-            ru:"Марк Бунгенберг",
-            en:"Mark Bungenberg "
+            uz:"Haruo Saburi",
+            ru:"Харуо Сабури",
+            en:"Haruo Saburi"
         },
         description:{
-            uz:"<p>Европа-институти директори, Саарленд университети, юридик фанлари доктори, профессор (Германия)</p>",
-            ru:"<p>директор Европейского института Саарландского университета, доктор юридических наук, профессор (Германия)</p>",
-            en:"<p>Director of the European Institute, University of Saarland, Doctor of Law, Professor (Germany)</p>"
+            uz:"<p>– Нагоя иқтисодиёт университети президенти, юридик фанлари доктори, профессор (Япония, онлайн)</p>",
+            ru:"<p>– President of Nagoya University of Economics, Doctor of Law, Professor (Japan, online)</p>",
+            en:"<p> – President of Nagoya University of Economics, Doctor of Law, Professor (Japan, online)</p>"
         },
         largeDescription:null
     },
@@ -120,14 +120,14 @@ let part1=[
         img:null,
         time:"11.15 – 11:30",
         name:{
-            uz:"Екатерина Владимировна Ильгова",
-            ru:"Екатерина Владимировна Ильгова",
-            en:"Ekaterina Vladimirovna Ilgova"
+            uz:"Талгат Максутович Нарикбаев",
+            ru:"Талгат Максутович Нарикбаев",
+            en:"Talgat Maksutovich Narikbayev"
         },
         description:{
-            uz:"<p>Саратов давлат юридик академияси ректори, юридик фанлари номзоди, доцент</p>",
-            ru:"<p>ректор Саратовской государственной юридической академии, кандидат юридических наук, доцент</p>",
-            en:"<p>Rector of Saratov State Law Academy, Candidate of Legal Sciences, Associate Professor</p>"
+            uz:"<p>в – М.С.Нарикбаев номидаги КАЗГЮУ университети бошқарув раиси (Қозоғистон, онлайн)</p>",
+            ru:"<p>– Chairman of the Board of the M.S. Narikbayev KAZGUU University (Kazakhstan, online)</p>",
+            en:"<p>– Chairman of the Board of the M.S. Narikbayev KAZGUU University (Kazakhstan, online)</p>"
         },
         largeDescription:null
     },
@@ -136,14 +136,14 @@ let part1=[
         img:null,
         time:"11.30 – 11:45",
         name:{
-            uz:"Талгат Максутович Нарикбаев",
-            ru:"Талгат Максутович Нарикбаев",
-            en:"Talgat Maksutovich Narikbaev"
+            uz:"Марина Юрьевна Спирина",
+            ru:"Марина Юрьевна Спирина",
+            en:"Marina Yurevna Spirina"
         },
         description:{
-            uz:"<p>М.С. Нарикбаев номли КАЗГЮУ университети бошқарув раиси (Қозоғистон, онлайн)</p>",
-            ru:"<p>Talgat Maksutovich Narikbaev - M.S. Chairman of the Board of KAZGUU University named after Narikbaev (Kazakhstan, online)</p>",
-            en:"<p>Talgat Maksutovich Narikbaev - M.S. Chairman of the Board of KAZGUU University named after Narikbaev (Kazakhstan, online)</p>"
+            uz:"<p>– Евросиё иқтисодий ҳамжамияти Парламентлараро Ассамблеяси ҳузуридаги университетнинг илмий ишлар бўйича проректори (Россия, онлайн)</p>",
+            ru:"<p>– Vice-Rector for Scientific Affairs ANO HE 'University under the Inter-Parliamentary Assembly of EurAsEC' (Russia, online)</p>",
+            en:"<p>– Vice-Rector for Scientific Affairs ANO HE 'University under the Inter-Parliamentary Assembly of EurAsEC' (Russia, online)</p>"
         },
         largeDescription:null
     },
@@ -152,14 +152,14 @@ let part1=[
         img:null,
         time:"11.45 – 12.00",
         name:{
-            uz:"Марина Юрьевна Спирина",
-            ru:"Марина Юрьевна Спирина",
-            en:"Marina Yurevna Spirina"
+            uz:"Ekaterina Vladimirovna Ilgova ",
+            ru:"Екатерина Владимировна Ильгова",
+            en:"Ekaterina Vladimirovna Ilgova "
         },
         description:{
-            uz:"<p>Проректор по научной работе АНО ВО \"Университет при МПА ЕврАзЭС\" (Россия)</p>",
-            ru:"<p>Проректор по научной работе АНО ВО \"Университет при МПА ЕврАзЭС\" (Россия)</p>",
-            en:"<p>Vice-Rector for Scientific Affairs ANO VO \"University at MPA EvrAzES\" (Russia)</p>"
+            uz:"<p>– Саратов давлат юридик академияси ректори, юридик фанлари номзоди, доцент (Россия, онлайн)</p>",
+            ru:"<p>– Rector of the Federal State Budgetary Educational Institution of Higher Education Saratov State Law Academy, PhD in Jurisprudence, Associate Professor(Russia, online)</p>",
+            en:"<p>– Rector of the Federal State Budgetary Educational Institution of Higher Education Saratov State Law Academy, PhD in Jurisprudence, Associate Professor(Russia, online)</p>"
         },
         largeDescription:null
     },
@@ -169,8 +169,8 @@ let part1=[
         time:"12.00 – 13.00",
         name:{
             uz:"Мунозара",
-            ru:"Обсуждение",
-            en:"Discussion"
+            ru:"Panel Discussion",
+            en:"Panel Discussion"
         },
         description:null,
         largeDescription:null
@@ -214,10 +214,22 @@ let part1=[
     {
         id:16,
         img:null,
-        time:"15:00 – 16:00",
+        time:"15:00 – 15:40",
         name:{
             uz:"Ҳуқуқшунослар учун янги авлод дарсликларини яратиш ва уларга бўлган талаблар мавзусида давра суҳбати",
             ru:"Круглый стол по созданию учебников нового поколения для юристов и требованиям к ним",
+            en:"Roundtable on the creation of a new generation of textbooks for lawyers and the requirements for them"
+        },
+        description:null,
+        largeDescription:null
+    },
+    {
+        id:17,
+        img:null,
+        time:"15:40 – 16:00",
+        name:{
+            uz:"ТДЮУ янги авлод дарсликлари тақдимоти",
+            ru:"Presentation of new generation textbooks of Tashkent State University of Law            ",
             en:"Roundtable on the creation of a new generation of textbooks for lawyers and the requirements for them"
         },
         description:null,
@@ -243,7 +255,7 @@ let part2=[
             {
                 id:2,
                 img:null,
-                time:"14.30 -14.45",
+                time:"14.30 – 14.50",
                 name:{
                     uz:"ОММАВИЙ ҲУҚУҚ ФАНЛАРНИНГ МИЛЛИЙ ВА ХАЛҚАРО МИҚЁСДА РИВОЖЛАНИШ ТЕНДЕНЦИЯЛАРИ",
                     ru:"НАЦИОНАЛЬНЫЕ И МЕЖДУНАРОДНЫЕ ТЕНДЕНЦИИ РАЗВИТИЯ ПУБЛИЧНЫХ НАУК",
@@ -251,22 +263,22 @@ let part2=[
                 },
                 description:{
                     uz:"<p><b>Модератор:</b> Сайдуллаев Шахзод Алиханович – ТДЮУ Оммавий ҳуқуқ факультети декани, юридик фанлар номзоди, профессор <br><b>Сессия кириш сўзи: \n" +
-                        "</b>Абдусаломов Мирза-Улуғбек Элчиевич, Каньязов Есемурат Султамуратович, Хамедов Иса Ахлиманович, Гулсара Кенжеевна Кулдышева, Одилқориев Хожимурод Тухтамуродович</p>",
+                        "</b>Абдусаломов Мирза-Улуғбек Элчиевич, Каньязов Есемурат Султамуратович, Хамедов Иса Ахлиманович, Гулсара Кенжеевна Кулдышева, Ҳалимбой Бобоев</p>",
                     ru:"<p><b>Модератор:</b> Сайдуллаев Шахзод Алиханович – декан факультета публичного права Ташкентского государственного университета, кандидат юридических наук, профессор <br><b>Введение в сессию: \n" +
                         "</b>Абдусаломов Мирза-Улуғбек Элчиевич, Каньязов Есемурат Султамуратович, Хамедов Иса Ахлиманович, Гулсара Кенжеевна Кулдышева, Одилқориев Хожимурод Тухтамуродович</p>",
                     en:"<p><b>Moderator:</b> Saydullaev Shaxzod Alikhanovich - Dean of the Faculty of Public Law of Tashkent State University of Law, Candidate of Legal Sciences, Professor <br><b>Session introduction: \n" +
-                        "</b>Abdusalomov Mirza-Ulugbek Elchievich, Kanyazov Esemurat Sultamuratovich, Khamedov Isa Akhlimanovich, Gulsara Kenjeevna Kuldysheva, Odilkoriev Khojimurod Tukhtamurodovich</p>"
+                        "</b>Abdusalomov Mirza-Ulugbek Elchievich, Kanyazov Esemurat Sultamuratovich, Khamedov Isa Akhlimanovich, Gulsara Kenjeevna Kuldysheva, Halimboy Boboev</p>"
                 },
                 largeDescription:null
             },
             {
                 id:3,
                 img:"assets/query/imgschedule/ahmedshayeva.jpg",
-                time:"14.45 -15.00",
+                time:"14.50 – 15.00",
                 name:{
-                    uz:"Мавлюда Ахмедшаева",
-                    ru:"Мавлюда Ахмедшаева",
-                    en:"Mavlyuda Ahmedshaeva"
+                    uz:"Мавлюда Ахатовна Ахмедшаева",
+                    ru:"Мавлюда Ахатовна Ахмедшаева",
+                    en:"Mavlyuda Axatovna Ahmedshaeva"
                 },
                 description:{
                     uz:"<p>Рақамлаштириш даврида давлат ва ҳуқуқ назариясини такомиллаштириш</p>",
@@ -390,11 +402,11 @@ let part2=[
             {
                 id:4,
                 img:null,
-                time:"15.00 -15.15",
+                time:"15.00 – 15.10",
                 name:{
-                    uz:"Джахонгир Сафаров",
+                    uz:"Джахонгир Исмаилович Сафаров",
                     ru:"Джахонгир Сафаров",
-                    en:"Djakhongir Safarov"
+                    en:"Djaxongir Ismailovich Safarov"
                 },
                 description:{
                     uz:"<p>Атроф табиий муҳит муҳофазасига оид қонунчиликнинг шаклланиши ва ривожланиш истиқболлари</p>",
@@ -406,11 +418,11 @@ let part2=[
             {
                 id:5,
                 img:null,
-                time:"15.15 -15.30",
+                time:"15.10 – 15.20",
                 name:{
                     uz:"Д-р Йорг Пуделька",
                     ru:"Д-р Йорг Пуделька",
-                    en:"Dr. Yorg Pudelka"
+                    en:"Dr. Jörg Pudelka"
                 },
                 description:{
                     uz:"<p>Ўзбекистонда маъмурий ислоҳотларни амалга оширишда Германия тажрибасининг ўрни</p>",
@@ -422,11 +434,11 @@ let part2=[
             {
                 id:6,
                 img:null,
-                time:"15.30 -15.45",
+                time:"15.20 – 15.30",
                 name:{
-                    uz:"Шухрат Якубов",
-                    ru:"Шухрат Якубов",
-                    en:"Shukhrat Yakubov"
+                    uz:"Шухрат Умматалиевич Якубов",
+                    ru:"Shukhrat Ummatalievich Yakubov",
+                    en:"Shukhrat Ummatalievich Yakubov"
                 },
                 description:{
                     uz:"<p>Фуқаролик жамияти институтларига оид ҳуқуқий фанларнинг ривожланиш истиқболлари</p>",
@@ -438,9 +450,9 @@ let part2=[
             {
                 id:7,
                 img:null,
-                time:"15.45 -16.00",
+                time:"15.30 – 15.40 ",
                 name:{
-                    uz:"Edvardas Juchnevicius ",
+                    uz:"Эдвардс Юнкевич",
                     ru:"Эдвардас Ючнявичюс",
                     en:"Edvardas Juchnevicius "
                 },
@@ -454,11 +466,11 @@ let part2=[
             {
                 id:8,
                 img:null,
-                time:"16.00 -16.15",
+                time:"15.40 – 15.50",
                 name:{
-                    uz:"Алишер Махмудов",
+                    uz:"Алишер Абдусалимович Махмудов",
                     ru:"Алишер Махмудов",
-                    en:"Alisher Mahmudov "
+                    en:"Alisher Abdusalimovich Mahmudov"
                 },
                 description:{
                     uz:"<p>Ўзбекистон Республикасида маҳаллий вакиллик органларининг назорат фаолиятини такомиллаштириш</p>",
@@ -470,11 +482,11 @@ let part2=[
             {
                 id:9,
                 img:null,
-                time:"16.15 -16.30",
+                time:"15.50 – 16.00",
                 name:{
-                    uz:"Dr. Damain Cyman",
+                    uz:"Дэмиэн Сайман",
                     ru:"Др. Дамен Сайман",
-                    en:"Dr. Damain Cyman"
+                    en:"Damian Cyman"
                 },
                 description:{
                     uz:"<p>Specific aspects of financial law and its teaching methodology</p>",
@@ -486,11 +498,11 @@ let part2=[
             {
                 id:10,
                 img:null,
-                time:"16.30 -16.45",
+                time:"16.00 – 16.10",
                 name:{
-                    uz:"Бекзод Мусаев",
+                    uz:"Бекзод Турсунбоевич Мусаев",
                     ru:"Бекзод Мусаев",
-                    en:"Bekzod Musaev"
+                    en:"Bekzod Tursunboevich Musaev"
                 },
                 description:{
                     uz:"<p>“Конституциявий ҳуқуқ фанининг ривожланиш истиқболлари”</p>",
@@ -502,27 +514,15 @@ let part2=[
             {
                 id:11,
                 img:null,
-                time:null,
+                time:"16.10 – 16.50",
                 name:{
-                    uz:"Конференция тавсиялари ва якунлари",
-                    ru:"Рекомендации и результаты конференции",
-                    en:"Conference recommendations and conclusions"
+                    uz:"Муҳокама учун савол-жавоблар, мунозара",
+                    ru:"Q&A session",
+                    en:"Q&A session"
                 },
                 description:null,
                 largeDescription:null
-            },
-            {
-                id:12,
-                img:null,
-                time:null,
-                name:{
-                    uz:"Тадбир якуни",
-                    ru:"Конец мероприятия",
-                    en:"The end of the event"
-                },
-                description:null,
-                largeDescription:null
-            },
+            }
         ]
     },
     {
@@ -542,7 +542,7 @@ let part2=[
             {
                 id:1,
                 img:null,
-                time:"14.30 -14.45",
+                time:"14.30 – 14.50",
                 name:{
                     uz:"ЖИНОЯТ-ҲУҚУҚИЙ СОҲАДА ИЛМ ВА ФАННИ РИВОЖЛАНТИРИШ МАСАЛАЛАРИ: МУАММО ВА УЛАРНИНГ ЕЧИМЛАРИ",
                     ru:"ПРОБЛЕМЫ РАЗВИТИЯ НАУКИ В УГОЛОВНОМ ПРАВО: ПРОБЛЕМЫ И ИХ РЕШЕНИЯ",
@@ -550,50 +550,77 @@ let part2=[
                 },
                 description:{
                     uz:"<p><b>Модератор:</b> Камалова Дилдора Гайратовна – ТДЮУ Жиноий одил судлов факультети декани, юридик фанлар бўйича фалсафа доктори, доцент<br><b>Сессия кириш сўзи: </b>\n" +
-                        "Мирзаюсуф Хакимович Рустамбаев, Евгений Вячеславович Коленко, Гульнар Айтчановна Алибаева, Алексей Витальевич Сумачев</p>",
+                        "Мирзаюсуф Хакимович Рустамбаев, Петра Горьюп, Умида Абдиловна Тухташева, Мухтабар Акбаровна Хусанова</p>",
                     ru:"<p><b>Модератор:</b> Камалова Дилдора Гайратовна –декан факультета уголовного правосудия ТГЮУ, доктор философских наук, доцент <br><b>Session introduction: </b>\n" +
-                        "Мирзаюсуф Хакимович Рустамбаев, Евгений Вячеславович Коленко, Гульнар Айтчановна Алибаева, Алексей Витальевич Сумачев</p>",
+                        "Мирзаюсуф Хакимович Рустамбаев, Петра Горьюп, Умида Абдиловна Тухташева, Мухтабар Акбаровна Хусанова</p>",
                     en:"<p><b>Moderator:</b> Kamalova Dildora Gayratovna - Dean of the Faculty of Criminal Justice, TSU, Doctor of Philosophy in Law, Associate Professor <br><b>Session introduction: </b>\n" +
-                        "Mirzayusuf Khakimovich Rustambaev, Yevgeny Vyacheslavovich Kolenko, Gulnar Aytchanovna Alibaev, Alexey Vitalevich Sumachev</p>"
+                        "Mirzayusuf Khakimovich Rustambaev, Petra Gorjup, Umida Abdilovna Tukhtasheva, Mukhtabar Akbarovna Khusanova</p>"
                 },
                 largeDescription:null
             },
             {
                 id:2,
                 img:null,
-                time:"14.45 -15.00",
+                time:"14.50 – 15.00",
                 name:{
-                    uz:"E.Joan Blum",
-                    ru:"Э. Джоан Блюм",
-                    en:"E. Joan Blum"
+                    uz:"Гульнар Айтчановна Алибаева",
+                    ru:"Gulnar Aytchanovna Alibaeva",
+                    en:"Gulnar Aytchanovna Alibaeva"
                 },
                 description:{
-                    uz:"<p>Юридик таълим бериш ва илмни ривожлантиришда  АҚШ тажрибаси</p>",
-                    ru:"<p>Опыт США в развитии юридического образования и науки</p>",
-                    en:"<p>\"US Experience in Legal Education and Science Development\"</p>"
+                    uz:"<p>“Таълим ва фан соҳасида инновацияларни қўллаш\n" +
+                        "самарадорлиги: Қозоғистон мустақиллигининг юбилей\n" +
+                        "йилига бағишланган натижалар</p>",
+                    ru:"<p>The effectiveness of the use of innovations in education and\n" +
+                        "science: the results of the anniversary of Kazakhstan's\n" +
+                        "independence</p>",
+                    en:"<p>\"The effectiveness of the use of innovations in education and\n" +
+                        "science: the results of the anniversary of Kazakhstan's\n" +
+                        "independence\"</p>"
                 },
                 largeDescription:null
             },
             {
                 id:3,
                 img:null,
-                time:"15.00 -15.15",
+                time:"15.00 – 15.10",
                 name:{
-                    uz:"Умида Абдиловна Тухташева",
-                    ru:"Тухташева Умида Абдиловна",
-                    en:"Umida Abdilovna Tukhtasheva"
+                    uz:"Э.Джоан Блум",
+                    ru:"E. Joan Blum",
+                    en:"E. Joan Blum"
                 },
                 description:{
-                    uz:"<p>Коррупцияга оид фанларни ўқитишнинг замонавий тенденциялари</p>",
-                    ru:"<p>Современные тенденции преподавания антикоррупционных наук</p>",
-                    en:"<p>\"Modern trends in the teaching of corruption\"\n</p>"
+                    uz:"<p>Юридик таълим бериш ва илмни ривожлантиришда АҚШ\n" +
+                        "тажрибаси</p>",
+                    ru:"<p>US Experience in Legal Education and Science Development</p>",
+                    en:"<p>US Experience in Legal Education and Science Development</p>"
                 },
                 largeDescription:null
             },
             {
                 id:4,
                 img:null,
-                time:"15.15 -15.30",
+                time:"15.10 – 15.20",
+                name:{
+                    uz:" Алексей Витальевич Сумачев",
+                    ru:"Alexey Vitalevich Sumachev",
+                    en:"Alexey Vitalevich Sumachev"
+                },
+                description:{
+                    uz:"<p>Таълим муассасаларида коррупциянинг олдини олиш усули\n" +
+                        "сифатида таълим жараёнида рақамли технологияларни\n" +
+                        "қўллаш</p>",
+                    ru:"<p>The use of digital technologies in education as a way to prevent\n" +
+                        "corruption in educational institutions</p>",
+                    en:"<p>The use of digital technologies in education as a way to prevent\n" +
+                        "corruption in educational institutions</p>"
+                },
+                largeDescription:null
+            },
+            {
+                id:5,
+                img:null,
+                time:"15.20 – 15.30",
                 name:{
                     uz:"Кун Маркверинг",
                     ru:"Кун Маркверинг",
@@ -607,57 +634,9 @@ let part2=[
                 largeDescription:null
             },
             {
-                id:5,
-                img:null,
-                time:"15.30 -15.45",
-                name:{
-                    uz:"Дж.Д.Ширинов",
-                    ru:"Дж.Д.Ширинов",
-                    en:"DJ Shirinov"
-                },
-                description:{
-                    uz:"<p>Суд-ҳуқуқ ислоҳотларини амалга оширишда юридик илм-фан ютуқларидан фойдаланиш масалалари</p>",
-                    ru:"<p>Вопросы использования достижений юридической науки в реализации судебной реформы</p>",
-                    en:"<p>\"Issues of using the achievements of legal science in the implementation of judicial reform\"</p>"
-                },
-                largeDescription:null
-            },
-            {
                 id:6,
                 img:null,
-                time:"15.45 -16.00",
-                name:{
-                    uz:"Николай Павлович Ковалев",
-                    ru:"Николай Павлович Ковалев",
-                    en:"Nikolai Pavlovich Kovalev"
-                },
-                description:{
-                    uz:"<p>Современные тенденции в юридическом образовании</p>",
-                    ru:"<p>Современные тенденции в юридическом образовании</p>",
-                    en:"<p>Modern trends in juridicheskom obrazovanii</p>"
-                },
-                largeDescription:null
-            },
-            {
-                id:7,
-                img:null,
-                time:"16.00 -16.15",
-                name:{
-                    uz:"Рустам Ахмедович Зуфаров",
-                    ru:"Рустам Ахмедович Зуфаров",
-                    en:"Rustam Akhmedovich Zufarov"
-                },
-                description:{
-                    uz:"<p>Перспективы развития уголовно-правовой науки в Узбекистане</p>",
-                    ru:"<p>Перспективы развития уголовно-правовой науки в Узбекистане</p>",
-                    en:"<p>Perspectives of development of legal science in Uzbekistan</p>"
-                },
-                largeDescription:null
-            },
-            {
-                id:8,
-                img:null,
-                time:"16.15 -16.30",
+                time:"15.30 – 15.40",
                 name:{
                     uz:"Сакари Меландер",
                     ru:"Сакари Меландер",
@@ -671,32 +650,70 @@ let part2=[
                 largeDescription:null
             },
             {
-                id:9,
+                id:7,
                 img:null,
-                time:"16.30 -16.45",
+                time:"15.40 – 15.50",
                 name:{
                     uz:"Марат Чекишевич Когамов",
-                    ru:"Когамов Марат Чекишевич",
+                    ru:"Marat Chekishevich Kogamov",
                     en:"Marat Chekishevich Kogamov"
                 },
                 description:{
-                    uz:"<p>Юридическое образование в Казахстане: опыт, проблемы, решения</p>",
-                    ru:"<p>Юридическое образование в Казахстане: опыт, проблемы, решения</p>",
-                    en:"<p>Legal education in Kazakhstan: experience, problems, solutions</p>"
+                    uz:"<p>рофессори (Финландия, онлайн)\n" +
+                        "15.40 – 15.50 “Жиноий одил судлов назарияси ва амалиётини ўзаро\n" +
+                        "боғлиқлиги тергов ходимларини тайёрлашнинг ажралмас\n" +
+                        "қисми</p>",
+                    ru:"<p>The interdependence of the theory and practice of criminal\n" +
+                        "justice is an integral part of the training of investigators</p>",
+                    en:"<p>The interdependence of the theory and practice of criminal\n" +
+                        "justice is an integral part of the training of investigators</p>"
+                },
+                largeDescription:null
+            },
+            {
+                id:8,
+                img:null,
+                time:"15.50 – 16.00",
+                name:{
+                    uz:"Рустам Ахмедович Зуфаров",
+                    ru:"Рустам Ахмедович Зуфаров",
+                    en:"Rustam Akhmedovich Zufarov"
+                },
+                description:{
+                    uz:"<p>Ўзбекистонда жиноят-ҳуқуқий фанни ривожлантириш\n" +
+                        "истиқболлари</p>",
+                    ru:"<p>Перспективы развития уголовно-правовой науки в Узбекистане</p>",
+                    en:"<p>Perspectives of development of legal science in Uzbekistan</p>"
+                },
+                largeDescription:null
+            },
+            {
+                id:9,
+                img:null,
+                time:"16.00 – 16.10",
+                name:{
+                    uz:"Николай Павлович Ковалев",
+                    ru:"Николай Павлович Ковалев",
+                    en:"Nikolai Pavlovich Kovalev"
+                },
+                description:{
+                    uz:"<p>Юридик таълимдаги замонавий тенденциялар</p>",
+                    ru:"<p>Современные тенденции в юридическом образовании</p>",
+                    en:"<p>Modern trends in legal education</p>"
                 },
                 largeDescription:null
             },
             {
                 id:10,
                 img:"assets/query/imgschedule/Suyunova.jpg",
-                time:"16.45 -17.00",
+                time:"16.10 – 16.20",
                 name:{
                     uz:"Дилбар Жолдасбаевна Суюнова",
                     ru:"Суюнова Дильбар Жолдасбаевна",
                     en:"Dilbar Joldasbaevna Suyunova"
                 },
                 description:{
-                    uz:"<p>Юридическая наука и юридическое образование Нового Узбекистана</p>",
+                    uz:"<p>Янги Ўзбекистонда юридик таълим ва фан</p>",
                     ru:"<p>Юридическая наука и юридическое образование Нового Узбекистана</p>",
                     en:"<p>\"Legal science and legal education of New Uzbekistan\"</p>"
                 },
@@ -766,11 +783,11 @@ let part2=[
             {
                 id:11,
                 img:null,
-                time:null,
+                time:"16.20 – 16.50",
                 name:{
-                    uz:"Конференция тавсиялари ва якунлари",
-                    ru:"Рекомендации и результаты конференции",
-                    en:"Conference recommendations and conclusions"
+                    uz:"Муҳокама учун савол-жавоблар, мунозара",
+                    ru:"Q&A session",
+                    en:"Q&A session"
                 },
                 description:null,
                 largeDescription:null
@@ -806,18 +823,18 @@ let part2=[
             {
                 id:1,
                 img:null,
-                time:"14.30 -14.45",
+                time:"14.30 – 14.50",
                 name:{
                     uz:"ЯНГИ ЎЗБЕКИСТОН ВА ХАЛҚАРО ҲУҚУҚ: АСОСИЙ ЁНДАШУВЛАР, МИНТАҚАВИЙ ҲАМКОРЛИК ВА ИСТИҚБОЛЛАР",
                     ru:"НОВЫЙ УЗБЕКИСТАН И МЕЖДУНАРОДНОЕ ПРАВО: ОСНОВНЫЕ ПОДХОДЫ, РЕГИОНАЛЬНОЕ СОТРУДНИЧЕСТВО И ПЕРСПЕКТИВЫ",
                     en:"NEW UZBEKISTAN AND INTERNATIONAL LAW: KEY APPROACHES, REGIONAL COOPERATION AND PROSPECTS"
                 },
                 description:{
-                    uz:"<p><b>Модератор: </b>Умарханова Дилдора Шарипхоновна – ТДЮУ Халқаро ҳуқуқ ва қиёсий ҳуқуқшунослик факультети декани, юридик фанлар доктори, доцент <br><b>Сессия кириш сўзи: </b>\n" +
+                    uz:"<p><b>Модератор: </b>Умарханова Дилдора Шарипхоновна – ТДЮУ Халқаро ҳуқуқ ва қиёсий ҳуқуқшунослик факультети декани, юридик фанлар доктори, доцент <br><b>КИРИШ СЎЗИ: </b>\n" +
                         "Марк Бунгенберг, Рашидов Комил Каюмович, Маткаримова Гульчехра Абдусаматовна</p>",
                     ru:"<p><b>Модератор: </b>Умарханова Дильдора Шарипхоновна - декан факультета международного права и сравнительного правоведения ТГЮУ, доктор юридических наук, доцент<br><b>Введение в сессию: </b>\n" +
                         "Марк Бунгенберг, Рашидов Комил Каюмович, Маткаримова Гульчехра Абдусаматовна</p>",
-                    en:"<p><b>Moderator: </b>Umarkhanova Dildora Sharipkhonovna - Dean of the Faculty of International Law and Comparative Law, TSU, Doctor of Law, Associate Professor <br><b>Session introduction: </b>\n" +
+                    en:"<p><b>Moderator: </b>Umarkhanova Dildora Sharipkhonovna - Dean of the Faculty of International Law and Comparative Law, TSU, Doctor of Law, Associate Professor <br><b>OPENING REMARKS:</b>\n" +
                         "Mark Bungenberg, Rashidov Komil Kayumovich, Matkarimova Gulchekhra Abdusamatovna</p>"
                 },
                 largeDescription:null
@@ -825,55 +842,45 @@ let part2=[
             {
                 id:2,
                 img:null,
-                time:"14.45 -15.00",
+                time:"14.50 – 15.00",
                 name:{
-                    uz:"Саид Саидахрарович Гулямов",
-                    ru:"Саид Саидахрарович Гулямов",
-                    en:"Said Saidakhrarovich Gulyamov"
+                    uz:"Антон Александрович Васильев",
+                    ru:"Anton Alexandrovich Vasilev",
+                    en:"Anton Alexandrovich Vasilev"
                 },
                 description:{
-                    uz:"<p>\"Перспективы традиционных методов юридического образования и проведений исследований в современных процессах глобализации и технологического развития\"\n</p>",
-                    ru:"<p>\"Перспективы традиционных методов юридического образования и проведений исследований в современных процессах глобализации и технологического развития\"\n</p>",
-                    en:"<p>\"Perspectives of traditional methods of legal education and proven research in modern processes of globalization and technological development\"\n</p>"
+                    uz:"<p>\"“Россия ва Ўзбекистон илмий-техникавий ҳамкорлигини\n" +
+                        "ҳуқуқий тартибга солиш истиқболлари\"\n</p>",
+                    ru:"<p>\"Prospects for the legal regulation of scientific and technological\n" +
+                        "cooperation between Russia and Uzbekistan\"\n</p>",
+                    en:"<p>\"Prospects for the legal regulation of scientific and technological\n" +
+                        "cooperation between Russia and Uzbekistan\"\n</p>"
                 },
                 largeDescription:null
             },
             {
                 id:3,
                 img:null,
-                time:"15.00 -15.15",
+                time:"15.00 – 15.10",
                 name:{
-                    uz:"Yokomizo Dai",
-                    ru:"Ёкомидзо Дай",
-                    en:"Yokomizo Dai"
+                    uz:"Аманулла Закирович Мухамеджанов",
+                    ru:"Amanulla Zakirovich Mukhamedjanov",
+                    en:"Amanulla Zakirovich Mukhamedjanov"
                 },
                 description:{
-                    uz:"<p>Deputy Dean of the Faculty of Higher Law, Nagoya University, Professor</p>",
-                    ru:"<p>Deputy Dean of the Faculty of Higher Law, Nagoya University, Professor</p>",
-                    en:"<p>Deputy Dean of the Faculty of Higher Law, Nagoya University, Professor</p>"
+                    uz:"<p>Ўзбекистонда халқаро ҳуқуқ: тарихга назар, ривожланиш\n" +
+                        "пиллапоялари ва янги тендециялар</p>",
+                    ru:"<p>International law in Uzbekistan: history, stages of development\n" +
+                        "and new trends</p>",
+                    en:"<p>International law in Uzbekistan: history, stages of development\n" +
+                        "and new trends</p>"
                 },
                 largeDescription:null
             },
             {
                 id:4,
                 img:null,
-                time:"15.15 -15.30",
-                name:{
-                    uz:"Аманулла Закирович Мухамеджанов",
-                    ru:"Мухамеджанов Аманулла Закирович",
-                    en:"Amanulla Zakirovich Mukhamedjanov"
-                },
-                description:{
-                    uz:"<p>Ўзбекистонда халқаро ҳуқуқ: тарихга назар, ривожланиш пиллапоялари ва янги тендециялар</p>",
-                    ru:"<p>Международное право в Узбекистане: история, этапы развития и новые тенденции</p>",
-                    en:"<p>International law in Uzbekistan: history, stages of development and new trends</p>"
-                },
-                largeDescription:null
-            },
-            {
-                id:5,
-                img:null,
-                time:"15.30 -15.45",
+                time:"15.10 – 15.20 ",
                 name:{
                     uz:"Проф. Герд Дроссе",
                     ru:"Герд Дросс",
@@ -887,9 +894,9 @@ let part2=[
                 largeDescription:null
             },
             {
-                id:6,
+                id:5,
                 img:null,
-                time:"15.45 -16.00",
+                time:"15.20 – 15.30",
                 name:{
                     uz:"Рахманкулова Нилуфар Ходжи",
                     ru:"Рахманкулова Нилуфар Ходжи",
@@ -945,9 +952,9 @@ let part2=[
                 }
             },
             {
-                id:7,
+                id:6,
                 img:null,
-                time:"16.00 -16.15",
+                time:"15.30 – 15.40",
                 name:{
                     uz:"Q-Man Ban",
                     ru:"Q-Man Ban",
@@ -963,7 +970,7 @@ let part2=[
             {
                 id:8,
                 img:null,
-                time:"16.15 -16.30",
+                time:"15.40 – 15.50",
                 name:{
                     uz:"Prof. Zachary Calo",
                     ru:"Захари Кало",
@@ -979,7 +986,7 @@ let part2=[
             {
                 id:9,
                 img:null,
-                time:"16.30 -16.45",
+                time:"15.50 – 16.00",
                 name:{
                     uz:"Юлдашева Гавхержан",
                     ru:"Юлдашева Гавхержан",
@@ -995,7 +1002,7 @@ let part2=[
             {
                 id:10,
                 img:null,
-                time:"16.45 -17.00",
+                time:"16.00 – 16.10",
                 name:{
                     uz:"Сардор Сохибжонович Бозаров",
                     ru:"Сардор Сохибжонович Бозаров",
@@ -1013,25 +1020,13 @@ let part2=[
                 img:null,
                 time:null,
                 name:{
-                    uz:"Конференция тавсиялари ва якунлари",
-                    ru:"Рекомендации и результаты конференции",
-                    en:"Conference recommendations and conclusions"
+                    uz:"Муҳокама учун савол-жавоблар, мунозара",
+                    ru:"Q&A session",
+                    en:"Q&A session"
                 },
                 description:null,
                 largeDescription:null
-            },
-            {
-                id:12,
-                img:null,
-                time:null,
-                name:{
-                    uz:"Тадбир якуни",
-                    ru:"Конец мероприятия",
-                    en:"The end of the event"
-                },
-                description:null,
-                largeDescription:null
-            },
+            }
         ]
     },
     {
@@ -1051,7 +1046,7 @@ let part2=[
             {
                 id:1,
                 img:null,
-                time:"14.30 -14.45",
+                time:"14.30 – 14.50",
                 name:{
                     uz:"БОЗОР ИҚТИСОДИЁТИНИ ТАРТИБГА СОЛИШНИНГ ЗАМОНАВИЙ ТЕНДЕНЦИЯЛАРИ: МИЛЛИЙ ВА ХОРИЖИЙ ТАЖРИБА ТАҲЛИЛИ",
                     ru:"СОВРЕМЕННЫЕ ТЕНДЕНЦИИ РЕГУЛИРОВАНИЯ РЫНОЧНОЙ ЭКОНОМИКИ: АНАЛИЗ НАЦИОНАЛЬНОГО И ЗАРУБЕЖНОГО ОПЫТА",
@@ -1070,119 +1065,74 @@ let part2=[
             {
                 id:2,
                 img:null,
-                time:"14.45 -15.00",
-                name:{
-                    uz:"Оманбай Оқюлов",
-                    ru:"Оманбай Оқюлов",
-                    en:"Omanbay Akyulov"
-                },
-                description:{
-                    uz:"<p>\"Вопросы гражданского правового обеспечения цифровой экономики\"</p>",
-                    ru:"<p>\"Вопросы гражданского правового обеспечения цифровой экономики\"</p>",
-                    en:"<p>\"Issues of civil legal support of the digital economy\"</p>"
-                },
-                largeDescription:null
-            },
-            {
-                id:3,
-                img:null,
-                time:"15.00 -15.30",
+                time:"14.50 – 15.00",
                 name:{
                     uz:"Томас Ченг",
                     ru:"Томас Ченг",
                     en:"Thomas Cheng"
                 },
                 description:{
-                    uz:"<p>Competition Law in Developing Countries</p>",
+                    uz:"<p>Ривожланаётган давлатларда рақобат ҳуқуқи</p>",
                     ru:"<p>Законодательство о конкуренции в развивающихся странах</p>",
                     en:"<p>Competition Law in Developing Countries</p>"
                 },
                 largeDescription:null
             },
             {
-                id:4,
+                id:3,
                 img:null,
-                time:"15.30 -15.45",
-                name:{
-                    uz:"Восид Ёқубович Эргашев",
-                    ru:"Эргашев Восид Якубович",
-                    en:"Vosid Yakubovich Ergashev"
-                },
-                description:{
-                    uz:"<p>\"Актуальные вопросы по формированию системы вещных прав\"</p>",
-                    ru:"<p>\"Актуальные вопросы по формированию системы вещных прав\"</p>",
-                    en:"<p>\"Actual questions on the formation of the system of things\"</p>"
-                },
-                largeDescription:null
-            },
-            {
-                id:5,
-                img:null,
-                time:"15.45 -16.00",
-                name:{
-                    uz:"Prof. Hayri Bozgeyik",
-                    ru:"проф. Хайри Бозгейик",
-                    en:"Prof. Hayri Bozgeyik"
-                },
-                description:{
-                    uz:"<p>Turkey's IP Rights Protection Experience</p>",
-                    ru:"<p>Опыт Турции в защите прав интеллектуальной собственности</p>",
-                    en:"<p>Turkey's IP Rights Protection Experience</p>"
-                },
-                largeDescription:null
-            },
-            {
-                id:6,
-                img:null,
-                time:"16.00 -16.10",
-                name:{
-                    uz:"Фозилжон Отахонов",
-                    ru:"Фозилжон Отахонов",
-                    en:"Foziljon Otakhonov"
-                },
-                description:{
-                    uz:"<p>\"Актуальные вопросы альтернативного разрешения споров в условиях рыночной экономики\"</p>",
-                    ru:"<p>\"Актуальные вопросы альтернативного разрешения споров в условиях рыночной экономики\"</p>",
-                    en:"<p>\"Current issues of alternative dispute resolution in the conditions of a market economy\"</p>"
-                },
-                largeDescription:null
-            },
-            {
-                id:7,
-                img:null,
-                time:"16.10 -16.20",
-                name:{
-                    uz:"Dr. Andrew Dahdal",
-                    ru:"Др. Эндрю Дахдал",
-                    en:"Dr. Andrew Dahdalv"
-                },
-                description:{
-                    uz:"<p>Legal Strategies for Uzbekistan in building A Digital Economy</p>",
-                    ru:"<p>Правовые стратегии Узбекистана в построении цифровой экономики</p>",
-                    en:"<p>Legal Strategies for Uzbekistan in building A Digital Economy</p>"
-                },
-                largeDescription:null
-            },
-            {
-                id:8,
-                img:null,
-                time:"16.20 -16.30",
+                time:"15.00 – 15.10",
                 name:{
                     uz:"Фуджио Кавашима",
                     ru:"Фудзио Кавасима",
                     en:"Fujio Kawashima"
                 },
                 description:{
-                    uz:"<p>Recent Trend of Enforcement of Japanese Anti-Monopoly Act</p>",
+                    uz:"<p>Япон монополияга қарши курашиш қонунини қўллашда\n" +
+                        "сўнгги ўзгаришлар</p>",
                     ru:"<p>Недавняя тенденция к применению антимонопольного закона Японии</p>",
                     en:"<p>Recent Trend of Enforcement of Japanese Anti-Monopoly Act</p>"
                 },
                 largeDescription:null
             },
             {
-                id:9,
+                id:4,
                 img:null,
-                time:"16.30 -16.45",
+                time:"15.10 – 15.20",
+                name:{
+                    uz:"Оманбай Оқюлов",
+                    ru:"Omanbay Akyulov",
+                    en:"Omanbay Akyulov"
+                },
+                description:{
+                    uz:"<p>\"Рақамли иқтисодиётни фуқаролик ҳуқуқий таъминлаш\n" +
+                        "масалалари\"</p>",
+                    ru:"<p>\"Issues of civil legal support of the digital economy\"</p>",
+                    en:"<p>\"Issues of civil legal support of the digital economy\"</p>"
+                },
+                largeDescription:null
+            },
+            {
+                id:5,
+                img:null,
+                time:"15.20 – 15.30",
+                name:{
+                    uz:"Др. Эндрю Дахдал",
+                    ru:"Др. Эндрю Дахдал",
+                    en:"Dr. Andrew Dahdalv"
+                },
+                description:{
+                    uz:"<p>Рақамли иқтисодиётни қуришда Ўзбекистон учун ҳуқуқий\n" +
+                        "стратегиялар</p>",
+                    ru:"<p>Правовые стратегии Узбекистана в построении цифровой экономики</p>",
+                    en:"<p>Legal Strategies for Uzbekistan in building A Digital Economy</p>"
+                },
+                largeDescription:null
+            },
+            {
+                id:6,
+                img:null,
+                time:"15.30 – 15.40",
                 name:{
                     uz:"Азизов Худойкул Таджиевич",
                     ru:"Азизов Худойкул Таджиевич",
@@ -1196,25 +1146,110 @@ let part2=[
                 largeDescription:null
             },
             {
-                id:10,
+                id:7,
                 img:null,
-                time:"16.45 -17.00",
+                time:"15.40 – 15.50",
+                name:{
+                    uz:"Восид Ёқубович Эргашев",
+                    ru:"Эргашев Восид Якубович",
+                    en:"Vosid Yakubovich Ergashev"
+                },
+                description:{
+                    uz:"<p>\"Ашёвий ҳуқуқлар тизимини шакллантиришнинг долзарб\n" +
+                        "масалалари\"</p>",
+                    ru:"<p>\"Актуальные вопросы по формированию системы вещных прав\"</p>",
+                    en:"<p>\"Actual questions on the formation of the system of things\"</p>"
+                },
+                largeDescription:null
+            },
+            {
+                id:8,
+                img:null,
+                time:"15.50 – 16.00",
                 name:{
                     uz:"Илхом Исмаилович Насриев",
                     ru:"Илхом Исмаилович Насриев",
-                    en:"Ilhom Ismailovich Nasriev"
+                    en:"Ilkhom Ismailovich Nasriev"
                 },
                 description:{
-                    uz:"<p>\"Некоторые вопросы совершенствования Гражданского кодекса Республики Узбекистан\"</p>",
+                    uz:"<p>\"Ўзбекистон Республикаси Фуқаролик кодексини\n" +
+                        "такомиллаштиришнинг айрим масалалари\"</p>",
                     ru:"<p>\"Некоторые вопросы совершенствования Гражданского кодекса Республики Узбекистан\"</p>",
                     en:"<p>\"Some issues of improvement of the Civil Code of the Republic of Uzbekistan\"</p>"
                 },
                 largeDescription:null
             },
             {
+                id:9,
+                img:null,
+                time:"16.00 – 16.10",
+                name:{
+                    uz:"Prof. Hayri Bozgeyik",
+                    ru:"проф. Хайри Бозгейик",
+                    en:"Prof. Hayri Bozgeyik"
+                },
+                description:{
+                    uz:"<p>Интеллектуал мулк ҳуқуқини ҳимоя қилишда Туркия\n" +
+                        "тажрибаси</p>",
+                    ru:"<p>Опыт Турции в защите прав интеллектуальной собственности</p>",
+                    en:"<p>Turkey's IP Rights Protection Experience</p>"
+                },
+                largeDescription:null
+            },
+            {
+                id:10,
+                img:null,
+                time:"16.10 – 16.20",
+                name:{
+                    uz:"Фозилжон Хайдарович Отахонов",
+                    ru:"Фозилжон Хайдарович Отахонов",
+                    en:"Foziljon Haydarovich Otakhanov"
+                },
+                description:{
+                    uz:"<p>\"Бозор иқтисодиёти шароитида низоларни муқобил ҳал\n" +
+                        "этишнинг долзарб масалалари\"</p>",
+                    ru:"<p>\"Актуальные вопросы альтернативного разрешения споров в условиях рыночной экономики\"</p>",
+                    en:"<p>\"Current issues of alternative dispute resolution in the conditions of a market economy\"</p>"
+                },
+                largeDescription:null
+            },
+
+            {
                 id:11,
                 img:null,
-                time:null,
+                time:"16.20 -16.30",
+                name:{
+                    uz:"Замира Нормуротовна Эсанова",
+                    ru:"Zamira Normurotovna Esanova",
+                    en:"Zamira Normurotovna Esanova"
+                },
+                description:{
+                    uz:"<p>Янги Ўзбекистонни ислоҳ қилиш шароитида фуқаролик суд\n" +
+                        "ишларини юритишни такомиллаштиришнинг устувор\n" +
+                        "йўналишлари: фан ва амалиёт</p>",
+                    ru:"<p>Priorities for improving civil litigation in the context of\n" +
+                        "reforming the New Uzbekistan: science and practice</p>",
+                    en:"<p>Priorities for improving civil litigation in the context of\n" +
+                        "reforming the New Uzbekistan: science and practice</p>"
+                },
+                largeDescription:null
+            },
+            {
+                id:12,
+                img:null,
+                time:"16.30 – 16.50",
+                name:{
+                    uz:"Муҳокама учун савол-жавоблар, мунозара",
+                    ru:"Q&A session",
+                    en:"Q&A session"
+                },
+                description:null,
+                largeDescription:null
+            },
+            {
+                id:13,
+                img:null,
+                time:"16.50 – 17.00",
                 name:{
                     uz:"Конференция тавсиялари ва якунлари",
                     ru:"Рекомендации и результаты конференции",
@@ -1224,7 +1259,7 @@ let part2=[
                 largeDescription:null
             },
             {
-                id:12,
+                id:14,
                 img:null,
                 time:null,
                 name:{
@@ -1238,7 +1273,6 @@ let part2=[
         ]
     }
 ];
-
 
 
 function scheduleList(lang) {

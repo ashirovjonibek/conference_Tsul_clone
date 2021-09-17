@@ -829,9 +829,9 @@ let data = [
         id: 7,
         img: "assets/img/speakers/7.jpg",
         name: {
-            uz: "Йорг ПуделькаM",
+            uz: "York Pudelka",
             ru: "Йорг Пуделька",
-            en: "Йорг Пуделька"
+            en: "Jörg Pudelka"
         },
         degree: {
             uz: "Nutq so'zlovchi",
@@ -839,55 +839,21 @@ let data = [
             en: "Speaker"
         },
         detail: {
-            uz: "<div class=\"details\">\n" +
-                "              <h2>PROFIL</h2>             \n" +
+            uz:"<div class=\"details\">\n" +
+            "<h3>Mehnat faoliyati:</h3>\n" +
+            "                <p>Hozirda: GIZning O'zbekiston, Qozog'iston va Turkmanistondagi vakolatxonasi rahbari / GIZ 'Markaziy Osiyo mamlakatlarida huquqiy davlatchilikni targ'ib qilish' dasturi direktori\n</p>\n" +
+            "\n" +
+            "                <p>2015 yildan - GIZning Qozog'iston Respublikasidagi vakolatxonasi rahbari</p>\n" +
+            "\n" +
+            "\n" +
+            "                <p>2012 yildan hozirgacha - 'Markaziy Osiyo mamlakatlarida huquqiy davlatchilikka ko'maklashish' dasturi direktori.\n</p>\n" +
                 "              <div style=\"text-align: justify;\">\n" +
-                "                <h3>Hozirgi kasbiy faoliyati (tanlov)</h3>\n" +
                 "\n" +
                 "\n" +
-                "                <p>2015 yil apreldan:\tSaarland universiteti, Yevropa instituti direktori\n" +
-                "                  <br>\n" +
-                "                  Xalqaro ommaviy huquq va Yevropa huquqi professori\n" +
-                "                </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2011 yil sentyabrdan\tShveytsariyaning Lozanna universitetining doimiy tashrif        buyuruvchi professori </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2015 yil may oyidan boshlab\tYevropa xalqaro iqtisodiy huquq yilnomasi (EYIEL) muharriri</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2011 yil may oyidan buyon\tKyoln xalqaro investitsiya huquqi markazi maslahat kengashi a'zosi</p>\n" +
-                "\n" +
-                "<h3>Oldingi va boshqa professional faoliyat</h3>\n" +
-                "                <p>2020\tMelburn universitetining huquqshunoslik fakultetining katta ilmiy xodimi\n</p>\n" +
-                "\n" +
-                "                <p>Iyun 2015 - 2018\tXalqaro boshqaruv innovatsiyalari markazining katta ilmiy xodimi (CIGI), Ontario, Kanada</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>May 2013 - Iyun 2015\tShveytsariyaning Lucerne universitetida tashrif buyurgan o'qituvchi (Xalqaro xom ashyo huquqi bo'yicha)</p>\n" +
-                "\n" +
-                "                <p>2011 yil apreldan\tLL.M.da  professor. Xalqaro iqtisodiy huquq dasturi,  Lozanna\n</p>\n" +
-                "\n" +
-                "                <p>2011 yil sentyabrdan\tShveytsariyaning Lozanna universitetining doimiy tashrif buyuruvchi professori\n</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2011 yil mart\tSidney universitetida tashrif buyurgan o'qituvchi (Evropa iqtisodiy huquqi)\n</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>2010 yil sentyabr\tAdliya vazirligi xodimlari uchun Gruziyaning Tiflis shahrida \"Xalqaro investitsiyalarni himoya qilish huquqi\" bo'yicha ingliz tili kursining o'qituvchisi (GTZ - Germaniya Texnik Hamkorlik Assotsiatsiyasi va Germaniyaning Rivojlanish Vazirligi tomonidan tashkil etilgan).\n</p>\n" +
-                "                <p> 2010 yil aprel - 2015 yil mart Germaniya Siegen universitetida Yevropa huquqi, xalqaro ommaviy     huquq va xalqaro iqtisodiy huquq professori\n</p>\n" +
-                "                <p>Aprel. 2009 yil-2010 yil mart, Fridrix-Aleksandr universiteti Erlangen-Nyurnberg jamoat huquqi va xalqaro ommaviy huquq professori, Germaniya\n</p>\n" +
-                "                <p>Myunxen Lyudvig-Maksimilian universiteti Yevropa va xalqaro huquq professori <br/>\n" +
-                "                                              Siyosat akademiyasi o'qituvchisi (Hochschule für Politik), Myunxen, Germaniya\n\n</p>\n" +
-                "                <p>2008 yil oktabr- 2009 yil mart\tMyunxen Myunxen Lyudvig-Maksimilian universiteti jamoat huquqi, Yevropa huquqi va xalqaro ommaviy huquq professori\n</p>\n" +
-                "                <p>2008 yil aprel - 2008 yil sentyabr. \tDrezden TU konstitutsiyaviy, iqtisodiy va ekologik huquq professori \n</p>\n" +
-                "                <p>2006 yil oktabr - 2008 yil mart,\tMyunxen Lyudvig -Maksimilians universiteti jamoat huquqi professori\n</p>\n" +
-                "                <p>2005 yil oktyabr-2006 yil iyun\tThüringer Verwaltungs akademiyasi o'qituvchisi (Tyuringen savdo va sanoat va Evropa huquqi bo'yicha Germaniya ma'muriy huquqi akademiyasi), Erfurt, Germaniya\n</p>\n" +
-                "                <p>2006 yildan buyon\tmamlakat Germaniya, Evropa va xalqaro xaridlar huquqining rivojlanishi to'g'risida hisobot beradi\n</p>\n" +
-                "                <p>1998 yil avgust - sentyabr. 2006 Jan-Monnet kafedrasida jamoat huquqi, Yevropa huquqi, xalqaro ommaviy huquq va xalqaro iqtisodiy huquq kafedrasida o'qituvchi va katta ilmiy yordamchi (professor doktor Karl M. Meessen 1998-2004, professor doktor Kristian Uolter 2004/05, professor) Doktor Kristof Ohler, LLM 2005/06), Fridrix Shiller universiteti Yena, Germaniya, huquq fakulteti\n</p>\n" +
-                "\n" +
-                "\n" +
+                "              <h2>Uyushmalarga a'zolik:</h2>             \n" +
+                "                <p>⦁\t	Ma'muriy sudlar sudyalari uyushmasi a'zosi, Berlin\n <br>" +
+                "⦁\t	Germaniya-Ukraina yuristlar uyushmasi a'zosi.</p>\n" +
+               
                 "              </div>\n" +
                 "              <div class=\"social\" style=\"text-align: center;\">\n" +
                 "                <a href=\"\"><i class=\"fa fa-twitter\"></i></a>\n" +
@@ -897,19 +863,20 @@ let data = [
                 "             \n" +
                 "            </div>",
             ru: "<div class=\"details\">\n" +
-                "              <h2>Членство в профессиональных союзах</h2>             \n" +
+            "<h3>Профессиональная деятельность:</h3>\n" +
+            "                <p>В настоящее время: Глава Представительства GIZ в Узбекистане, Казахстане и Туркменистане / Директор Программы GIZ «Содействие правовой государственности в странах Центральной Азии»\n</p>\n" +
+            "\n" +
+            "                <p>С 2015 г. - Глава Представительства GIZ в РК</p>\n" +
+            "\n" +
+            "\n" +
+            "                <p>С 2012 по настоящее время - директор Программы «Содействие правовой государственности в странах ЦА»\n</p>\n" +
                 "              <div style=\"text-align: justify;\">\n" +
                 "\n" +
                 "\n" +
+                "              <h2>Членство в профессиональных союзах</h2>             \n" +
                 "                <p>⦁\tЧлен Союза судей административных судов, Берлин\n <br>" +
                 "⦁\tЧлен Немецко-Украинского союза юристов</p>\n" +
-                "<h3>Профессиональная деятельность:</h3>\n" +
-                "                <p>В настоящее время: Глава Представительства GIZ в Узбекистане, Казахстане и Туркменистане / Директор Программы GIZ «Содействие правовой государственности в странах Центральной Азии»\n</p>\n" +
-                "\n" +
-                "                <p>С 2015 г. - Глава Представительства GIZ в РК</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>С 2012 по настоящее время - директор Программы «Содействие правовой государственности в странах ЦА»\n</p>\n" +
+               
                 "              </div>\n" +
                 "              <div class=\"social\" style=\"text-align: center;\">\n" +
                 "                <a href=\"\"><i class=\"fa fa-twitter\"></i></a>\n" +
@@ -918,45 +885,21 @@ let data = [
                 "              </div>\n" +
                 "             \n" +
                 "            </div>",
-            en: "<div class=\"details\">\n" +
-                "              <h2>PROFILE</h2>             \n" +
+            en:"<div class=\"details\">\n" +
+            "<h3>Professional activity:</h3>\n" +
+            "                <p>Currently: Head of the GIZ Office for Uzbekistan, Director of the GIZ regional program on ‘Promoting Legal Statehood in Central Asian States’\n</p>\n" +
+            "\n" +
+            "                <p>Since 2015 - Head of the GIZ Office in the Republic of Kazakhstan</p>\n" +
+            "\n" +
+            "\n" +
+            "                <p>From 2012 to the present - Director of the Program 'Promoting Legal Statehood in Central Asian States'\n</p>\n" +
                 "              <div style=\"text-align: justify;\">\n" +
-                "                <h3>Current Professional Activities (selection)</h3>\n" +
                 "\n" +
                 "\n" +
-                "                <p>Since April 2015:\tDirector of the Europa-Institut, Saarland University\n" +
-                "                  <br>\n" +
-                "                  Professor of Public International Law and European Law\n" +
-                "                </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland </p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since May 2015\tEditor of the European Yearbook of International Economic Law (EYIEL)</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>Since May 2011\tMember of the Advisory Board of the International Investment Law Centre, Cologne</p>\n" +
-                "\n" +
-                "<h3>Former and other Professional Activities</h3>\n" +
-                "                <p>2020\tSenior Fellow University of Melbourne Law School</p>\n" +
-                "\n" +
-                "                <p>June 2015 - 2018\tSenior Fellow at the Centre for International Governance Innovation (CIGI), Ontario, Canada</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>May 2013 - June 2015\tVisiting Lecturer (for International Raw Materials Law) at Lucerne University, Switzerland</p>\n" +
-                "\n" +
-                "                <p>Since April 2011\tAdjunct Professor in the LL.M. Program for International Economic Law, Lausanne</p>\n" +
-                "\n" +
-                "                <p>Since Sept. 2011\tpermanent Visiting Professor University of Lausanne, Switzerland</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>March 2011\tVisiting Lecturer at the University of Sydney (European Economic Law)</p>\n" +
-                "\n" +
-                "\n" +
-                "                <p>September 2010\tTutor of a course in English language on “International Investment Protection Law” for staff members of the Ministry of Justice in Tiflis, Georgia (organized by GTZ - German Association for Technical Cooperation - and the German Ministry for Developmental Aid)</p>\n" +
-                "\n" +
-                "\n" +
+                "              <h2>Membership in labor unions</h2>             \n" +
+                "                <p>⦁\tMember of the Union of Judges of Administrative Courts, Berlin\n <br>" +
+                "⦁\t Member of the German-Ukrainian Union of Lawyers</p>\n" +
+               
                 "              </div>\n" +
                 "              <div class=\"social\" style=\"text-align: center;\">\n" +
                 "                <a href=\"\"><i class=\"fa fa-twitter\"></i></a>\n" +
@@ -964,7 +907,7 @@ let data = [
                 "                <a href=\"\"><i class=\"fa fa-linkedin\"></i></a>\n" +
                 "              </div>\n" +
                 "             \n" +
-                "            </div>"
+                "            </div>",
         }
     },
     {

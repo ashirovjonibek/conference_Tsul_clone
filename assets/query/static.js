@@ -185,6 +185,34 @@ let dataStatic=[
         "ru": "Республика Узбекистан, 100047. г. Ташкент, ул. Сайилгох, 35",
         "en": "100047, Sayilgokh str. 35, Tashkent,Uzbekistan"
     },
+    
+    {
+        "id": "chapOne",
+        "uz":"1 qism",
+        "ru": "глава 1",
+        "en": "chapter 1"
+    },
+
+    {
+        "id": "chapTwo",
+        "uz":"2 qism",
+        "ru": "глава 2",
+        "en": "chapter 2"
+    },
+
+    {
+        "id": "chapThree",
+        "uz":"3 qism",
+        "ru": "глава 3",
+        "en": "chapter 3"
+    },
+
+    {
+        "id": "chapFour",
+        "uz":"4 qism",
+        "ru": "глава 4",
+        "en": "chapter 4"
+    },
 ];
 function staticWords(lang) {
     dataStatic.map((item) => {
